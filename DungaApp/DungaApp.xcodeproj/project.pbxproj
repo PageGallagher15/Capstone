@@ -17,6 +17,17 @@
 		F40A4E822214B7D8006D9526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40A4E802214B7D8006D9526 /* LaunchScreen.storyboard */; };
 		F40A4E8D2214B7D9006D9526 /* DungaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A4E8C2214B7D9006D9526 /* DungaAppTests.swift */; };
 		F40A4E982214B7D9006D9526 /* DungaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A4E972214B7D9006D9526 /* DungaAppUITests.swift */; };
+		F456A7422214BB50003FED56 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A73A2214BB4F003FED56 /* FirebaseCoreDiagnostics.framework */; };
+		F456A7432214BB50003FED56 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A73B2214BB4F003FED56 /* GoogleAppMeasurement.framework */; };
+		F456A7442214BB50003FED56 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A73C2214BB4F003FED56 /* FirebaseCore.framework */; };
+		F456A7452214BB50003FED56 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A73D2214BB4F003FED56 /* GoogleUtilities.framework */; };
+		F456A7462214BB50003FED56 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A73E2214BB50003FED56 /* FIRAnalyticsConnector.framework */; };
+		F456A7472214BB50003FED56 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A73F2214BB50003FED56 /* FirebaseInstanceID.framework */; };
+		F456A7482214BB50003FED56 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A7402214BB50003FED56 /* FirebaseAnalytics.framework */; };
+		F456A7492214BB50003FED56 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A7412214BB50003FED56 /* nanopb.framework */; };
+		F456A74C2214BD31003FED56 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A74A2214BD30003FED56 /* leveldb-library.framework */; };
+		F456A74D2214BD31003FED56 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A74B2214BD31003FED56 /* FirebaseDatabase.framework */; };
+		F456A7542214C9C5003FED56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F456A7532214C9C5003FED56 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,19 @@
 		F40A4E932214B7D9006D9526 /* DungaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40A4E972214B7D9006D9526 /* DungaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungaAppUITests.swift; sourceTree = "<group>"; };
 		F40A4E992214B7D9006D9526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F456A73A2214BB4F003FED56 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		F456A73B2214BB4F003FED56 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		F456A73C2214BB4F003FED56 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		F456A73D2214BB4F003FED56 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		F456A73E2214BB50003FED56 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
+		F456A73F2214BB50003FED56 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		F456A7402214BB50003FED56 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		F456A7412214BB50003FED56 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		F456A74A2214BD30003FED56 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
+		F456A74B2214BD31003FED56 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		F456A74E2214BF0A003FED56 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		F456A74F2214C1FE003FED56 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		F456A7532214C9C5003FED56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F456A7432214BB50003FED56 /* GoogleAppMeasurement.framework in Frameworks */,
+				F456A7472214BB50003FED56 /* FirebaseInstanceID.framework in Frameworks */,
+				F456A7492214BB50003FED56 /* nanopb.framework in Frameworks */,
+				F456A7422214BB50003FED56 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				F456A74D2214BD31003FED56 /* FirebaseDatabase.framework in Frameworks */,
+				F456A7452214BB50003FED56 /* GoogleUtilities.framework in Frameworks */,
+				F456A74C2214BD31003FED56 /* leveldb-library.framework in Frameworks */,
+				F456A7482214BB50003FED56 /* FirebaseAnalytics.framework in Frameworks */,
+				F456A7462214BB50003FED56 /* FIRAnalyticsConnector.framework in Frameworks */,
+				F456A7442214BB50003FED56 /* FirebaseCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +117,23 @@
 		F40A4E652214B7D8006D9526 = {
 			isa = PBXGroup;
 			children = (
+				F456A7532214C9C5003FED56 /* GoogleService-Info.plist */,
 				F40A4E702214B7D8006D9526 /* DungaApp */,
 				F40A4E8B2214B7D9006D9526 /* DungaAppTests */,
 				F40A4E962214B7D9006D9526 /* DungaAppUITests */,
 				F40A4E6F2214B7D8006D9526 /* Products */,
+				F456A74E2214BF0A003FED56 /* Firebase.h */,
+				F456A74F2214C1FE003FED56 /* module.modulemap */,
+				F456A74B2214BD31003FED56 /* FirebaseDatabase.framework */,
+				F456A74A2214BD30003FED56 /* leveldb-library.framework */,
+				F456A73E2214BB50003FED56 /* FIRAnalyticsConnector.framework */,
+				F456A7402214BB50003FED56 /* FirebaseAnalytics.framework */,
+				F456A73C2214BB4F003FED56 /* FirebaseCore.framework */,
+				F456A73A2214BB4F003FED56 /* FirebaseCoreDiagnostics.framework */,
+				F456A73F2214BB50003FED56 /* FirebaseInstanceID.framework */,
+				F456A73B2214BB4F003FED56 /* GoogleAppMeasurement.framework */,
+				F456A73D2214BB4F003FED56 /* GoogleUtilities.framework */,
+				F456A7412214BB50003FED56 /* nanopb.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F456A7542214C9C5003FED56 /* GoogleService-Info.plist in Resources */,
 				F40A4E7D2214B7D8006D9526 /* Main.storyboard in Resources */,
 				F40A4E742214B7D8006D9526 /* GameScene.sks in Resources */,
 				F40A4E7F2214B7D8006D9526 /* Assets.xcassets in Resources */,
@@ -444,15 +492,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BT76VTR4ZX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = DungaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = HotFireGames.DungaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = /Users/n00434189/Documents/GitHub/Capstone/DungaApp/;
 			};
 			name = Debug;
 		};
@@ -462,15 +519,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BT76VTR4ZX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = DungaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = HotFireGames.DungaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = /Users/n00434189/Documents/GitHub/Capstone/DungaApp/;
 			};
 			name = Release;
 		};
