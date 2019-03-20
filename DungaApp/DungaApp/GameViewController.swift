@@ -52,4 +52,26 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+
+    @IBAction func Home(_ sender: UIButton) {
+        print("Beam me up")
+    }
+    
+    
+    @IBAction func GameInfo(_ sender: UIButton) {
+        print("Game Info")
+    }
+
+    @IBAction func GameGuide(_ sender: UIButton) {
+        print("GameGuide")
+    }
+    
+    @IBAction func Leaderboards(_ sender: UIButton) {
+        print("Leaderboards")
+    }
+    
+    @IBAction func AR(_ sender: UIButton) {
+        print("AR IS GEY")
+    }
+    
 }
