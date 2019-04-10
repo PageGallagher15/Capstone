@@ -1,4 +1,4 @@
-//
+///Users/n00619255/Documents/GitHub/Capstone/DungaApp/DungaApp/GameViewController.swift
 //  GameViewController.swift
 //  DungaApp
 //
@@ -55,9 +55,9 @@ class GameViewController: UIViewController {
 
     @IBAction func Home(_ sender: UIButton) {
         print("Beam me up")
+        
     }
-    
-    
+
     @IBAction func GameInfo(_ sender: UIButton) {
         print("Game Info")
     }
