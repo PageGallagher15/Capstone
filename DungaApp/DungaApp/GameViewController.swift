@@ -9,9 +9,12 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import AVFoundation
 
 class GameViewController: UIViewController {
-
+    
+    var audioPlay: AVAudioPlayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,7 +32,21 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
+            
         }
+        do {
+            if let file = Bundle.main.url(forResource: "Blooper 8", withExtension: ".wav") {
+                audioPlay = try AVAudioPlayer.init(contentsOf: file, fileTypeHint: ".wav")
+            }
+        }catch {
+            
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+      
+        audioPlay?.play()
     }
 
     override var shouldAutorotate: Bool {

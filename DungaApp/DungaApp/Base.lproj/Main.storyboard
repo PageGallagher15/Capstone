@@ -83,6 +83,14 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="9"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dil-6X-h3k">
+                                <rect key="frame" x="90" y="379" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
@@ -405,10 +413,10 @@
         <image name="Button1.jpg" width="290" height="290"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kPY-83-UWb"/>
-        <segue reference="vBh-Qs-nmB"/>
-        <segue reference="2VR-7j-8jL"/>
-        <segue reference="Nd2-p9-V8E"/>
-        <segue reference="DN9-cG-QFS"/>
+        <segue reference="axY-v0-sym"/>
+        <segue reference="LEO-9I-lek"/>
+        <segue reference="7W8-C4-KHv"/>
+        <segue reference="lcM-hw-AIT"/>
+        <segue reference="591-Oi-pYg"/>
     </inferredMetricsTieBreakers>
 </document>
