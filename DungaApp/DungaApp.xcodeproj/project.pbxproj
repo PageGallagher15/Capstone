@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EB42C9852242E03D00E74BE5 /* Button1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB42C9842242E03C00E74BE5 /* Button1.jpg */; };
-		EB5F2829225E92C600ABE348 /* Blooper 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB5F2828225E92C600ABE348 /* Blooper 8.wav */; };
 		F40A4E722214B7D8006D9526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A4E712214B7D8006D9526 /* AppDelegate.swift */; };
 		F40A4E742214B7D8006D9526 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F40A4E732214B7D8006D9526 /* GameScene.sks */; };
 		F40A4E762214B7D8006D9526 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F40A4E752214B7D8006D9526 /* Actions.sks */; };
@@ -51,7 +50,6 @@
 
 /* Begin PBXFileReference section */
 		EB42C9842242E03C00E74BE5 /* Button1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Button1.jpg; sourceTree = SOURCE_ROOT; };
-		EB5F2828225E92C600ABE348 /* Blooper 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Blooper 8.wav"; path = "../../../../../Downloads/Blooper 8.wav"; sourceTree = "<group>"; };
 		EB5F282A225E92CA00ABE348 /* Blooper 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 8.wav"; sourceTree = "<group>"; };
 		F40A4E6E2214B7D8006D9526 /* DungaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40A4E712214B7D8006D9526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 		EB42C9812242DE3100E74BE5 /* Button Images */ = {
 			isa = PBXGroup;
 			children = (
-				EB5F2828225E92C600ABE348 /* Blooper 8.wav */,
 				EB42C9842242E03C00E74BE5 /* Button1.jpg */,
 			);
 			path = "Button Images";
@@ -313,7 +310,6 @@
 				F40A4E7D2214B7D8006D9526 /* Main.storyboard in Resources */,
 				F40A4E742214B7D8006D9526 /* GameScene.sks in Resources */,
 				F40A4E7F2214B7D8006D9526 /* Assets.xcassets in Resources */,
-				EB5F2829225E92C600ABE348 /* Blooper 8.wav in Resources */,
 				F40A4E822214B7D8006D9526 /* LaunchScreen.storyboard in Resources */,
 				EB42C9852242E03D00E74BE5 /* Button1.jpg in Resources */,
 				F40A4E762214B7D8006D9526 /* Actions.sks in Resources */,
