@@ -13,34 +13,75 @@ import AVFoundation
 
 class GameViewController: UIViewController {
     
+    var captureSession = AVCaptureSession()
     var audioPlay: AVAudioPlayer?
+    var backCamera: AVCaptureDevice?
+    var frontCamera: AVCaptureDevice?
+    var currentCamera: AVCaptureDevice?
+    var photoOutput: AVCapturePhotoOutput?
+    var cameraPreviewLayer: AVCaptureVideoPreviewLayer?
+    
+    var image: UIImage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let view = self.view as! SKView? {
+        setupCaptureSession()
+        setupDevice()
+        setupInputOutput()
+        setupPreviewLayer()
+        startRunningCaptureSession()
+        
             // Load the SKScene from 'GameScene.sks'
             if let scene = SKScene(fileNamed: "GameScene") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
                 
                 // Present the scene
-                view.presentScene(scene)
-            }
-            
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
-            
+        
         }
-        do {
-            if let file = Bundle.main.url(forResource: "Blooper 8", withExtension: ".wav") {
-                audioPlay = try AVAudioPlayer.init(contentsOf: file, fileTypeHint: ".wav")
+    }
+    
+    func setupCaptureSession(){
+        captureSession.sessionPreset = AVCaptureSession.Preset.photo
+    }
+    
+    func setupDevice(){
+        let deviceDiscoverySession = AVCaptureDevice.DiscoverySession(deviceTypes: [AVCaptureDevice.DeviceType.builtInWideAngleCamera], mediaType: AVMediaType.video, position: AVCaptureDevice.Position.unspecified)
+        let devices = deviceDiscoverySession.devices
+        
+        for device in devices {
+            if device.position == AVCaptureDevice.Position.back{
+                backCamera = device
+            } else if device.position == AVCaptureDevice.Position.front {
+                frontCamera = device
             }
-        }catch {
-            
         }
+        currentCamera = backCamera
+    }
+    
+    func setupInputOutput(){
+        /*do{
+            let captureDeviceInput = try AVCaptureDeviceInput(device: currentCamera!)
+            captureSession.addInput(captureDeviceInput)
+            photoOutput = AVCapturePhotoOutput()
+            photoOutput?.setPreparedPhotoSettingsArray([AVCapturePhotoSettings(format: [AVVideoCodecKey:AVVideoCodecType.jpeg])], completionHandler: nil)
+            captureSession.addOutput(photoOutput!)
+        } catch{
+            print(error)
+        }*/
+    }
+    
+    func setupPreviewLayer(){
+        cameraPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
+        cameraPreviewLayer?.videoGravity = AVLayerVideoGravity.resizeAspectFill
+        cameraPreviewLayer?.connection?.videoOrientation = AVCaptureVideoOrientation.portrait
+        cameraPreviewLayer?.frame = self.view.frame
+        self.view.layer.insertSublayer(cameraPreviewLayer!, at: 0)
+    }
+    
+    func startRunningCaptureSession(){
+        captureSession.startRunning()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -91,4 +132,26 @@ class GameViewController: UIViewController {
         print("AR IS GEY")
     }
     
+    @IBAction func cameraButton(_ sender: Any) {
+        let settings = AVCapturePhotoSettings()
+        photoOutput?.capturePhoto(with: settings, delegate: self)
+        //performSegue(withIdentifier: "showPhoto_segue", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showPhoto_segue" {
+            let previewVC = segue.destination as! Camera
+            previewVC.image = self.image
+        }
+    }
+}
+
+extension GameViewController: AVCapturePhotoCaptureDelegate{
+    func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
+        if let imageData = photo.fileDataRepresentation(){
+            print(imageData)
+            image = UIImage(data: imageData)
+            performSegue(withIdentifier: "showPhoto_segue", sender: nil)
+        }
+    }
 }
