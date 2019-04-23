@@ -45,7 +45,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="XdZ-qi-ixh"/>
-                                    <segue destination="T6U-wG-oCp" kind="show" id="lcM-hw-AIT"/>
+                                    <segue destination="X1C-b7-lf8" kind="show" id="F3x-74-a43"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znf-A9-Y8L" userLabel="GameGuide">
@@ -54,7 +54,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="xSr-qq-Loe"/>
-                                    <segue destination="Ku9-mT-Fth" kind="show" id="7W8-C4-KHv"/>
+                                    <segue destination="gTx-E7-tMg" kind="show" id="Wog-Hg-QcZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Scj-Pd-wbB" userLabel="Augmented Reality">
@@ -174,153 +174,55 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O4E-J2-fIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2908" y="100"/>
+            <point key="canvasLocation" x="2492" y="115"/>
         </scene>
-        <!--GameInfo-->
-        <scene sceneID="MgC-KE-MVY">
+        <!--Game View Controller-->
+        <scene sceneID="Lew-4B-o4t">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="T6U-wG-oCp" userLabel="GameInfo" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RY2-tK-dgX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="X1C-b7-lf8" customClass="GameViewController" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R42-Df-diA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4E-B6-di6" userLabel="Augmented Reality">
-                                <rect key="frame" x="309" y="728" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Button1.jpg"/>
-                                <connections>
-                                    <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="72c-3E-oda"/>
-                                    <segue destination="epH-hd-DUK" kind="show" id="L6U-Lj-TI5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zs-Sr-DPa" userLabel="GameInfo">
-                                <rect key="frame" x="88" y="728" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Button1.jpg"/>
-                                <connections>
-                                    <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="ZLA-R6-NoV"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdc-ZI-it4" userLabel="Leaderboards">
-                                <rect key="frame" x="235" y="728" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Button1.jpg"/>
-                                <connections>
-                                    <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="jRY-1G-CcK"/>
-                                    <segue destination="Xp7-G4-Dnd" kind="show" id="QVq-h6-MnO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdZ-OZ-GIq" userLabel="GameGuide">
-                                <rect key="frame" x="162" y="728" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Button1.jpg"/>
-                                <connections>
-                                    <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="R08-rj-aQS"/>
-                                    <segue destination="Ku9-mT-Fth" kind="show" id="sgI-5h-dJN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7el-4L-PKq" userLabel="Home">
-                                <rect key="frame" x="16" y="728" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Button1.jpg"/>
-                                <connections>
-                                    <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="M9u-s0-5qv"/>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="Jun-e9-cFs"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GameInfo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVs-Df-B29">
-                                <rect key="frame" x="88" y="206" width="199" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
-                                <color key="textColor" red="1" green="0.63530460619999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="9"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <viewLayoutGuide key="safeArea" id="do2-wa-sGx"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="asG-TV-sKt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="313" y="100"/>
-        </scene>
-        <!--GameGuide-->
-        <scene sceneID="gkd-q1-OsF">
-            <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="Ku9-mT-Fth" userLabel="GameGuide" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gtF-11-5bi">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6f6-yd-BlV">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oxb-ev-e0I">
+                                <rect key="frame" x="29" y="109" width="346" height="783"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrG-5F-5kb" userLabel="Augmented Reality">
-                                        <rect key="frame" x="309" y="728" width="50" height="50"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bag-Hf-maJ">
+                                        <rect key="frame" x="33" y="35" width="285" height="248"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Button1.jpg"/>
-                                        <connections>
-                                            <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="O19-Ej-u2w"/>
-                                            <segue destination="epH-hd-DUK" kind="show" id="c4g-H2-J01"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3e-cA-49I" userLabel="GameInfo">
-                                        <rect key="frame" x="88" y="728" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Button1.jpg"/>
-                                        <connections>
-                                            <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="9hs-Fm-x8k"/>
-                                            <segue destination="T6U-wG-oCp" kind="show" id="Z3X-jD-ojq"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnD-Wa-Kgb" userLabel="Leaderboards">
-                                        <rect key="frame" x="235" y="728" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Button1.jpg"/>
-                                        <connections>
-                                            <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Aei-wf-6N6"/>
-                                            <segue destination="Xp7-G4-Dnd" kind="show" id="vBh-Qs-nmB"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQn-iF-y5K" userLabel="GameGuide">
-                                        <rect key="frame" x="162" y="728" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Button1.jpg"/>
-                                        <connections>
-                                            <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="NBj-M6-9lE"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Uq-cc-XmO" userLabel="Home">
-                                        <rect key="frame" x="16" y="728" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Button1.jpg"/>
-                                        <connections>
-                                            <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="07h-sM-IXA"/>
-                                            <segue destination="BV1-FR-VrT" kind="show" id="9Ls-SK-ris"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GameGuide" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pl-Kz-pQs">
-                                        <rect key="frame" x="65" y="204" width="245" height="58"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="48"/>
-                                        <color key="textColor" red="1" green="0.63530460619999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <size key="shadowOffset" width="0.0" height="9"/>
-                                    </label>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;i</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <viewLayoutGuide key="safeArea" id="5OL-2z-7L1"/>
-                            </view>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6e-mE-Ypw">
+                                <rect key="frame" x="110" y="44" width="155" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="GameInfo">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="hello:" destination="X1C-b7-lf8" eventType="touchUpInside" id="EnG-kN-7BU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="0JH-fw-agL"/>
+                        <constraints>
+                            <constraint firstItem="oxb-ev-e0I" firstAttribute="bottom" secondItem="fm7-PW-qDe" secondAttribute="bottom" id="DX7-KK-Uav"/>
+                            <constraint firstItem="oxb-ev-e0I" firstAttribute="leading" secondItem="fm7-PW-qDe" secondAttribute="leading" constant="16" id="Qnv-2V-4LS"/>
+                            <constraint firstItem="fm7-PW-qDe" firstAttribute="trailing" secondItem="oxb-ev-e0I" secondAttribute="trailing" constant="16" id="qOA-mE-Vtv"/>
+                            <constraint firstItem="oxb-ev-e0I" firstAttribute="top" secondItem="fm7-PW-qDe" secondAttribute="top" id="t5g-Ve-CZ3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fm7-PW-qDe"/>
                     </view>
+                    <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UEQ-xr-5mF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eMc-X0-VNV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="932" y="100"/>
+            <point key="canvasLocation" x="304.80000000000001" y="10.344827586206897"/>
         </scene>
         <!--Leaderboards-->
         <scene sceneID="g9v-G1-Trl">
@@ -349,7 +251,6 @@
                                         <state key="normal" image="Button1.jpg"/>
                                         <connections>
                                             <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="d2s-uD-Jua"/>
-                                            <segue destination="T6U-wG-oCp" kind="show" id="Nd2-p9-V8E"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tm-sb-HbX" userLabel="Leaderboards">
@@ -366,7 +267,6 @@
                                         <state key="normal" image="Button1.jpg"/>
                                         <connections>
                                             <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="q6b-8C-iw6"/>
-                                            <segue destination="Ku9-mT-Fth" kind="show" id="2VR-7j-8jL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycL-Xu-ZPy" userLabel="Home">
@@ -399,6 +299,14 @@
                                             <action selector="cameraButton:" destination="Xp7-G4-Dnd" eventType="touchUpInside" id="n1T-jj-HMm"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sK-zf-4ra">
+                                        <rect key="frame" x="107" y="52" width="161" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                        <color key="textColor" red="1" green="0.63530460619999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="9"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <viewLayoutGuide key="safeArea" id="vjd-cS-WWG"/>
@@ -464,18 +372,108 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12x-pW-LIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2206" y="100"/>
+            <point key="canvasLocation" x="1844" y="116"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="xKE-gy-eOQ">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="gTx-E7-tMg" customClass="GameViewController" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1ai-jY-nCb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnJ-zB-P2O">
+                                <rect key="frame" x="92" y="471" width="190" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="GameGuide">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="hello:" destination="gTx-E7-tMg" eventType="touchUpInside" id="7Y8-Bg-Mi3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIL-r9-ZxE" userLabel="Home">
+                                <rect key="frame" x="162" y="475" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="ZWI-X6-mbc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0u-AL-BdI" userLabel="GameInfo">
+                                <rect key="frame" x="162" y="475" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="4MV-Wa-soP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9h-Xd-s9B" userLabel="GameGuide">
+                                <rect key="frame" x="162" y="475" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Cr4-Ta-NHj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vT1-Sf-wWr" userLabel="Augmented Reality">
+                                <rect key="frame" x="162" y="475" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="pSp-cs-Nkk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYn-pz-Ec4" userLabel="Leaderboards">
+                                <rect key="frame" x="162" y="475" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="wjU-5R-AMf"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lsR-5g-NIC">
+                                <rect key="frame" x="16" y="44" width="343" height="956"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iXV-ae-KkA">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="8Hw-RO-PqT"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="iXV-ae-KkA" secondAttribute="bottom" id="ELX-X2-nL5"/>
+                                    <constraint firstItem="iXV-ae-KkA" firstAttribute="leading" secondItem="lsR-5g-NIC" secondAttribute="leading" id="Iei-s3-Mwo"/>
+                                    <constraint firstAttribute="trailing" secondItem="iXV-ae-KkA" secondAttribute="trailing" id="K1l-60-l1a"/>
+                                    <constraint firstItem="iXV-ae-KkA" firstAttribute="top" secondItem="lsR-5g-NIC" secondAttribute="top" id="RjY-FI-fw7"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lsR-5g-NIC" firstAttribute="top" secondItem="7nU-mZ-IG5" secondAttribute="top" id="30I-lB-a7D"/>
+                            <constraint firstItem="7nU-mZ-IG5" firstAttribute="trailing" secondItem="lsR-5g-NIC" secondAttribute="trailing" constant="16" id="43M-QB-BUZ"/>
+                            <constraint firstItem="lsR-5g-NIC" firstAttribute="bottom" secondItem="7nU-mZ-IG5" secondAttribute="bottom" id="XKc-6U-LnG"/>
+                            <constraint firstItem="iXV-ae-KkA" firstAttribute="width" secondItem="1ai-jY-nCb" secondAttribute="width" id="fC8-i3-Ksz"/>
+                            <constraint firstItem="lsR-5g-NIC" firstAttribute="leading" secondItem="7nU-mZ-IG5" secondAttribute="leading" constant="16" id="jpr-Uc-FE8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7nU-mZ-IG5"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="piD-e2-TdI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936.79999999999995" y="10.344827586206897"/>
         </scene>
     </scenes>
     <resources>
         <image name="Button1.jpg" width="290" height="290"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vBh-Qs-nmB"/>
-        <segue reference="7W8-C4-KHv"/>
-        <segue reference="Z3X-jD-ojq"/>
-        <segue reference="c4g-H2-J01"/>
-        <segue reference="9Ls-SK-ris"/>
+        <segue reference="VdI-qQ-caE"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>

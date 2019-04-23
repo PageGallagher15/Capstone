@@ -13,6 +13,15 @@ import AVFoundation
 
 class GameViewController: UIViewController {
     
+    @IBAction func hello(_ sender: Any) {
+        print("GameInfo")
+    }
+    
+    @IBAction func Game(_ sender: Any) {
+        
+        print("Game")
+    }
+    
     var captureSession = AVCaptureSession()
     var audioPlay: AVAudioPlayer?
     var backCamera: AVCaptureDevice?
@@ -155,3 +164,5 @@ extension GameViewController: AVCapturePhotoCaptureDelegate{
         }
     }
 }
+
+
