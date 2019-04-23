@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB077CA2226F84DF0018A525 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077CA1226F84DF0018A525 /* Camera.swift */; };
 		EB42C9852242E03D00E74BE5 /* Button1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB42C9842242E03C00E74BE5 /* Button1.jpg */; };
 		F40A4E722214B7D8006D9526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A4E712214B7D8006D9526 /* AppDelegate.swift */; };
 		F40A4E742214B7D8006D9526 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F40A4E732214B7D8006D9526 /* GameScene.sks */; };
@@ -30,6 +29,343 @@
 		F456A74C2214BD31003FED56 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A74A2214BD30003FED56 /* leveldb-library.framework */; };
 		F456A74D2214BD31003FED56 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A74B2214BD31003FED56 /* FirebaseDatabase.framework */; };
 		F456A7542214C9C5003FED56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F456A7532214C9C5003FED56 /* GoogleService-Info.plist */; };
+		F4A0010C226F905A009848C8 /* Blooper 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB5F282A225E92CA00ABE348 /* Blooper 8.wav */; };
+		F4A00118226F9E26009848C8 /* DungaAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A00117226F9E26009848C8 /* DungaAudio.swift */; };
+		F4A0011A226F9FA3009848C8 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A00119226F9FA3009848C8 /* Camera.swift */; };
+		F4A00286226FA1DA009848C8 /* OpeningScene.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0012A226FA1DA009848C8 /* OpeningScene.meta */; };
+		F4A00287226FA1DA009848C8 /* Bak(Scene6)(Take2)SUDDENREALIZATION.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0012B226FA1DA009848C8 /* Bak(Scene6)(Take2)SUDDENREALIZATION.wav */; };
+		F4A00288226FA1DA009848C8 /* Bak(Scene5)(Take4)WhosThisGuy.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0012C226FA1DA009848C8 /* Bak(Scene5)(Take4)WhosThisGuy.wav */; };
+		F4A00289226FA1DA009848C8 /* Bak(Scene6)(Take1)Wink.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0012D226FA1DA009848C8 /* Bak(Scene6)(Take1)Wink.wav.meta */; };
+		F4A0028A226FA1DA009848C8 /* Bak(Scene5)(Take4)WhosThisGuy.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0012E226FA1DA009848C8 /* Bak(Scene5)(Take4)WhosThisGuy.wav.meta */; };
+		F4A0028B226FA1DA009848C8 /* OddlyConvenient.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00130226FA1DA009848C8 /* OddlyConvenient.wav */; };
+		F4A0028C226FA1DA009848C8 /* EveryFarm.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00131226FA1DA009848C8 /* EveryFarm.wav.meta */; };
+		F4A0028D226FA1DA009848C8 /* IWouldCome.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00132226FA1DA009848C8 /* IWouldCome.wav */; };
+		F4A0028E226FA1DA009848C8 /* EverythingTheyTook.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00133226FA1DA009848C8 /* EverythingTheyTook.wav */; };
+		F4A0028F226FA1DA009848C8 /* AidTheWounded.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00134226FA1DA009848C8 /* AidTheWounded.wav */; };
+		F4A00290226FA1DA009848C8 /* ItsTheirShip.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00135226FA1DA009848C8 /* ItsTheirShip.wav */; };
+		F4A00291226FA1DA009848C8 /* Barkeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00136226FA1DA009848C8 /* Barkeep.wav */; };
+		F4A00292226FA1DA009848C8 /* HelHeim.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00137226FA1DA009848C8 /* HelHeim.wav.meta */; };
+		F4A00293226FA1DA009848C8 /* RaiderChasing.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00138226FA1DA009848C8 /* RaiderChasing.wav.meta */; };
+		F4A00294226FA1DA009848C8 /* EverythingTheyTook.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00139226FA1DA009848C8 /* EverythingTheyTook.wav.meta */; };
+		F4A00295226FA1DA009848C8 /* AllGone.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0013A226FA1DA009848C8 /* AllGone.wav */; };
+		F4A00296226FA1DA009848C8 /* ItsTheirShip.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0013B226FA1DA009848C8 /* ItsTheirShip.wav.meta */; };
+		F4A00297226FA1DA009848C8 /* Reclaim.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0013C226FA1DA009848C8 /* Reclaim.wav.meta */; };
+		F4A00298226FA1DA009848C8 /* OddlyConvenient.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0013D226FA1DA009848C8 /* OddlyConvenient.wav.meta */; };
+		F4A00299226FA1DA009848C8 /* AidTheWounded.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0013E226FA1DA009848C8 /* AidTheWounded.wav.meta */; };
+		F4A0029A226FA1DA009848C8 /* HelHeim.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0013F226FA1DA009848C8 /* HelHeim.wav */; };
+		F4A0029B226FA1DA009848C8 /* AllGone.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00140226FA1DA009848C8 /* AllGone.wav.meta */; };
+		F4A0029C226FA1DA009848C8 /* RaiderChasing.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00141226FA1DA009848C8 /* RaiderChasing.wav */; };
+		F4A0029D226FA1DA009848C8 /* ForestGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00142226FA1DA009848C8 /* ForestGround.wav */; };
+		F4A0029E226FA1DA009848C8 /* Barkeep.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00143226FA1DA009848C8 /* Barkeep.wav.meta */; };
+		F4A0029F226FA1DA009848C8 /* EveryFarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00144226FA1DA009848C8 /* EveryFarm.wav */; };
+		F4A002A0226FA1DA009848C8 /* Reclaim.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00145226FA1DA009848C8 /* Reclaim.wav */; };
+		F4A002A1226FA1DA009848C8 /* IWouldCome.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00146226FA1DA009848C8 /* IWouldCome.wav.meta */; };
+		F4A002A2226FA1DA009848C8 /* ForestGround.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00147226FA1DA009848C8 /* ForestGround.wav.meta */; };
+		F4A002A3226FA1DA009848C8 /* Bak(Scene6)(Take2)ArentReal.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00148226FA1DA009848C8 /* Bak(Scene6)(Take2)ArentReal.wav.meta */; };
+		F4A002A4226FA1DA009848C8 /* Bak(Scene5)(Take1)WhosThisGuy.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00149226FA1DA009848C8 /* Bak(Scene5)(Take1)WhosThisGuy.wav.meta */; };
+		F4A002A5226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0014A226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav */; };
+		F4A002A6226FA1DA009848C8 /* Bak(Scene6)(Take1)NOTFAIR.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0014B226FA1DA009848C8 /* Bak(Scene6)(Take1)NOTFAIR.wav */; };
+		F4A002A7226FA1DA009848C8 /* Bak(Scene5)(Take1)MissingSomething.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0014C226FA1DA009848C8 /* Bak(Scene5)(Take1)MissingSomething.wav */; };
+		F4A002A8226FA1DA009848C8 /* Bak(Scene6)(Take2)Wink.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0014D226FA1DA009848C8 /* Bak(Scene6)(Take2)Wink.wav.meta */; };
+		F4A002A9226FA1DA009848C8 /* Bak(Scene6)(Take2)WhatsADeveloper.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0014E226FA1DA009848C8 /* Bak(Scene6)(Take2)WhatsADeveloper.wav.meta */; };
+		F4A002AA226FA1DA009848C8 /* Bak(Scene6)(Take1)YES.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0014F226FA1DA009848C8 /* Bak(Scene6)(Take1)YES.wav.meta */; };
+		F4A002AB226FA1DA009848C8 /* Bak(Scene6)(Take1)ArentReal.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00150226FA1DA009848C8 /* Bak(Scene6)(Take1)ArentReal.wav.meta */; };
+		F4A002AC226FA1DA009848C8 /* Bak(Scene5)(Take4)MissingSomething.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00151226FA1DA009848C8 /* Bak(Scene5)(Take4)MissingSomething.wav */; };
+		F4A002AD226FA1DA009848C8 /* Bak(Scene5)(Take1)ItWasYou.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00152226FA1DA009848C8 /* Bak(Scene5)(Take1)ItWasYou.wav.meta */; };
+		F4A002AE226FA1DA009848C8 /* Bak(Scene5)(Take3)WhosThisGuy.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00153226FA1DA009848C8 /* Bak(Scene5)(Take3)WhosThisGuy.wav */; };
+		F4A002AF226FA1DA009848C8 /* Bak(Scene6)(Take2)YES.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00154226FA1DA009848C8 /* Bak(Scene6)(Take2)YES.wav */; };
+		F4A002B0226FA1DA009848C8 /* Bak(Scene5)(Take4)ItWasYou.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00155226FA1DA009848C8 /* Bak(Scene5)(Take4)ItWasYou.wav.meta */; };
+		F4A002B1226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00156226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav.meta */; };
+		F4A002B2226FA1DA009848C8 /* Bak(Scene6)(Take2)SUDDENREALIZATION.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00157226FA1DA009848C8 /* Bak(Scene6)(Take2)SUDDENREALIZATION.wav.meta */; };
+		F4A002B3226FA1DA009848C8 /* Bak(Scene1)(Take2)Look.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00159226FA1DA009848C8 /* Bak(Scene1)(Take2)Look.wav */; };
+		F4A002B4226FA1DA009848C8 /* Bak(Scene1)(Take1)Village.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0015A226FA1DA009848C8 /* Bak(Scene1)(Take1)Village.wav.meta */; };
+		F4A002B5226FA1DA009848C8 /* Bak(Scene1)(Take1)Village.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0015B226FA1DA009848C8 /* Bak(Scene1)(Take1)Village.wav */; };
+		F4A002B6226FA1DA009848C8 /* Bak(Scene1)(Take2)Look.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0015C226FA1DA009848C8 /* Bak(Scene1)(Take2)Look.wav.meta */; };
+		F4A002B7226FA1DA009848C8 /* Bak(Scene1)(Take1)Look.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0015D226FA1DA009848C8 /* Bak(Scene1)(Take1)Look.wav.meta */; };
+		F4A002B8226FA1DA009848C8 /* Bak(Scene1)(Take2)Village.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0015E226FA1DA009848C8 /* Bak(Scene1)(Take2)Village.wav.meta */; };
+		F4A002B9226FA1DA009848C8 /* Bak(Scene1)(Take2)Village.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0015F226FA1DA009848C8 /* Bak(Scene1)(Take2)Village.wav */; };
+		F4A002BA226FA1DA009848C8 /* Bak(Scene1)(Take1)Look.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00160226FA1DA009848C8 /* Bak(Scene1)(Take1)Look.wav */; };
+		F4A002BB226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00161226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav */; };
+		F4A002BC226FA1DA009848C8 /* Bak(Scene5)(Take2)MissingSomething.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00162226FA1DA009848C8 /* Bak(Scene5)(Take2)MissingSomething.wav.meta */; };
+		F4A002BD226FA1DA009848C8 /* Bak(Scene5)(Take2)ItWasYou.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00163226FA1DA009848C8 /* Bak(Scene5)(Take2)ItWasYou.wav.meta */; };
+		F4A002BE226FA1DA009848C8 /* Bak(Scene6)(Take1)SupposedtoMean.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00164226FA1DA009848C8 /* Bak(Scene6)(Take1)SupposedtoMean.wav */; };
+		F4A002BF226FA1DA009848C8 /* Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00165226FA1DA009848C8 /* Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav.meta */; };
+		F4A002C0226FA1DA009848C8 /* Bak(Scene6)(Take1)RealLife.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00166226FA1DA009848C8 /* Bak(Scene6)(Take1)RealLife.wav */; };
+		F4A002C1226FA1DA009848C8 /* Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00167226FA1DA009848C8 /* Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav */; };
+		F4A002C2226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00168226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav.meta */; };
+		F4A002C3226FA1DA009848C8 /* Bak(Scene5)(Take2)WhosThisGuy.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00169226FA1DA009848C8 /* Bak(Scene5)(Take2)WhosThisGuy.wav */; };
+		F4A002C4226FA1DA009848C8 /* Bak(Scene6)(Take1)BEARD.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0016A226FA1DA009848C8 /* Bak(Scene6)(Take1)BEARD.wav */; };
+		F4A002C5226FA1DA009848C8 /* Bak(Scene6)(Take2)NOTFAIR.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0016B226FA1DA009848C8 /* Bak(Scene6)(Take2)NOTFAIR.wav */; };
+		F4A002C6226FA1DA009848C8 /* Bak(Scene5)(Take1)ItWasYou.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0016C226FA1DA009848C8 /* Bak(Scene5)(Take1)ItWasYou.wav */; };
+		F4A002C7226FA1DA009848C8 /* Bak(Scene6)(Take1)Parents.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0016D226FA1DA009848C8 /* Bak(Scene6)(Take1)Parents.wav.meta */; };
+		F4A002C8226FA1DA009848C8 /* Bak(Scene6)(Take1)YES.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0016E226FA1DA009848C8 /* Bak(Scene6)(Take1)YES.wav */; };
+		F4A002C9226FA1DA009848C8 /* Bak(Scene6)(Take2).GroupParticipation.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0016F226FA1DA009848C8 /* Bak(Scene6)(Take2).GroupParticipation.wav.meta */; };
+		F4A002CA226FA1DA009848C8 /* Bak(Scene5)(Take3)ItWasYou.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00170226FA1DA009848C8 /* Bak(Scene5)(Take3)ItWasYou.wav.meta */; };
+		F4A002CB226FA1DA009848C8 /* Bak(Scene6)(Take1)NOTFAIR.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00171226FA1DA009848C8 /* Bak(Scene6)(Take1)NOTFAIR.wav.meta */; };
+		F4A002CC226FA1DA009848C8 /* Bak(Scene6)(Take2).GroupParticipation.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00172226FA1DA009848C8 /* Bak(Scene6)(Take2).GroupParticipation.wav */; };
+		F4A002CD226FA1DA009848C8 /* Bak(Scene6)(Take2)SupposedtoMean.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00173226FA1DA009848C8 /* Bak(Scene6)(Take2)SupposedtoMean.wav */; };
+		F4A002CE226FA1DA009848C8 /* Bak(Scene6)(Take1)Wink.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00174226FA1DA009848C8 /* Bak(Scene6)(Take1)Wink.wav */; };
+		F4A002CF226FA1DB009848C8 /* Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00175226FA1DA009848C8 /* Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav */; };
+		F4A002D0226FA1DB009848C8 /* Bak(Scene6)(Take2)Audience.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00176226FA1DA009848C8 /* Bak(Scene6)(Take2)Audience.wav */; };
+		F4A002D1226FA1DB009848C8 /* Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00177226FA1DA009848C8 /* Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav */; };
+		F4A002D2226FA1DB009848C8 /* Bak(Scene6)(Take2)RealLife.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00178226FA1DA009848C8 /* Bak(Scene6)(Take2)RealLife.wav */; };
+		F4A002D3226FA1DB009848C8 /* Bak(Scene5)(Take3)MissingSomething.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00179226FA1DA009848C8 /* Bak(Scene5)(Take3)MissingSomething.wav */; };
+		F4A002D4226FA1DB009848C8 /* Bak(Scene6)(Take1)WhatsADeveloper.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0017A226FA1DA009848C8 /* Bak(Scene6)(Take1)WhatsADeveloper.wav */; };
+		F4A002D5226FA1DB009848C8 /* Bak(Scene6)(Take2)Audience.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0017B226FA1DA009848C8 /* Bak(Scene6)(Take2)Audience.wav.meta */; };
+		F4A002D6226FA1DB009848C8 /* Bak(Scene5)(Take4)MissingSomething.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0017C226FA1DA009848C8 /* Bak(Scene5)(Take4)MissingSomething.wav.meta */; };
+		F4A002D7226FA1DB009848C8 /* Bak(Scene5)(Take1)GuardianAngel.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0017D226FA1DA009848C8 /* Bak(Scene5)(Take1)GuardianAngel.wav.meta */; };
+		F4A002D8226FA1DB009848C8 /* Bak(Scene6)(Take2)WhatsADeveloper.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0017E226FA1DA009848C8 /* Bak(Scene6)(Take2)WhatsADeveloper.wav */; };
+		F4A002D9226FA1DB009848C8 /* Bak(Scene5)(Take1)IHadToBeThere.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0017F226FA1DA009848C8 /* Bak(Scene5)(Take1)IHadToBeThere.wav.meta */; };
+		F4A002DA226FA1DB009848C8 /* Bak(Scene6)(Take2)Parents.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00180226FA1DA009848C8 /* Bak(Scene6)(Take2)Parents.wav */; };
+		F4A002DB226FA1DB009848C8 /* Bak(Scene5)(Take2)ItWasYou.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00181226FA1DA009848C8 /* Bak(Scene5)(Take2)ItWasYou.wav */; };
+		F4A002DC226FA1DB009848C8 /* Bak(Scene6)(Take1)SUDDENREALIZATION.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00182226FA1DA009848C8 /* Bak(Scene6)(Take1)SUDDENREALIZATION.wav.meta */; };
+		F4A002DD226FA1DB009848C8 /* Bak(Scene6)(Take1)WhatsADeveloper.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00183226FA1DA009848C8 /* Bak(Scene6)(Take1)WhatsADeveloper.wav.meta */; };
+		F4A002DE226FA1DB009848C8 /* Bak(Scene6)(Take2)SupposedtoMean.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00184226FA1DA009848C8 /* Bak(Scene6)(Take2)SupposedtoMean.wav.meta */; };
+		F4A002DF226FA1DB009848C8 /* Bak(Scene6)(Take2)BEARD.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00185226FA1DA009848C8 /* Bak(Scene6)(Take2)BEARD.wav */; };
+		F4A002E0226FA1DB009848C8 /* Bak(Scene6)(Take1)RealLife.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00186226FA1DA009848C8 /* Bak(Scene6)(Take1)RealLife.wav.meta */; };
+		F4A002E1226FA1DB009848C8 /* OpeningCinematic.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00187226FA1DA009848C8 /* OpeningCinematic.meta */; };
+		F4A002E2226FA1DB009848C8 /* Bak(Scene5)(Take4)GuardianAngel.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00188226FA1DA009848C8 /* Bak(Scene5)(Take4)GuardianAngel.wav */; };
+		F4A002E3226FA1DB009848C8 /* Bak(Scene6)(Take1)BEARD.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00189226FA1DA009848C8 /* Bak(Scene6)(Take1)BEARD.wav.meta */; };
+		F4A002E4226FA1DB009848C8 /* Bak(Scene5)(Take2)IHadToBeThere.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0018A226FA1DA009848C8 /* Bak(Scene5)(Take2)IHadToBeThere.wav.meta */; };
+		F4A002E5226FA1DB009848C8 /* Bak(Scene5)(Take4)IHadToBeThere.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0018B226FA1DA009848C8 /* Bak(Scene5)(Take4)IHadToBeThere.wav */; };
+		F4A002E6226FA1DB009848C8 /* Bak(Scene5)(Take3)MissingSomething.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0018C226FA1DA009848C8 /* Bak(Scene5)(Take3)MissingSomething.wav.meta */; };
+		F4A002E7226FA1DB009848C8 /* Bak(Scene5)(Take1)GuardianAngel.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0018D226FA1DA009848C8 /* Bak(Scene5)(Take1)GuardianAngel.wav */; };
+		F4A002E8226FA1DB009848C8 /* Bak(Scene6)(Take1)Audience.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0018E226FA1DA009848C8 /* Bak(Scene6)(Take1)Audience.wav */; };
+		F4A002E9226FA1DB009848C8 /* Bak(Scene5)(Take3)WhosThisGuy.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0018F226FA1DA009848C8 /* Bak(Scene5)(Take3)WhosThisGuy.wav.meta */; };
+		F4A002EA226FA1DB009848C8 /* Bak(Scene6)(Take2)Parents.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00190226FA1DA009848C8 /* Bak(Scene6)(Take2)Parents.wav.meta */; };
+		F4A002EB226FA1DB009848C8 /* Bak(Scene6)(Take1)SUDDENREALIZATION.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00191226FA1DA009848C8 /* Bak(Scene6)(Take1)SUDDENREALIZATION.wav */; };
+		F4A002EC226FA1DB009848C8 /* Bak(Scene5)(Take2)GuardianAngel.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00192226FA1DA009848C8 /* Bak(Scene5)(Take2)GuardianAngel.wav.meta */; };
+		F4A002ED226FA1DB009848C8 /* Bak(Scene5)(Take3)ItWasYou.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00193226FA1DA009848C8 /* Bak(Scene5)(Take3)ItWasYou.wav */; };
+		F4A002EE226FA1DB009848C8 /* Bak(Scene6)(Take2)NOTFAIR.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00194226FA1DA009848C8 /* Bak(Scene6)(Take2)NOTFAIR.wav.meta */; };
+		F4A002EF226FA1DB009848C8 /* Bak(Scene5)(Take1)IHadToBeThere.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00195226FA1DA009848C8 /* Bak(Scene5)(Take1)IHadToBeThere.wav */; };
+		F4A002F0226FA1DB009848C8 /* Bak(Scene5)(Take4)ItWasYou.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00196226FA1DA009848C8 /* Bak(Scene5)(Take4)ItWasYou.wav */; };
+		F4A002F1226FA1DB009848C8 /* Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00197226FA1DA009848C8 /* Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav.meta */; };
+		F4A002F2226FA1DB009848C8 /* Bak(Scene6)(Take2)Wink.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00198226FA1DA009848C8 /* Bak(Scene6)(Take2)Wink.wav */; };
+		F4A002F3226FA1DB009848C8 /* Bak(Scene5)(Take3)GuardianAngel.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00199226FA1DA009848C8 /* Bak(Scene5)(Take3)GuardianAngel.wav.meta */; };
+		F4A002F4226FA1DB009848C8 /* Bak(Scene5)(Take4)IHadToBeThere.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0019A226FA1DA009848C8 /* Bak(Scene5)(Take4)IHadToBeThere.wav.meta */; };
+		F4A002F5226FA1DB009848C8 /* Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0019B226FA1DA009848C8 /* Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav.meta */; };
+		F4A002F6226FA1DB009848C8 /* Bak(Scene5)(Take2)GuardianAngel.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0019C226FA1DA009848C8 /* Bak(Scene5)(Take2)GuardianAngel.wav */; };
+		F4A002F7226FA1DB009848C8 /* Bak(Scene5)(Take4)GuardianAngel.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0019D226FA1DA009848C8 /* Bak(Scene5)(Take4)GuardianAngel.wav.meta */; };
+		F4A002F8226FA1DB009848C8 /* Bak(Scene5)(Take2)IHadToBeThere.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0019E226FA1DA009848C8 /* Bak(Scene5)(Take2)IHadToBeThere.wav */; };
+		F4A002F9226FA1DB009848C8 /* Bak(Scene5)(Take2)MissingSomething.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0019F226FA1DA009848C8 /* Bak(Scene5)(Take2)MissingSomething.wav */; };
+		F4A002FA226FA1DB009848C8 /* Bak(Scene5)(Take3)IHadToBeThere.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001A0226FA1DA009848C8 /* Bak(Scene5)(Take3)IHadToBeThere.wav.meta */; };
+		F4A002FB226FA1DB009848C8 /* Bak(Scene6)(Take2)ArentReal.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001A1226FA1DA009848C8 /* Bak(Scene6)(Take2)ArentReal.wav */; };
+		F4A002FC226FA1DB009848C8 /* Bak(Scene5)(Take2)WhosThisGuy.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001A2226FA1DA009848C8 /* Bak(Scene5)(Take2)WhosThisGuy.wav.meta */; };
+		F4A002FD226FA1DB009848C8 /* Bak(Scene6)(Take2)YES.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001A3226FA1DA009848C8 /* Bak(Scene6)(Take2)YES.wav.meta */; };
+		F4A002FE226FA1DB009848C8 /* Bak(Scene6)(Take1)SupposedtoMean.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001A4226FA1DA009848C8 /* Bak(Scene6)(Take1)SupposedtoMean.wav.meta */; };
+		F4A002FF226FA1DB009848C8 /* Bak(Scene6)(Take2)BEARD.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001A5226FA1DA009848C8 /* Bak(Scene6)(Take2)BEARD.wav.meta */; };
+		F4A00300226FA1DB009848C8 /* Bak(Scene6)(Take1)Parents.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001A6226FA1DA009848C8 /* Bak(Scene6)(Take1)Parents.wav */; };
+		F4A00301226FA1DB009848C8 /* Bak(Scene6)(Take1)Audience.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001A7226FA1DA009848C8 /* Bak(Scene6)(Take1)Audience.wav.meta */; };
+		F4A00302226FA1DB009848C8 /* Bak(Scene6)(Take1)ArentReal.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001A8226FA1DA009848C8 /* Bak(Scene6)(Take1)ArentReal.wav */; };
+		F4A00303226FA1DB009848C8 /* Bak(Scene5)(Take3)GuardianAngel.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001A9226FA1DA009848C8 /* Bak(Scene5)(Take3)GuardianAngel.wav */; };
+		F4A00304226FA1DB009848C8 /* Bak(Scene5)(Take1)MissingSomething.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001AA226FA1DA009848C8 /* Bak(Scene5)(Take1)MissingSomething.wav.meta */; };
+		F4A00305226FA1DB009848C8 /* Bak(Scene5)(Take3)IHadToBeThere.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001AB226FA1DA009848C8 /* Bak(Scene5)(Take3)IHadToBeThere.wav */; };
+		F4A00306226FA1DB009848C8 /* Bak(Scene5)(Take1)WhosThisGuy.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001AC226FA1DA009848C8 /* Bak(Scene5)(Take1)WhosThisGuy.wav */; };
+		F4A00307226FA1DB009848C8 /* Bak(Scene6)(Take2)RealLife.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001AD226FA1DA009848C8 /* Bak(Scene6)(Take2)RealLife.wav.meta */; };
+		F4A00308226FA1DB009848C8 /* Archer(Take2).wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001B0226FA1DA009848C8 /* Archer(Take2).wav.meta */; };
+		F4A00309226FA1DB009848C8 /* Archer(Take2).wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001B1226FA1DA009848C8 /* Archer(Take2).wav */; };
+		F4A0030A226FA1DB009848C8 /* Archer(Take1).wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001B2226FA1DA009848C8 /* Archer(Take1).wav */; };
+		F4A0030B226FA1DB009848C8 /* Archer(Take1).wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001B3226FA1DA009848C8 /* Archer(Take1).wav.meta */; };
+		F4A0030C226FA1DB009848C8 /* GameScene.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001B4226FA1DA009848C8 /* GameScene.meta */; };
+		F4A0030D226FA1DB009848C8 /* Yoohoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001B6226FA1DA009848C8 /* Yoohoo.wav */; };
+		F4A0030E226FA1DB009848C8 /* Yoohoo.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001B7226FA1DA009848C8 /* Yoohoo.wav.meta */; };
+		F4A0030F226FA1DB009848C8 /* Tutorial.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001B9226FA1DA009848C8 /* Tutorial.meta */; };
+		F4A00310226FA1DB009848C8 /* Village.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001BA226FA1DA009848C8 /* Village.meta */; };
+		F4A00311226FA1DB009848C8 /* YouAreALesserGod.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001BC226FA1DA009848C8 /* YouAreALesserGod.wav */; };
+		F4A00312226FA1DB009848C8 /* VeryGood.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001BD226FA1DA009848C8 /* VeryGood.wav */; };
+		F4A00313226FA1DB009848C8 /* InAgesPast.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001BE226FA1DA009848C8 /* InAgesPast.wav.meta */; };
+		F4A00314226FA1DB009848C8 /* EvenWithYourLimitedAbility.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001BF226FA1DA009848C8 /* EvenWithYourLimitedAbility.wav */; };
+		F4A00315226FA1DB009848C8 /* YouAreNowReady.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001C0226FA1DA009848C8 /* YouAreNowReady.wav.meta */; };
+		F4A00316226FA1DB009848C8 /* ClickAndDrag.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001C1226FA1DA009848C8 /* ClickAndDrag.wav.meta */; };
+		F4A00317226FA1DB009848C8 /* YouCanAlsoInteract.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001C2226FA1DA009848C8 /* YouCanAlsoInteract.wav.meta */; };
+		F4A00318226FA1DB009848C8 /* ThatBuff.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001C3226FA1DA009848C8 /* ThatBuff.wav.meta */; };
+		F4A00319226FA1DB009848C8 /* ItsHim.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001C4226FA1DA009848C8 /* ItsHim.wav.meta */; };
+		F4A0031A226FA1DB009848C8 /* HesAnOddOne.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001C5226FA1DA009848C8 /* HesAnOddOne.wav */; };
+		F4A0031B226FA1DB009848C8 /* HesAnOddOne.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001C6226FA1DA009848C8 /* HesAnOddOne.wav.meta */; };
+		F4A0031C226FA1DB009848C8 /* InAgesPast.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001C7226FA1DA009848C8 /* InAgesPast.wav */; };
+		F4A0031D226FA1DB009848C8 /* IllExplain.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001C8226FA1DA009848C8 /* IllExplain.wav.meta */; };
+		F4A0031E226FA1DB009848C8 /* ClickAndDrag.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001C9226FA1DA009848C8 /* ClickAndDrag.wav */; };
+		F4A0031F226FA1DB009848C8 /* ItsHim.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001CA226FA1DA009848C8 /* ItsHim.wav */; };
+		F4A00320226FA1DB009848C8 /* ImLys.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001CB226FA1DA009848C8 /* ImLys.wav */; };
+		F4A00321226FA1DB009848C8 /* VeryGood.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001CC226FA1DA009848C8 /* VeryGood.wav.meta */; };
+		F4A00322226FA1DB009848C8 /* ImLys.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001CD226FA1DA009848C8 /* ImLys.wav.meta */; };
+		F4A00323226FA1DB009848C8 /* IllExplain.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001CE226FA1DA009848C8 /* IllExplain.wav */; };
+		F4A00324226FA1DB009848C8 /* YouAreALesserGod.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001CF226FA1DA009848C8 /* YouAreALesserGod.wav.meta */; };
+		F4A00325226FA1DB009848C8 /* Excellent.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001D0226FA1DA009848C8 /* Excellent.wav */; };
+		F4A00326226FA1DB009848C8 /* SeeThoseStones.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001D1226FA1DA009848C8 /* SeeThoseStones.wav.meta */; };
+		F4A00327226FA1DB009848C8 /* ThatArrow.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001D2226FA1DA009848C8 /* ThatArrow.wav */; };
+		F4A00328226FA1DB009848C8 /* EvenWithYourLimitedAbility.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001D3226FA1DA009848C8 /* EvenWithYourLimitedAbility.wav.meta */; };
+		F4A00329226FA1DB009848C8 /* ThatArrow.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001D4226FA1DA009848C8 /* ThatArrow.wav.meta */; };
+		F4A0032A226FA1DB009848C8 /* FullPower.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001D5226FA1DA009848C8 /* FullPower.wav */; };
+		F4A0032B226FA1DB009848C8 /* SeeThoseStones.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001D6226FA1DA009848C8 /* SeeThoseStones.wav */; };
+		F4A0032C226FA1DB009848C8 /* YouAreNowReady.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001D7226FA1DA009848C8 /* YouAreNowReady.wav */; };
+		F4A0032D226FA1DB009848C8 /* ThatBuff.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001D8226FA1DA009848C8 /* ThatBuff.wav */; };
+		F4A0032E226FA1DB009848C8 /* Excellent.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001D9226FA1DA009848C8 /* Excellent.wav.meta */; };
+		F4A0032F226FA1DB009848C8 /* YouCanAlsoInteract.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001DA226FA1DA009848C8 /* YouCanAlsoInteract.wav */; };
+		F4A00330226FA1DB009848C8 /* SameWithBuffs.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001DB226FA1DA009848C8 /* SameWithBuffs.wav.meta */; };
+		F4A00331226FA1DB009848C8 /* SameWithBuffs.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001DC226FA1DA009848C8 /* SameWithBuffs.wav */; };
+		F4A00332226FA1DB009848C8 /* FullPower.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001DD226FA1DA009848C8 /* FullPower.wav.meta */; };
+		F4A00333226FA1DB009848C8 /* Sprite_Village_Line7.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001DF226FA1DA009848C8 /* Sprite_Village_Line7.wav.meta */; };
+		F4A00334226FA1DB009848C8 /* Sprite_Village_Line6.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001E0226FA1DA009848C8 /* Sprite_Village_Line6.wav.meta */; };
+		F4A00335226FA1DB009848C8 /* Sprite_Village_Line1.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001E1226FA1DA009848C8 /* Sprite_Village_Line1.wav.meta */; };
+		F4A00336226FA1DB009848C8 /* Sprite_Village_Line4.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001E2226FA1DA009848C8 /* Sprite_Village_Line4.wav */; };
+		F4A00337226FA1DB009848C8 /* Sprite_Village_Line5.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001E3226FA1DA009848C8 /* Sprite_Village_Line5.wav */; };
+		F4A00338226FA1DB009848C8 /* Sprite_Village_Line7.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001E4226FA1DA009848C8 /* Sprite_Village_Line7.wav */; };
+		F4A00339226FA1DB009848C8 /* Sprite_Village_Line4.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001E5226FA1DA009848C8 /* Sprite_Village_Line4.wav.meta */; };
+		F4A0033A226FA1DB009848C8 /* Sprite_Village_Line5.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001E6226FA1DA009848C8 /* Sprite_Village_Line5.wav.meta */; };
+		F4A0033B226FA1DB009848C8 /* Sprite_Village_Line6.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001E7226FA1DA009848C8 /* Sprite_Village_Line6.wav */; };
+		F4A0033C226FA1DB009848C8 /* Sprite_Village_Line2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001E8226FA1DA009848C8 /* Sprite_Village_Line2.wav */; };
+		F4A0033D226FA1DB009848C8 /* Sprite_Village_Line3.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001E9226FA1DA009848C8 /* Sprite_Village_Line3.wav */; };
+		F4A0033E226FA1DB009848C8 /* Sprite_Village_Line1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001EA226FA1DA009848C8 /* Sprite_Village_Line1.wav */; };
+		F4A0033F226FA1DB009848C8 /* Sprite_Village_Line3.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001EB226FA1DA009848C8 /* Sprite_Village_Line3.wav.meta */; };
+		F4A00340226FA1DB009848C8 /* Sprite_Village_Line2.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001EC226FA1DA009848C8 /* Sprite_Village_Line2.wav.meta */; };
+		F4A00341226FA1DB009848C8 /* Chieftain_Line7.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001EF226FA1DA009848C8 /* Chieftain_Line7.wav.meta */; };
+		F4A00342226FA1DB009848C8 /* Chieftain_Line6.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001F0226FA1DA009848C8 /* Chieftain_Line6.wav.meta */; };
+		F4A00343226FA1DB009848C8 /* Chieftain_Line8.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001F1226FA1DA009848C8 /* Chieftain_Line8.wav */; };
+		F4A00344226FA1DB009848C8 /* Chieftain_Line1.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001F2226FA1DA009848C8 /* Chieftain_Line1.wav.meta */; };
+		F4A00345226FA1DB009848C8 /* Chieftain_Line3.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001F3226FA1DA009848C8 /* Chieftain_Line3.wav */; };
+		F4A00346226FA1DB009848C8 /* Chieftain_Line2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001F4226FA1DA009848C8 /* Chieftain_Line2.wav */; };
+		F4A00347226FA1DB009848C8 /* Chieftain_Line1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001F5226FA1DA009848C8 /* Chieftain_Line1.wav */; };
+		F4A00348226FA1DB009848C8 /* Chieftain_Line5.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001F6226FA1DA009848C8 /* Chieftain_Line5.wav */; };
+		F4A00349226FA1DB009848C8 /* Chieftain_Line4.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001F7226FA1DA009848C8 /* Chieftain_Line4.wav.meta */; };
+		F4A0034A226FA1DB009848C8 /* Chieftain_Line5.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001F8226FA1DA009848C8 /* Chieftain_Line5.wav.meta */; };
+		F4A0034B226FA1DB009848C8 /* Chieftain_Line4.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001F9226FA1DA009848C8 /* Chieftain_Line4.wav */; };
+		F4A0034C226FA1DB009848C8 /* Chieftain_Line6.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001FA226FA1DA009848C8 /* Chieftain_Line6.wav */; };
+		F4A0034D226FA1DB009848C8 /* Chieftain_Line7.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A001FB226FA1DA009848C8 /* Chieftain_Line7.wav */; };
+		F4A0034E226FA1DB009848C8 /* Chieftain_Line3.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001FC226FA1DA009848C8 /* Chieftain_Line3.wav.meta */; };
+		F4A0034F226FA1DB009848C8 /* Chieftain_Line2.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001FD226FA1DA009848C8 /* Chieftain_Line2.wav.meta */; };
+		F4A00350226FA1DB009848C8 /* Chieftain_Line8.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001FE226FA1DA009848C8 /* Chieftain_Line8.wav.meta */; };
+		F4A00351226FA1DB009848C8 /* GameScene.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A001FF226FA1DA009848C8 /* GameScene.meta */; };
+		F4A00352226FA1DB009848C8 /* Dunga3Times.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00201226FA1DA009848C8 /* Dunga3Times.wav.meta */; };
+		F4A00353226FA1DB009848C8 /* DungaExhausted-3.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00202226FA1DA009848C8 /* DungaExhausted-3.wav.meta */; };
+		F4A00354226FA1DB009848C8 /* Dunga3TimesDefensive.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00203226FA1DA009848C8 /* Dunga3TimesDefensive.wav.meta */; };
+		F4A00355226FA1DB009848C8 /* DungaExhausted-2.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00204226FA1DA009848C8 /* DungaExhausted-2.wav.meta */; };
+		F4A00356226FA1DB009848C8 /* Dunga - Dun.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00205226FA1DA009848C8 /* Dunga - Dun.wav.meta */; };
+		F4A00357226FA1DB009848C8 /* Dunga3TimesMatterOfFact.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00206226FA1DA009848C8 /* Dunga3TimesMatterOfFact.wav.meta */; };
+		F4A00358226FA1DB009848C8 /* DungaYes.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00207226FA1DA009848C8 /* DungaYes.wav */; };
+		F4A00359226FA1DB009848C8 /* DungaPant.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00208226FA1DA009848C8 /* DungaPant.wav */; };
+		F4A0035A226FA1DB009848C8 /* DungaSingingShort.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00209226FA1DA009848C8 /* DungaSingingShort.wav */; };
+		F4A0035B226FA1DB009848C8 /* DungaExhausted-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0020A226FA1DA009848C8 /* DungaExhausted-2.wav */; };
+		F4A0035C226FA1DB009848C8 /* DungaExhausted-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0020B226FA1DA009848C8 /* DungaExhausted-3.wav */; };
+		F4A0035D226FA1DB009848C8 /* ShortDunga2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0020C226FA1DA009848C8 /* ShortDunga2.wav */; };
+		F4A0035E226FA1DB009848C8 /* DungaShortConfident.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0020D226FA1DA009848C8 /* DungaShortConfident.wav.meta */; };
+		F4A0035F226FA1DB009848C8 /* DungaHeyy.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0020E226FA1DA009848C8 /* DungaHeyy.wav */; };
+		F4A00360226FA1DB009848C8 /* Dunga1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0020F226FA1DA009848C8 /* Dunga1.wav */; };
+		F4A00361226FA1DB009848C8 /* DungaSinole.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00210226FA1DA009848C8 /* DungaSinole.wav.meta */; };
+		F4A00362226FA1DB009848C8 /* DungaShortUpbeat.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00211226FA1DA009848C8 /* DungaShortUpbeat.wav.meta */; };
+		F4A00363226FA1DB009848C8 /* GeneralSounds.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00212226FA1DA009848C8 /* GeneralSounds.meta */; };
+		F4A00364226FA1DB009848C8 /* DungaHeyy2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00213226FA1DA009848C8 /* DungaHeyy2.wav */; };
+		F4A00365226FA1DB009848C8 /* DungaWhiney.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00214226FA1DA009848C8 /* DungaWhiney.wav */; };
+		F4A00366226FA1DB009848C8 /* DungaQuestion.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00215226FA1DA009848C8 /* DungaQuestion.wav.meta */; };
+		F4A00367226FA1DB009848C8 /* DungaShortConfident.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00216226FA1DA009848C8 /* DungaShortConfident.wav */; };
+		F4A00368226FA1DB009848C8 /* DungaSingingLong.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00217226FA1DA009848C8 /* DungaSingingLong.wav.meta */; };
+		F4A00369226FA1DB009848C8 /* DungaExhausted-Full.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00218226FA1DA009848C8 /* DungaExhausted-Full.wav.meta */; };
+		F4A0036A226FA1DB009848C8 /* DungaSinole.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00219226FA1DA009848C8 /* DungaSinole.wav */; };
+		F4A0036B226FA1DB009848C8 /* Dunga2TimesAffirmation.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0021A226FA1DA009848C8 /* Dunga2TimesAffirmation.wav */; };
+		F4A0036C226FA1DB009848C8 /* DungaSatisfied.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0021B226FA1DA009848C8 /* DungaSatisfied.wav */; };
+		F4A0036D226FA1DB009848C8 /* Dunga3TimesDefensive.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0021C226FA1DA009848C8 /* Dunga3TimesDefensive.wav */; };
+		F4A0036E226FA1DB009848C8 /* Dunga2TimesQuestion.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0021D226FA1DA009848C8 /* Dunga2TimesQuestion.wav.meta */; };
+		F4A0036F226FA1DB009848C8 /* Dunga2Times2.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0021E226FA1DA009848C8 /* Dunga2Times2.wav.meta */; };
+		F4A00370226FA1DB009848C8 /* DungaMakingAPoint.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0021F226FA1DA009848C8 /* DungaMakingAPoint.wav.meta */; };
+		F4A00371226FA1DB009848C8 /* DungaShortQuestion.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00220226FA1DA009848C8 /* DungaShortQuestion.wav.meta */; };
+		F4A00372226FA1DB009848C8 /* Dunga2Times.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00221226FA1DA009848C8 /* Dunga2Times.wav */; };
+		F4A00373226FA1DB009848C8 /* Dunga3Times.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00222226FA1DA009848C8 /* Dunga3Times.wav */; };
+		F4A00374226FA1DB009848C8 /* Dunga - Dun.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00223226FA1DA009848C8 /* Dunga - Dun.wav */; };
+		F4A00375226FA1DB009848C8 /* ShortDunga2.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00224226FA1DA009848C8 /* ShortDunga2.wav.meta */; };
+		F4A00376226FA1DB009848C8 /* DungaLongYell.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00225226FA1DA009848C8 /* DungaLongYell.wav.meta */; };
+		F4A00377226FA1DB009848C8 /* DungaHighSpirits.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00226226FA1DA009848C8 /* DungaHighSpirits.wav */; };
+		F4A00378226FA1DB009848C8 /* DungaPant.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00227226FA1DA009848C8 /* DungaPant.wav.meta */; };
+		F4A00379226FA1DB009848C8 /* DungaQuestioning2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00228226FA1DA009848C8 /* DungaQuestioning2.wav */; };
+		F4A0037A226FA1DB009848C8 /* DungaPassive.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00229226FA1DA009848C8 /* DungaPassive.wav */; };
+		F4A0037B226FA1DB009848C8 /* DungaLonger.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0022A226FA1DA009848C8 /* DungaLonger.wav.meta */; };
+		F4A0037C226FA1DB009848C8 /* DungaExplanation.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0022B226FA1DA009848C8 /* DungaExplanation.wav.meta */; };
+		F4A0037D226FA1DB009848C8 /* DungaWhiney.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0022C226FA1DA009848C8 /* DungaWhiney.wav.meta */; };
+		F4A0037E226FA1DB009848C8 /* DungaQuestion.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0022D226FA1DA009848C8 /* DungaQuestion.wav */; };
+		F4A0037F226FA1DB009848C8 /* DungaBurp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0022E226FA1DA009848C8 /* DungaBurp.wav */; };
+		F4A00380226FA1DB009848C8 /* DungaSingalong.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0022F226FA1DA009848C8 /* DungaSingalong.wav.meta */; };
+		F4A00381226FA1DB009848C8 /* DungaHighSpirits.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00230226FA1DA009848C8 /* DungaHighSpirits.wav.meta */; };
+		F4A00382226FA1DB009848C8 /* Dunga1Time.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00231226FA1DA009848C8 /* Dunga1Time.wav */; };
+		F4A00383226FA1DB009848C8 /* DungaQuestioning2.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00232226FA1DA009848C8 /* DungaQuestioning2.wav.meta */; };
+		F4A00384226FA1DB009848C8 /* Dunga3Times2.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00233226FA1DA009848C8 /* Dunga3Times2.wav.meta */; };
+		F4A00385226FA1DB009848C8 /* Dunga2TimesQuestion.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00234226FA1DA009848C8 /* Dunga2TimesQuestion.wav */; };
+		F4A00386226FA1DB009848C8 /* DungaLongIGetIt.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00235226FA1DA009848C8 /* DungaLongIGetIt.wav.meta */; };
+		F4A00387226FA1DB009848C8 /* DungaPassive.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00236226FA1DA009848C8 /* DungaPassive.wav.meta */; };
+		F4A00388226FA1DB009848C8 /* Dunga2TimesGoodbye.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00237226FA1DA009848C8 /* Dunga2TimesGoodbye.wav */; };
+		F4A00389226FA1DB009848C8 /* DungaHeyy2.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00238226FA1DA009848C8 /* DungaHeyy2.wav.meta */; };
+		F4A0038A226FA1DB009848C8 /* DungaSingingShort.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00239226FA1DA009848C8 /* DungaSingingShort.wav.meta */; };
+		F4A0038B226FA1DB009848C8 /* DungaLaughing.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0023A226FA1DA009848C8 /* DungaLaughing.wav */; };
+		F4A0038C226FA1DB009848C8 /* DungaShort2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0023B226FA1DA009848C8 /* DungaShort2.wav */; };
+		F4A0038D226FA1DB009848C8 /* DungaShort3.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0023C226FA1DA009848C8 /* DungaShort3.wav */; };
+		F4A0038E226FA1DB009848C8 /* DungaShort.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0023D226FA1DA009848C8 /* DungaShort.wav.meta */; };
+		F4A0038F226FA1DB009848C8 /* ShortDunga.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0023E226FA1DA009848C8 /* ShortDunga.wav.meta */; };
+		F4A00390226FA1DB009848C8 /* DungaMakingAPoint.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0023F226FA1DA009848C8 /* DungaMakingAPoint.wav */; };
+		F4A00391226FA1DB009848C8 /* Dunga2TimesMatterOfFact.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00240226FA1DA009848C8 /* Dunga2TimesMatterOfFact.wav */; };
+		F4A00392226FA1DB009848C8 /* DungaExplanation.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00241226FA1DA009848C8 /* DungaExplanation.wav */; };
+		F4A00393226FA1DB009848C8 /* DungaSatisfied.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00242226FA1DA009848C8 /* DungaSatisfied.wav.meta */; };
+		F4A00394226FA1DB009848C8 /* Dunga1Time.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00243226FA1DA009848C8 /* Dunga1Time.wav.meta */; };
+		F4A00395226FA1DB009848C8 /* DungaQuestioning.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00244226FA1DA009848C8 /* DungaQuestioning.wav.meta */; };
+		F4A00396226FA1DB009848C8 /* DungaSingalongLong.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00245226FA1DA009848C8 /* DungaSingalongLong.wav.meta */; };
+		F4A00397226FA1DB009848C8 /* DungaShortUnsure.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00246226FA1DA009848C8 /* DungaShortUnsure.wav */; };
+		F4A00398226FA1DB009848C8 /* DungaLongYell.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00247226FA1DA009848C8 /* DungaLongYell.wav */; };
+		F4A00399226FA1DB009848C8 /* Dunga3Times2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00248226FA1DA009848C8 /* Dunga3Times2.wav */; };
+		F4A0039A226FA1DB009848C8 /* DungaSingalongLong.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00249226FA1DA009848C8 /* DungaSingalongLong.wav */; };
+		F4A0039B226FA1DB009848C8 /* DungaSurprised.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0024A226FA1DA009848C8 /* DungaSurprised.wav.meta */; };
+		F4A0039C226FA1DB009848C8 /* Dunga2TimesGoodbye.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0024B226FA1DA009848C8 /* Dunga2TimesGoodbye.wav.meta */; };
+		F4A0039D226FA1DB009848C8 /* DungaQuestioning.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0024C226FA1DA009848C8 /* DungaQuestioning.wav */; };
+		F4A0039E226FA1DB009848C8 /* DungaSingalong.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0024D226FA1DA009848C8 /* DungaSingalong.wav */; };
+		F4A0039F226FA1DB009848C8 /* DungaShort.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0024E226FA1DA009848C8 /* DungaShort.wav */; };
+		F4A003A0226FA1DB009848C8 /* DungaHeyy.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0024F226FA1DA009848C8 /* DungaHeyy.wav.meta */; };
+		F4A003A1226FA1DB009848C8 /* DungaShortUpbeat.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00250226FA1DA009848C8 /* DungaShortUpbeat.wav */; };
+		F4A003A2226FA1DB009848C8 /* DungaBurp.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00251226FA1DA009848C8 /* DungaBurp.wav.meta */; };
+		F4A003A3226FA1DB009848C8 /* DungaLongIGetIt.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00252226FA1DA009848C8 /* DungaLongIGetIt.wav */; };
+		F4A003A4226FA1DB009848C8 /* DungaShortUnsure.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00253226FA1DA009848C8 /* DungaShortUnsure.wav.meta */; };
+		F4A003A5226FA1DB009848C8 /* DungaLonger.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00254226FA1DA009848C8 /* DungaLonger.wav */; };
+		F4A003A6226FA1DB009848C8 /* DungaLaughing.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00255226FA1DA009848C8 /* DungaLaughing.wav.meta */; };
+		F4A003A7226FA1DB009848C8 /* DungaSingingLong.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00256226FA1DA009848C8 /* DungaSingingLong.wav */; };
+		F4A003A8226FA1DB009848C8 /* ShortDunga.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00258226FA1DA009848C8 /* ShortDunga.wav */; };
+		F4A003A9226FA1DB009848C8 /* Dunga1.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00259226FA1DA009848C8 /* Dunga1.wav.meta */; };
+		F4A003AA226FA1DB009848C8 /* Dunga1Time2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0025A226FA1DA009848C8 /* Dunga1Time2.wav */; };
+		F4A003AB226FA1DB009848C8 /* Dunga2TimesAffirmation.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0025B226FA1DA009848C8 /* Dunga2TimesAffirmation.wav.meta */; };
+		F4A003AC226FA1DB009848C8 /* DungaSurprised.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0025C226FA1DA009848C8 /* DungaSurprised.wav */; };
+		F4A003AD226FA1DB009848C8 /* Dunga2Times.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0025D226FA1DA009848C8 /* Dunga2Times.wav.meta */; };
+		F4A003AE226FA1DB009848C8 /* DungaShortQuestion.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0025E226FA1DA009848C8 /* DungaShortQuestion.wav */; };
+		F4A003AF226FA1DB009848C8 /* Dunga2Times2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0025F226FA1DA009848C8 /* Dunga2Times2.wav */; };
+		F4A003B0226FA1DB009848C8 /* DungaYes.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00260226FA1DA009848C8 /* DungaYes.wav.meta */; };
+		F4A003B1226FA1DB009848C8 /* DungaExhausted-Full.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00261226FA1DA009848C8 /* DungaExhausted-Full.wav */; };
+		F4A003B2226FA1DB009848C8 /* DungaShort3.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00262226FA1DA009848C8 /* DungaShort3.wav.meta */; };
+		F4A003B3226FA1DB009848C8 /* DungaShort2.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00263226FA1DA009848C8 /* DungaShort2.wav.meta */; };
+		F4A003B4226FA1DB009848C8 /* Dunga3TimesMatterOfFact.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00264226FA1DA009848C8 /* Dunga3TimesMatterOfFact.wav */; };
+		F4A003B5226FA1DB009848C8 /* Dunga1Time2.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00265226FA1DA009848C8 /* Dunga1Time2.wav.meta */; };
+		F4A003B6226FA1DB009848C8 /* Dunga2TimesMatterOfFact.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00266226FA1DA009848C8 /* Dunga2TimesMatterOfFact.wav.meta */; };
+		F4A003B7226FA1DB009848C8 /* RaiderStage4Take1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00269226FA1DA009848C8 /* RaiderStage4Take1.wav */; };
+		F4A003B8226FA1DB009848C8 /* Marauder(Stage1)(Take1) ChoppingBlock.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0026A226FA1DA009848C8 /* Marauder(Stage1)(Take1) ChoppingBlock.wav.meta */; };
+		F4A003B9226FA1DB009848C8 /* Marauder(Stage1)(Take2)ChoppingBlock.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0026B226FA1DA009848C8 /* Marauder(Stage1)(Take2)ChoppingBlock.wav.meta */; };
+		F4A003BA226FA1DB009848C8 /* MarauderStage1Take1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0026C226FA1DA009848C8 /* MarauderStage1Take1.wav */; };
+		F4A003BB226FA1DB009848C8 /* Marauder(Stage1)(Take2)ChoppingBlock.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0026D226FA1DA009848C8 /* Marauder(Stage1)(Take2)ChoppingBlock.wav */; };
+		F4A003BC226FA1DB009848C8 /* Marauder(Stage1)(Take1)Impossible.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0026E226FA1DA009848C8 /* Marauder(Stage1)(Take1)Impossible.wav.meta */; };
+		F4A003BD226FA1DB009848C8 /* Marauder(Stage1)(Take2)What.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0026F226FA1DA009848C8 /* Marauder(Stage1)(Take2)What.wav */; };
+		F4A003BE226FA1DB009848C8 /* Raider(Scene4)(Stage4)(Take2)FirstLesson.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00270226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)FirstLesson.wav */; };
+		F4A003BF226FA1DB009848C8 /* Marauder(Stage1)(Take2)Impossible.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00271226FA1DA009848C8 /* Marauder(Stage1)(Take2)Impossible.wav.meta */; };
+		F4A003C0226FA1DB009848C8 /* Marauder(Stage1)(Take1)What.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00272226FA1DA009848C8 /* Marauder(Stage1)(Take1)What.wav.meta */; };
+		F4A003C1226FA1DB009848C8 /* Marauder(Stage1)(Take2)What.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00273226FA1DA009848C8 /* Marauder(Stage1)(Take2)What.wav.meta */; };
+		F4A003C2226FA1DB009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00274226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav */; };
+		F4A003C3226FA1DB009848C8 /* MarauderStage1Take1.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00275226FA1DA009848C8 /* MarauderStage1Take1.wav.meta */; };
+		F4A003C4226FA1DB009848C8 /* Raider(Scene4)(Stage4)(Take2)FirstLesson.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00276226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)FirstLesson.wav.meta */; };
+		F4A003C5226FA1DB009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00277226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav.meta */; };
+		F4A003C6226FA1DB009848C8 /* MarauderStage1.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00278226FA1DA009848C8 /* MarauderStage1.wav.meta */; };
+		F4A003C7226FA1DB009848C8 /* Marauder(Stage1)(Take2)HowAreYou.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00279226FA1DA009848C8 /* Marauder(Stage1)(Take2)HowAreYou.wav */; };
+		F4A003C8226FA1DB009848C8 /* Marauder(Stage1)(Take2)HowAreYou.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0027A226FA1DA009848C8 /* Marauder(Stage1)(Take2)HowAreYou.wav.meta */; };
+		F4A003C9226FA1DB009848C8 /* Marauder(Stage1)(Take1)Impossible.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0027B226FA1DA009848C8 /* Marauder(Stage1)(Take1)Impossible.wav */; };
+		F4A003CA226FA1DB009848C8 /* Marauder(Stage1)(Take1)HowAreYou.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0027C226FA1DA009848C8 /* Marauder(Stage1)(Take1)HowAreYou.wav.meta */; };
+		F4A003CB226FA1DB009848C8 /* Marauder(Stage1)(Take1)HowAreYou.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A0027D226FA1DA009848C8 /* Marauder(Stage1)(Take1)HowAreYou.wav */; };
+		F4A003CC226FA1DB009848C8 /* RaiderStage4Take1.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0027E226FA1DA009848C8 /* RaiderStage4Take1.wav.meta */; };
+		F4A003CD226FA1DB009848C8 /* MarauderStage3.wav.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0027F226FA1DA009848C8 /* MarauderStage3.wav.meta */; };
+		F4A003CE226FA1DB009848C8 /* Marauder(Stage1)(Take2)Impossible.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00280226FA1DA009848C8 /* Marauder(Stage1)(Take2)Impossible.wav */; };
+		F4A003CF226FA1DB009848C8 /* MarauderStage1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00281226FA1DA009848C8 /* MarauderStage1.wav */; };
+		F4A003D0226FA1DB009848C8 /* MarauderStage3.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00282226FA1DA009848C8 /* MarauderStage3.wav */; };
+		F4A003D1226FA1DB009848C8 /* Marauder(Stage1)(Take1) ChoppingBlock.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00283226FA1DA009848C8 /* Marauder(Stage1)(Take1) ChoppingBlock.wav */; };
+		F4A003D2226FA1DB009848C8 /* Marauder(Stage1)(Take1)What.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A00284226FA1DA009848C8 /* Marauder(Stage1)(Take1)What.wav */; };
+		F4A003D3226FA1DB009848C8 /* GameScene.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A00285226FA1DA009848C8 /* GameScene.meta */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +386,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EB077CA1226F84DF0018A525 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		EB42C9842242E03C00E74BE5 /* Button1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Button1.jpg; sourceTree = SOURCE_ROOT; };
 		EB5F282A225E92CA00ABE348 /* Blooper 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 8.wav"; sourceTree = "<group>"; };
 		F40A4E6E2214B7D8006D9526 /* DungaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +417,342 @@
 		F456A74E2214BF0A003FED56 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		F456A74F2214C1FE003FED56 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		F456A7532214C9C5003FED56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4A00117226F9E26009848C8 /* DungaAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungaAudio.swift; sourceTree = "<group>"; };
+		F4A00119226F9FA3009848C8 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		F4A0012A226FA1DA009848C8 /* OpeningScene.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpeningScene.meta; sourceTree = "<group>"; };
+		F4A0012B226FA1DA009848C8 /* Bak(Scene6)(Take2)SUDDENREALIZATION.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)SUDDENREALIZATION.wav"; sourceTree = "<group>"; };
+		F4A0012C226FA1DA009848C8 /* Bak(Scene5)(Take4)WhosThisGuy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take4)WhosThisGuy.wav"; sourceTree = "<group>"; };
+		F4A0012D226FA1DA009848C8 /* Bak(Scene6)(Take1)Wink.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)Wink.wav.meta"; sourceTree = "<group>"; };
+		F4A0012E226FA1DA009848C8 /* Bak(Scene5)(Take4)WhosThisGuy.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take4)WhosThisGuy.wav.meta"; sourceTree = "<group>"; };
+		F4A00130226FA1DA009848C8 /* OddlyConvenient.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = OddlyConvenient.wav; sourceTree = "<group>"; };
+		F4A00131226FA1DA009848C8 /* EveryFarm.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EveryFarm.wav.meta; sourceTree = "<group>"; };
+		F4A00132226FA1DA009848C8 /* IWouldCome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IWouldCome.wav; sourceTree = "<group>"; };
+		F4A00133226FA1DA009848C8 /* EverythingTheyTook.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EverythingTheyTook.wav; sourceTree = "<group>"; };
+		F4A00134226FA1DA009848C8 /* AidTheWounded.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AidTheWounded.wav; sourceTree = "<group>"; };
+		F4A00135226FA1DA009848C8 /* ItsTheirShip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ItsTheirShip.wav; sourceTree = "<group>"; };
+		F4A00136226FA1DA009848C8 /* Barkeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Barkeep.wav; sourceTree = "<group>"; };
+		F4A00137226FA1DA009848C8 /* HelHeim.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HelHeim.wav.meta; sourceTree = "<group>"; };
+		F4A00138226FA1DA009848C8 /* RaiderChasing.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RaiderChasing.wav.meta; sourceTree = "<group>"; };
+		F4A00139226FA1DA009848C8 /* EverythingTheyTook.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EverythingTheyTook.wav.meta; sourceTree = "<group>"; };
+		F4A0013A226FA1DA009848C8 /* AllGone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AllGone.wav; sourceTree = "<group>"; };
+		F4A0013B226FA1DA009848C8 /* ItsTheirShip.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ItsTheirShip.wav.meta; sourceTree = "<group>"; };
+		F4A0013C226FA1DA009848C8 /* Reclaim.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Reclaim.wav.meta; sourceTree = "<group>"; };
+		F4A0013D226FA1DA009848C8 /* OddlyConvenient.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OddlyConvenient.wav.meta; sourceTree = "<group>"; };
+		F4A0013E226FA1DA009848C8 /* AidTheWounded.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AidTheWounded.wav.meta; sourceTree = "<group>"; };
+		F4A0013F226FA1DA009848C8 /* HelHeim.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HelHeim.wav; sourceTree = "<group>"; };
+		F4A00140226FA1DA009848C8 /* AllGone.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AllGone.wav.meta; sourceTree = "<group>"; };
+		F4A00141226FA1DA009848C8 /* RaiderChasing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RaiderChasing.wav; sourceTree = "<group>"; };
+		F4A00142226FA1DA009848C8 /* ForestGround.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ForestGround.wav; sourceTree = "<group>"; };
+		F4A00143226FA1DA009848C8 /* Barkeep.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Barkeep.wav.meta; sourceTree = "<group>"; };
+		F4A00144226FA1DA009848C8 /* EveryFarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EveryFarm.wav; sourceTree = "<group>"; };
+		F4A00145226FA1DA009848C8 /* Reclaim.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Reclaim.wav; sourceTree = "<group>"; };
+		F4A00146226FA1DA009848C8 /* IWouldCome.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IWouldCome.wav.meta; sourceTree = "<group>"; };
+		F4A00147226FA1DA009848C8 /* ForestGround.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ForestGround.wav.meta; sourceTree = "<group>"; };
+		F4A00148226FA1DA009848C8 /* Bak(Scene6)(Take2)ArentReal.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)ArentReal.wav.meta"; sourceTree = "<group>"; };
+		F4A00149226FA1DA009848C8 /* Bak(Scene5)(Take1)WhosThisGuy.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take1)WhosThisGuy.wav.meta"; sourceTree = "<group>"; };
+		F4A0014A226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1).GroupParticipation.wav"; sourceTree = "<group>"; };
+		F4A0014B226FA1DA009848C8 /* Bak(Scene6)(Take1)NOTFAIR.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)NOTFAIR.wav"; sourceTree = "<group>"; };
+		F4A0014C226FA1DA009848C8 /* Bak(Scene5)(Take1)MissingSomething.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take1)MissingSomething.wav"; sourceTree = "<group>"; };
+		F4A0014D226FA1DA009848C8 /* Bak(Scene6)(Take2)Wink.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)Wink.wav.meta"; sourceTree = "<group>"; };
+		F4A0014E226FA1DA009848C8 /* Bak(Scene6)(Take2)WhatsADeveloper.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)WhatsADeveloper.wav.meta"; sourceTree = "<group>"; };
+		F4A0014F226FA1DA009848C8 /* Bak(Scene6)(Take1)YES.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)YES.wav.meta"; sourceTree = "<group>"; };
+		F4A00150226FA1DA009848C8 /* Bak(Scene6)(Take1)ArentReal.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)ArentReal.wav.meta"; sourceTree = "<group>"; };
+		F4A00151226FA1DA009848C8 /* Bak(Scene5)(Take4)MissingSomething.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take4)MissingSomething.wav"; sourceTree = "<group>"; };
+		F4A00152226FA1DA009848C8 /* Bak(Scene5)(Take1)ItWasYou.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take1)ItWasYou.wav.meta"; sourceTree = "<group>"; };
+		F4A00153226FA1DA009848C8 /* Bak(Scene5)(Take3)WhosThisGuy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take3)WhosThisGuy.wav"; sourceTree = "<group>"; };
+		F4A00154226FA1DA009848C8 /* Bak(Scene6)(Take2)YES.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)YES.wav"; sourceTree = "<group>"; };
+		F4A00155226FA1DA009848C8 /* Bak(Scene5)(Take4)ItWasYou.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take4)ItWasYou.wav.meta"; sourceTree = "<group>"; };
+		F4A00156226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav.meta"; sourceTree = "<group>"; };
+		F4A00157226FA1DA009848C8 /* Bak(Scene6)(Take2)SUDDENREALIZATION.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)SUDDENREALIZATION.wav.meta"; sourceTree = "<group>"; };
+		F4A00159226FA1DA009848C8 /* Bak(Scene1)(Take2)Look.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene1)(Take2)Look.wav"; sourceTree = "<group>"; };
+		F4A0015A226FA1DA009848C8 /* Bak(Scene1)(Take1)Village.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene1)(Take1)Village.wav.meta"; sourceTree = "<group>"; };
+		F4A0015B226FA1DA009848C8 /* Bak(Scene1)(Take1)Village.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene1)(Take1)Village.wav"; sourceTree = "<group>"; };
+		F4A0015C226FA1DA009848C8 /* Bak(Scene1)(Take2)Look.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene1)(Take2)Look.wav.meta"; sourceTree = "<group>"; };
+		F4A0015D226FA1DA009848C8 /* Bak(Scene1)(Take1)Look.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene1)(Take1)Look.wav.meta"; sourceTree = "<group>"; };
+		F4A0015E226FA1DA009848C8 /* Bak(Scene1)(Take2)Village.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene1)(Take2)Village.wav.meta"; sourceTree = "<group>"; };
+		F4A0015F226FA1DA009848C8 /* Bak(Scene1)(Take2)Village.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene1)(Take2)Village.wav"; sourceTree = "<group>"; };
+		F4A00160226FA1DA009848C8 /* Bak(Scene1)(Take1)Look.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene1)(Take1)Look.wav"; sourceTree = "<group>"; };
+		F4A00161226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav"; sourceTree = "<group>"; };
+		F4A00162226FA1DA009848C8 /* Bak(Scene5)(Take2)MissingSomething.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take2)MissingSomething.wav.meta"; sourceTree = "<group>"; };
+		F4A00163226FA1DA009848C8 /* Bak(Scene5)(Take2)ItWasYou.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take2)ItWasYou.wav.meta"; sourceTree = "<group>"; };
+		F4A00164226FA1DA009848C8 /* Bak(Scene6)(Take1)SupposedtoMean.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)SupposedtoMean.wav"; sourceTree = "<group>"; };
+		F4A00165226FA1DA009848C8 /* Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav.meta"; sourceTree = "<group>"; };
+		F4A00166226FA1DA009848C8 /* Bak(Scene6)(Take1)RealLife.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)RealLife.wav"; sourceTree = "<group>"; };
+		F4A00167226FA1DA009848C8 /* Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav"; sourceTree = "<group>"; };
+		F4A00168226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1).GroupParticipation.wav.meta"; sourceTree = "<group>"; };
+		F4A00169226FA1DA009848C8 /* Bak(Scene5)(Take2)WhosThisGuy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take2)WhosThisGuy.wav"; sourceTree = "<group>"; };
+		F4A0016A226FA1DA009848C8 /* Bak(Scene6)(Take1)BEARD.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)BEARD.wav"; sourceTree = "<group>"; };
+		F4A0016B226FA1DA009848C8 /* Bak(Scene6)(Take2)NOTFAIR.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)NOTFAIR.wav"; sourceTree = "<group>"; };
+		F4A0016C226FA1DA009848C8 /* Bak(Scene5)(Take1)ItWasYou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take1)ItWasYou.wav"; sourceTree = "<group>"; };
+		F4A0016D226FA1DA009848C8 /* Bak(Scene6)(Take1)Parents.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)Parents.wav.meta"; sourceTree = "<group>"; };
+		F4A0016E226FA1DA009848C8 /* Bak(Scene6)(Take1)YES.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)YES.wav"; sourceTree = "<group>"; };
+		F4A0016F226FA1DA009848C8 /* Bak(Scene6)(Take2).GroupParticipation.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2).GroupParticipation.wav.meta"; sourceTree = "<group>"; };
+		F4A00170226FA1DA009848C8 /* Bak(Scene5)(Take3)ItWasYou.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take3)ItWasYou.wav.meta"; sourceTree = "<group>"; };
+		F4A00171226FA1DA009848C8 /* Bak(Scene6)(Take1)NOTFAIR.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)NOTFAIR.wav.meta"; sourceTree = "<group>"; };
+		F4A00172226FA1DA009848C8 /* Bak(Scene6)(Take2).GroupParticipation.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2).GroupParticipation.wav"; sourceTree = "<group>"; };
+		F4A00173226FA1DA009848C8 /* Bak(Scene6)(Take2)SupposedtoMean.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)SupposedtoMean.wav"; sourceTree = "<group>"; };
+		F4A00174226FA1DA009848C8 /* Bak(Scene6)(Take1)Wink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)Wink.wav"; sourceTree = "<group>"; };
+		F4A00175226FA1DA009848C8 /* Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav"; sourceTree = "<group>"; };
+		F4A00176226FA1DA009848C8 /* Bak(Scene6)(Take2)Audience.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)Audience.wav"; sourceTree = "<group>"; };
+		F4A00177226FA1DA009848C8 /* Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav"; sourceTree = "<group>"; };
+		F4A00178226FA1DA009848C8 /* Bak(Scene6)(Take2)RealLife.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)RealLife.wav"; sourceTree = "<group>"; };
+		F4A00179226FA1DA009848C8 /* Bak(Scene5)(Take3)MissingSomething.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take3)MissingSomething.wav"; sourceTree = "<group>"; };
+		F4A0017A226FA1DA009848C8 /* Bak(Scene6)(Take1)WhatsADeveloper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)WhatsADeveloper.wav"; sourceTree = "<group>"; };
+		F4A0017B226FA1DA009848C8 /* Bak(Scene6)(Take2)Audience.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)Audience.wav.meta"; sourceTree = "<group>"; };
+		F4A0017C226FA1DA009848C8 /* Bak(Scene5)(Take4)MissingSomething.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take4)MissingSomething.wav.meta"; sourceTree = "<group>"; };
+		F4A0017D226FA1DA009848C8 /* Bak(Scene5)(Take1)GuardianAngel.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take1)GuardianAngel.wav.meta"; sourceTree = "<group>"; };
+		F4A0017E226FA1DA009848C8 /* Bak(Scene6)(Take2)WhatsADeveloper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)WhatsADeveloper.wav"; sourceTree = "<group>"; };
+		F4A0017F226FA1DA009848C8 /* Bak(Scene5)(Take1)IHadToBeThere.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take1)IHadToBeThere.wav.meta"; sourceTree = "<group>"; };
+		F4A00180226FA1DA009848C8 /* Bak(Scene6)(Take2)Parents.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)Parents.wav"; sourceTree = "<group>"; };
+		F4A00181226FA1DA009848C8 /* Bak(Scene5)(Take2)ItWasYou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take2)ItWasYou.wav"; sourceTree = "<group>"; };
+		F4A00182226FA1DA009848C8 /* Bak(Scene6)(Take1)SUDDENREALIZATION.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)SUDDENREALIZATION.wav.meta"; sourceTree = "<group>"; };
+		F4A00183226FA1DA009848C8 /* Bak(Scene6)(Take1)WhatsADeveloper.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)WhatsADeveloper.wav.meta"; sourceTree = "<group>"; };
+		F4A00184226FA1DA009848C8 /* Bak(Scene6)(Take2)SupposedtoMean.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)SupposedtoMean.wav.meta"; sourceTree = "<group>"; };
+		F4A00185226FA1DA009848C8 /* Bak(Scene6)(Take2)BEARD.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)BEARD.wav"; sourceTree = "<group>"; };
+		F4A00186226FA1DA009848C8 /* Bak(Scene6)(Take1)RealLife.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)RealLife.wav.meta"; sourceTree = "<group>"; };
+		F4A00187226FA1DA009848C8 /* OpeningCinematic.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpeningCinematic.meta; sourceTree = "<group>"; };
+		F4A00188226FA1DA009848C8 /* Bak(Scene5)(Take4)GuardianAngel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take4)GuardianAngel.wav"; sourceTree = "<group>"; };
+		F4A00189226FA1DA009848C8 /* Bak(Scene6)(Take1)BEARD.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)BEARD.wav.meta"; sourceTree = "<group>"; };
+		F4A0018A226FA1DA009848C8 /* Bak(Scene5)(Take2)IHadToBeThere.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take2)IHadToBeThere.wav.meta"; sourceTree = "<group>"; };
+		F4A0018B226FA1DA009848C8 /* Bak(Scene5)(Take4)IHadToBeThere.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take4)IHadToBeThere.wav"; sourceTree = "<group>"; };
+		F4A0018C226FA1DA009848C8 /* Bak(Scene5)(Take3)MissingSomething.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take3)MissingSomething.wav.meta"; sourceTree = "<group>"; };
+		F4A0018D226FA1DA009848C8 /* Bak(Scene5)(Take1)GuardianAngel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take1)GuardianAngel.wav"; sourceTree = "<group>"; };
+		F4A0018E226FA1DA009848C8 /* Bak(Scene6)(Take1)Audience.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)Audience.wav"; sourceTree = "<group>"; };
+		F4A0018F226FA1DA009848C8 /* Bak(Scene5)(Take3)WhosThisGuy.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take3)WhosThisGuy.wav.meta"; sourceTree = "<group>"; };
+		F4A00190226FA1DA009848C8 /* Bak(Scene6)(Take2)Parents.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)Parents.wav.meta"; sourceTree = "<group>"; };
+		F4A00191226FA1DA009848C8 /* Bak(Scene6)(Take1)SUDDENREALIZATION.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)SUDDENREALIZATION.wav"; sourceTree = "<group>"; };
+		F4A00192226FA1DA009848C8 /* Bak(Scene5)(Take2)GuardianAngel.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take2)GuardianAngel.wav.meta"; sourceTree = "<group>"; };
+		F4A00193226FA1DA009848C8 /* Bak(Scene5)(Take3)ItWasYou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take3)ItWasYou.wav"; sourceTree = "<group>"; };
+		F4A00194226FA1DA009848C8 /* Bak(Scene6)(Take2)NOTFAIR.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)NOTFAIR.wav.meta"; sourceTree = "<group>"; };
+		F4A00195226FA1DA009848C8 /* Bak(Scene5)(Take1)IHadToBeThere.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take1)IHadToBeThere.wav"; sourceTree = "<group>"; };
+		F4A00196226FA1DA009848C8 /* Bak(Scene5)(Take4)ItWasYou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take4)ItWasYou.wav"; sourceTree = "<group>"; };
+		F4A00197226FA1DA009848C8 /* Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav.meta"; sourceTree = "<group>"; };
+		F4A00198226FA1DA009848C8 /* Bak(Scene6)(Take2)Wink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)Wink.wav"; sourceTree = "<group>"; };
+		F4A00199226FA1DA009848C8 /* Bak(Scene5)(Take3)GuardianAngel.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take3)GuardianAngel.wav.meta"; sourceTree = "<group>"; };
+		F4A0019A226FA1DA009848C8 /* Bak(Scene5)(Take4)IHadToBeThere.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take4)IHadToBeThere.wav.meta"; sourceTree = "<group>"; };
+		F4A0019B226FA1DA009848C8 /* Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav.meta"; sourceTree = "<group>"; };
+		F4A0019C226FA1DA009848C8 /* Bak(Scene5)(Take2)GuardianAngel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take2)GuardianAngel.wav"; sourceTree = "<group>"; };
+		F4A0019D226FA1DA009848C8 /* Bak(Scene5)(Take4)GuardianAngel.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take4)GuardianAngel.wav.meta"; sourceTree = "<group>"; };
+		F4A0019E226FA1DA009848C8 /* Bak(Scene5)(Take2)IHadToBeThere.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take2)IHadToBeThere.wav"; sourceTree = "<group>"; };
+		F4A0019F226FA1DA009848C8 /* Bak(Scene5)(Take2)MissingSomething.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take2)MissingSomething.wav"; sourceTree = "<group>"; };
+		F4A001A0226FA1DA009848C8 /* Bak(Scene5)(Take3)IHadToBeThere.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take3)IHadToBeThere.wav.meta"; sourceTree = "<group>"; };
+		F4A001A1226FA1DA009848C8 /* Bak(Scene6)(Take2)ArentReal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take2)ArentReal.wav"; sourceTree = "<group>"; };
+		F4A001A2226FA1DA009848C8 /* Bak(Scene5)(Take2)WhosThisGuy.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take2)WhosThisGuy.wav.meta"; sourceTree = "<group>"; };
+		F4A001A3226FA1DA009848C8 /* Bak(Scene6)(Take2)YES.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)YES.wav.meta"; sourceTree = "<group>"; };
+		F4A001A4226FA1DA009848C8 /* Bak(Scene6)(Take1)SupposedtoMean.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)SupposedtoMean.wav.meta"; sourceTree = "<group>"; };
+		F4A001A5226FA1DA009848C8 /* Bak(Scene6)(Take2)BEARD.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)BEARD.wav.meta"; sourceTree = "<group>"; };
+		F4A001A6226FA1DA009848C8 /* Bak(Scene6)(Take1)Parents.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)Parents.wav"; sourceTree = "<group>"; };
+		F4A001A7226FA1DA009848C8 /* Bak(Scene6)(Take1)Audience.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take1)Audience.wav.meta"; sourceTree = "<group>"; };
+		F4A001A8226FA1DA009848C8 /* Bak(Scene6)(Take1)ArentReal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene6)(Take1)ArentReal.wav"; sourceTree = "<group>"; };
+		F4A001A9226FA1DA009848C8 /* Bak(Scene5)(Take3)GuardianAngel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take3)GuardianAngel.wav"; sourceTree = "<group>"; };
+		F4A001AA226FA1DA009848C8 /* Bak(Scene5)(Take1)MissingSomething.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene5)(Take1)MissingSomething.wav.meta"; sourceTree = "<group>"; };
+		F4A001AB226FA1DA009848C8 /* Bak(Scene5)(Take3)IHadToBeThere.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take3)IHadToBeThere.wav"; sourceTree = "<group>"; };
+		F4A001AC226FA1DA009848C8 /* Bak(Scene5)(Take1)WhosThisGuy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bak(Scene5)(Take1)WhosThisGuy.wav"; sourceTree = "<group>"; };
+		F4A001AD226FA1DA009848C8 /* Bak(Scene6)(Take2)RealLife.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bak(Scene6)(Take2)RealLife.wav.meta"; sourceTree = "<group>"; };
+		F4A001B0226FA1DA009848C8 /* Archer(Take2).wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Archer(Take2).wav.meta"; sourceTree = "<group>"; };
+		F4A001B1226FA1DA009848C8 /* Archer(Take2).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Archer(Take2).wav"; sourceTree = "<group>"; };
+		F4A001B2226FA1DA009848C8 /* Archer(Take1).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Archer(Take1).wav"; sourceTree = "<group>"; };
+		F4A001B3226FA1DA009848C8 /* Archer(Take1).wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Archer(Take1).wav.meta"; sourceTree = "<group>"; };
+		F4A001B4226FA1DA009848C8 /* GameScene.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameScene.meta; sourceTree = "<group>"; };
+		F4A001B6226FA1DA009848C8 /* Yoohoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Yoohoo.wav; sourceTree = "<group>"; };
+		F4A001B7226FA1DA009848C8 /* Yoohoo.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yoohoo.wav.meta; sourceTree = "<group>"; };
+		F4A001B9226FA1DA009848C8 /* Tutorial.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tutorial.meta; sourceTree = "<group>"; };
+		F4A001BA226FA1DA009848C8 /* Village.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Village.meta; sourceTree = "<group>"; };
+		F4A001BC226FA1DA009848C8 /* YouAreALesserGod.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = YouAreALesserGod.wav; sourceTree = "<group>"; };
+		F4A001BD226FA1DA009848C8 /* VeryGood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = VeryGood.wav; sourceTree = "<group>"; };
+		F4A001BE226FA1DA009848C8 /* InAgesPast.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InAgesPast.wav.meta; sourceTree = "<group>"; };
+		F4A001BF226FA1DA009848C8 /* EvenWithYourLimitedAbility.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EvenWithYourLimitedAbility.wav; sourceTree = "<group>"; };
+		F4A001C0226FA1DA009848C8 /* YouAreNowReady.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YouAreNowReady.wav.meta; sourceTree = "<group>"; };
+		F4A001C1226FA1DA009848C8 /* ClickAndDrag.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ClickAndDrag.wav.meta; sourceTree = "<group>"; };
+		F4A001C2226FA1DA009848C8 /* YouCanAlsoInteract.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YouCanAlsoInteract.wav.meta; sourceTree = "<group>"; };
+		F4A001C3226FA1DA009848C8 /* ThatBuff.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThatBuff.wav.meta; sourceTree = "<group>"; };
+		F4A001C4226FA1DA009848C8 /* ItsHim.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ItsHim.wav.meta; sourceTree = "<group>"; };
+		F4A001C5226FA1DA009848C8 /* HesAnOddOne.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HesAnOddOne.wav; sourceTree = "<group>"; };
+		F4A001C6226FA1DA009848C8 /* HesAnOddOne.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HesAnOddOne.wav.meta; sourceTree = "<group>"; };
+		F4A001C7226FA1DA009848C8 /* InAgesPast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = InAgesPast.wav; sourceTree = "<group>"; };
+		F4A001C8226FA1DA009848C8 /* IllExplain.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IllExplain.wav.meta; sourceTree = "<group>"; };
+		F4A001C9226FA1DA009848C8 /* ClickAndDrag.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ClickAndDrag.wav; sourceTree = "<group>"; };
+		F4A001CA226FA1DA009848C8 /* ItsHim.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ItsHim.wav; sourceTree = "<group>"; };
+		F4A001CB226FA1DA009848C8 /* ImLys.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ImLys.wav; sourceTree = "<group>"; };
+		F4A001CC226FA1DA009848C8 /* VeryGood.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VeryGood.wav.meta; sourceTree = "<group>"; };
+		F4A001CD226FA1DA009848C8 /* ImLys.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImLys.wav.meta; sourceTree = "<group>"; };
+		F4A001CE226FA1DA009848C8 /* IllExplain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IllExplain.wav; sourceTree = "<group>"; };
+		F4A001CF226FA1DA009848C8 /* YouAreALesserGod.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YouAreALesserGod.wav.meta; sourceTree = "<group>"; };
+		F4A001D0226FA1DA009848C8 /* Excellent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Excellent.wav; sourceTree = "<group>"; };
+		F4A001D1226FA1DA009848C8 /* SeeThoseStones.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SeeThoseStones.wav.meta; sourceTree = "<group>"; };
+		F4A001D2226FA1DA009848C8 /* ThatArrow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ThatArrow.wav; sourceTree = "<group>"; };
+		F4A001D3226FA1DA009848C8 /* EvenWithYourLimitedAbility.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EvenWithYourLimitedAbility.wav.meta; sourceTree = "<group>"; };
+		F4A001D4226FA1DA009848C8 /* ThatArrow.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThatArrow.wav.meta; sourceTree = "<group>"; };
+		F4A001D5226FA1DA009848C8 /* FullPower.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = FullPower.wav; sourceTree = "<group>"; };
+		F4A001D6226FA1DA009848C8 /* SeeThoseStones.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SeeThoseStones.wav; sourceTree = "<group>"; };
+		F4A001D7226FA1DA009848C8 /* YouAreNowReady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = YouAreNowReady.wav; sourceTree = "<group>"; };
+		F4A001D8226FA1DA009848C8 /* ThatBuff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ThatBuff.wav; sourceTree = "<group>"; };
+		F4A001D9226FA1DA009848C8 /* Excellent.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Excellent.wav.meta; sourceTree = "<group>"; };
+		F4A001DA226FA1DA009848C8 /* YouCanAlsoInteract.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = YouCanAlsoInteract.wav; sourceTree = "<group>"; };
+		F4A001DB226FA1DA009848C8 /* SameWithBuffs.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SameWithBuffs.wav.meta; sourceTree = "<group>"; };
+		F4A001DC226FA1DA009848C8 /* SameWithBuffs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SameWithBuffs.wav; sourceTree = "<group>"; };
+		F4A001DD226FA1DA009848C8 /* FullPower.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FullPower.wav.meta; sourceTree = "<group>"; };
+		F4A001DF226FA1DA009848C8 /* Sprite_Village_Line7.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sprite_Village_Line7.wav.meta; sourceTree = "<group>"; };
+		F4A001E0226FA1DA009848C8 /* Sprite_Village_Line6.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sprite_Village_Line6.wav.meta; sourceTree = "<group>"; };
+		F4A001E1226FA1DA009848C8 /* Sprite_Village_Line1.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sprite_Village_Line1.wav.meta; sourceTree = "<group>"; };
+		F4A001E2226FA1DA009848C8 /* Sprite_Village_Line4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sprite_Village_Line4.wav; sourceTree = "<group>"; };
+		F4A001E3226FA1DA009848C8 /* Sprite_Village_Line5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sprite_Village_Line5.wav; sourceTree = "<group>"; };
+		F4A001E4226FA1DA009848C8 /* Sprite_Village_Line7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sprite_Village_Line7.wav; sourceTree = "<group>"; };
+		F4A001E5226FA1DA009848C8 /* Sprite_Village_Line4.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sprite_Village_Line4.wav.meta; sourceTree = "<group>"; };
+		F4A001E6226FA1DA009848C8 /* Sprite_Village_Line5.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sprite_Village_Line5.wav.meta; sourceTree = "<group>"; };
+		F4A001E7226FA1DA009848C8 /* Sprite_Village_Line6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sprite_Village_Line6.wav; sourceTree = "<group>"; };
+		F4A001E8226FA1DA009848C8 /* Sprite_Village_Line2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sprite_Village_Line2.wav; sourceTree = "<group>"; };
+		F4A001E9226FA1DA009848C8 /* Sprite_Village_Line3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sprite_Village_Line3.wav; sourceTree = "<group>"; };
+		F4A001EA226FA1DA009848C8 /* Sprite_Village_Line1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sprite_Village_Line1.wav; sourceTree = "<group>"; };
+		F4A001EB226FA1DA009848C8 /* Sprite_Village_Line3.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sprite_Village_Line3.wav.meta; sourceTree = "<group>"; };
+		F4A001EC226FA1DA009848C8 /* Sprite_Village_Line2.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sprite_Village_Line2.wav.meta; sourceTree = "<group>"; };
+		F4A001EF226FA1DA009848C8 /* Chieftain_Line7.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chieftain_Line7.wav.meta; sourceTree = "<group>"; };
+		F4A001F0226FA1DA009848C8 /* Chieftain_Line6.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chieftain_Line6.wav.meta; sourceTree = "<group>"; };
+		F4A001F1226FA1DA009848C8 /* Chieftain_Line8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chieftain_Line8.wav; sourceTree = "<group>"; };
+		F4A001F2226FA1DA009848C8 /* Chieftain_Line1.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chieftain_Line1.wav.meta; sourceTree = "<group>"; };
+		F4A001F3226FA1DA009848C8 /* Chieftain_Line3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chieftain_Line3.wav; sourceTree = "<group>"; };
+		F4A001F4226FA1DA009848C8 /* Chieftain_Line2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chieftain_Line2.wav; sourceTree = "<group>"; };
+		F4A001F5226FA1DA009848C8 /* Chieftain_Line1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chieftain_Line1.wav; sourceTree = "<group>"; };
+		F4A001F6226FA1DA009848C8 /* Chieftain_Line5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chieftain_Line5.wav; sourceTree = "<group>"; };
+		F4A001F7226FA1DA009848C8 /* Chieftain_Line4.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chieftain_Line4.wav.meta; sourceTree = "<group>"; };
+		F4A001F8226FA1DA009848C8 /* Chieftain_Line5.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chieftain_Line5.wav.meta; sourceTree = "<group>"; };
+		F4A001F9226FA1DA009848C8 /* Chieftain_Line4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chieftain_Line4.wav; sourceTree = "<group>"; };
+		F4A001FA226FA1DA009848C8 /* Chieftain_Line6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chieftain_Line6.wav; sourceTree = "<group>"; };
+		F4A001FB226FA1DA009848C8 /* Chieftain_Line7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chieftain_Line7.wav; sourceTree = "<group>"; };
+		F4A001FC226FA1DA009848C8 /* Chieftain_Line3.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chieftain_Line3.wav.meta; sourceTree = "<group>"; };
+		F4A001FD226FA1DA009848C8 /* Chieftain_Line2.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chieftain_Line2.wav.meta; sourceTree = "<group>"; };
+		F4A001FE226FA1DA009848C8 /* Chieftain_Line8.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chieftain_Line8.wav.meta; sourceTree = "<group>"; };
+		F4A001FF226FA1DA009848C8 /* GameScene.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameScene.meta; sourceTree = "<group>"; };
+		F4A00201226FA1DA009848C8 /* Dunga3Times.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga3Times.wav.meta; sourceTree = "<group>"; };
+		F4A00202226FA1DA009848C8 /* DungaExhausted-3.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DungaExhausted-3.wav.meta"; sourceTree = "<group>"; };
+		F4A00203226FA1DA009848C8 /* Dunga3TimesDefensive.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga3TimesDefensive.wav.meta; sourceTree = "<group>"; };
+		F4A00204226FA1DA009848C8 /* DungaExhausted-2.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DungaExhausted-2.wav.meta"; sourceTree = "<group>"; };
+		F4A00205226FA1DA009848C8 /* Dunga - Dun.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Dunga - Dun.wav.meta"; sourceTree = "<group>"; };
+		F4A00206226FA1DA009848C8 /* Dunga3TimesMatterOfFact.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga3TimesMatterOfFact.wav.meta; sourceTree = "<group>"; };
+		F4A00207226FA1DA009848C8 /* DungaYes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaYes.wav; sourceTree = "<group>"; };
+		F4A00208226FA1DA009848C8 /* DungaPant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaPant.wav; sourceTree = "<group>"; };
+		F4A00209226FA1DA009848C8 /* DungaSingingShort.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaSingingShort.wav; sourceTree = "<group>"; };
+		F4A0020A226FA1DA009848C8 /* DungaExhausted-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "DungaExhausted-2.wav"; sourceTree = "<group>"; };
+		F4A0020B226FA1DA009848C8 /* DungaExhausted-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "DungaExhausted-3.wav"; sourceTree = "<group>"; };
+		F4A0020C226FA1DA009848C8 /* ShortDunga2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShortDunga2.wav; sourceTree = "<group>"; };
+		F4A0020D226FA1DA009848C8 /* DungaShortConfident.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaShortConfident.wav.meta; sourceTree = "<group>"; };
+		F4A0020E226FA1DA009848C8 /* DungaHeyy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaHeyy.wav; sourceTree = "<group>"; };
+		F4A0020F226FA1DA009848C8 /* Dunga1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga1.wav; sourceTree = "<group>"; };
+		F4A00210226FA1DA009848C8 /* DungaSinole.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaSinole.wav.meta; sourceTree = "<group>"; };
+		F4A00211226FA1DA009848C8 /* DungaShortUpbeat.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaShortUpbeat.wav.meta; sourceTree = "<group>"; };
+		F4A00212226FA1DA009848C8 /* GeneralSounds.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GeneralSounds.meta; sourceTree = "<group>"; };
+		F4A00213226FA1DA009848C8 /* DungaHeyy2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaHeyy2.wav; sourceTree = "<group>"; };
+		F4A00214226FA1DA009848C8 /* DungaWhiney.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaWhiney.wav; sourceTree = "<group>"; };
+		F4A00215226FA1DA009848C8 /* DungaQuestion.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaQuestion.wav.meta; sourceTree = "<group>"; };
+		F4A00216226FA1DA009848C8 /* DungaShortConfident.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaShortConfident.wav; sourceTree = "<group>"; };
+		F4A00217226FA1DA009848C8 /* DungaSingingLong.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaSingingLong.wav.meta; sourceTree = "<group>"; };
+		F4A00218226FA1DA009848C8 /* DungaExhausted-Full.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DungaExhausted-Full.wav.meta"; sourceTree = "<group>"; };
+		F4A00219226FA1DA009848C8 /* DungaSinole.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaSinole.wav; sourceTree = "<group>"; };
+		F4A0021A226FA1DA009848C8 /* Dunga2TimesAffirmation.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga2TimesAffirmation.wav; sourceTree = "<group>"; };
+		F4A0021B226FA1DA009848C8 /* DungaSatisfied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaSatisfied.wav; sourceTree = "<group>"; };
+		F4A0021C226FA1DA009848C8 /* Dunga3TimesDefensive.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga3TimesDefensive.wav; sourceTree = "<group>"; };
+		F4A0021D226FA1DA009848C8 /* Dunga2TimesQuestion.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga2TimesQuestion.wav.meta; sourceTree = "<group>"; };
+		F4A0021E226FA1DA009848C8 /* Dunga2Times2.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga2Times2.wav.meta; sourceTree = "<group>"; };
+		F4A0021F226FA1DA009848C8 /* DungaMakingAPoint.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaMakingAPoint.wav.meta; sourceTree = "<group>"; };
+		F4A00220226FA1DA009848C8 /* DungaShortQuestion.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaShortQuestion.wav.meta; sourceTree = "<group>"; };
+		F4A00221226FA1DA009848C8 /* Dunga2Times.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga2Times.wav; sourceTree = "<group>"; };
+		F4A00222226FA1DA009848C8 /* Dunga3Times.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga3Times.wav; sourceTree = "<group>"; };
+		F4A00223226FA1DA009848C8 /* Dunga - Dun.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dunga - Dun.wav"; sourceTree = "<group>"; };
+		F4A00224226FA1DA009848C8 /* ShortDunga2.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ShortDunga2.wav.meta; sourceTree = "<group>"; };
+		F4A00225226FA1DA009848C8 /* DungaLongYell.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaLongYell.wav.meta; sourceTree = "<group>"; };
+		F4A00226226FA1DA009848C8 /* DungaHighSpirits.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaHighSpirits.wav; sourceTree = "<group>"; };
+		F4A00227226FA1DA009848C8 /* DungaPant.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaPant.wav.meta; sourceTree = "<group>"; };
+		F4A00228226FA1DA009848C8 /* DungaQuestioning2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaQuestioning2.wav; sourceTree = "<group>"; };
+		F4A00229226FA1DA009848C8 /* DungaPassive.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaPassive.wav; sourceTree = "<group>"; };
+		F4A0022A226FA1DA009848C8 /* DungaLonger.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaLonger.wav.meta; sourceTree = "<group>"; };
+		F4A0022B226FA1DA009848C8 /* DungaExplanation.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaExplanation.wav.meta; sourceTree = "<group>"; };
+		F4A0022C226FA1DA009848C8 /* DungaWhiney.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaWhiney.wav.meta; sourceTree = "<group>"; };
+		F4A0022D226FA1DA009848C8 /* DungaQuestion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaQuestion.wav; sourceTree = "<group>"; };
+		F4A0022E226FA1DA009848C8 /* DungaBurp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaBurp.wav; sourceTree = "<group>"; };
+		F4A0022F226FA1DA009848C8 /* DungaSingalong.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaSingalong.wav.meta; sourceTree = "<group>"; };
+		F4A00230226FA1DA009848C8 /* DungaHighSpirits.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaHighSpirits.wav.meta; sourceTree = "<group>"; };
+		F4A00231226FA1DA009848C8 /* Dunga1Time.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga1Time.wav; sourceTree = "<group>"; };
+		F4A00232226FA1DA009848C8 /* DungaQuestioning2.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaQuestioning2.wav.meta; sourceTree = "<group>"; };
+		F4A00233226FA1DA009848C8 /* Dunga3Times2.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga3Times2.wav.meta; sourceTree = "<group>"; };
+		F4A00234226FA1DA009848C8 /* Dunga2TimesQuestion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga2TimesQuestion.wav; sourceTree = "<group>"; };
+		F4A00235226FA1DA009848C8 /* DungaLongIGetIt.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaLongIGetIt.wav.meta; sourceTree = "<group>"; };
+		F4A00236226FA1DA009848C8 /* DungaPassive.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaPassive.wav.meta; sourceTree = "<group>"; };
+		F4A00237226FA1DA009848C8 /* Dunga2TimesGoodbye.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga2TimesGoodbye.wav; sourceTree = "<group>"; };
+		F4A00238226FA1DA009848C8 /* DungaHeyy2.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaHeyy2.wav.meta; sourceTree = "<group>"; };
+		F4A00239226FA1DA009848C8 /* DungaSingingShort.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaSingingShort.wav.meta; sourceTree = "<group>"; };
+		F4A0023A226FA1DA009848C8 /* DungaLaughing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaLaughing.wav; sourceTree = "<group>"; };
+		F4A0023B226FA1DA009848C8 /* DungaShort2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaShort2.wav; sourceTree = "<group>"; };
+		F4A0023C226FA1DA009848C8 /* DungaShort3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaShort3.wav; sourceTree = "<group>"; };
+		F4A0023D226FA1DA009848C8 /* DungaShort.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaShort.wav.meta; sourceTree = "<group>"; };
+		F4A0023E226FA1DA009848C8 /* ShortDunga.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ShortDunga.wav.meta; sourceTree = "<group>"; };
+		F4A0023F226FA1DA009848C8 /* DungaMakingAPoint.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaMakingAPoint.wav; sourceTree = "<group>"; };
+		F4A00240226FA1DA009848C8 /* Dunga2TimesMatterOfFact.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga2TimesMatterOfFact.wav; sourceTree = "<group>"; };
+		F4A00241226FA1DA009848C8 /* DungaExplanation.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaExplanation.wav; sourceTree = "<group>"; };
+		F4A00242226FA1DA009848C8 /* DungaSatisfied.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaSatisfied.wav.meta; sourceTree = "<group>"; };
+		F4A00243226FA1DA009848C8 /* Dunga1Time.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga1Time.wav.meta; sourceTree = "<group>"; };
+		F4A00244226FA1DA009848C8 /* DungaQuestioning.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaQuestioning.wav.meta; sourceTree = "<group>"; };
+		F4A00245226FA1DA009848C8 /* DungaSingalongLong.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaSingalongLong.wav.meta; sourceTree = "<group>"; };
+		F4A00246226FA1DA009848C8 /* DungaShortUnsure.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaShortUnsure.wav; sourceTree = "<group>"; };
+		F4A00247226FA1DA009848C8 /* DungaLongYell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaLongYell.wav; sourceTree = "<group>"; };
+		F4A00248226FA1DA009848C8 /* Dunga3Times2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga3Times2.wav; sourceTree = "<group>"; };
+		F4A00249226FA1DA009848C8 /* DungaSingalongLong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaSingalongLong.wav; sourceTree = "<group>"; };
+		F4A0024A226FA1DA009848C8 /* DungaSurprised.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaSurprised.wav.meta; sourceTree = "<group>"; };
+		F4A0024B226FA1DA009848C8 /* Dunga2TimesGoodbye.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga2TimesGoodbye.wav.meta; sourceTree = "<group>"; };
+		F4A0024C226FA1DA009848C8 /* DungaQuestioning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaQuestioning.wav; sourceTree = "<group>"; };
+		F4A0024D226FA1DA009848C8 /* DungaSingalong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaSingalong.wav; sourceTree = "<group>"; };
+		F4A0024E226FA1DA009848C8 /* DungaShort.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaShort.wav; sourceTree = "<group>"; };
+		F4A0024F226FA1DA009848C8 /* DungaHeyy.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaHeyy.wav.meta; sourceTree = "<group>"; };
+		F4A00250226FA1DA009848C8 /* DungaShortUpbeat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaShortUpbeat.wav; sourceTree = "<group>"; };
+		F4A00251226FA1DA009848C8 /* DungaBurp.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaBurp.wav.meta; sourceTree = "<group>"; };
+		F4A00252226FA1DA009848C8 /* DungaLongIGetIt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaLongIGetIt.wav; sourceTree = "<group>"; };
+		F4A00253226FA1DA009848C8 /* DungaShortUnsure.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaShortUnsure.wav.meta; sourceTree = "<group>"; };
+		F4A00254226FA1DA009848C8 /* DungaLonger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaLonger.wav; sourceTree = "<group>"; };
+		F4A00255226FA1DA009848C8 /* DungaLaughing.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaLaughing.wav.meta; sourceTree = "<group>"; };
+		F4A00256226FA1DA009848C8 /* DungaSingingLong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaSingingLong.wav; sourceTree = "<group>"; };
+		F4A00258226FA1DA009848C8 /* ShortDunga.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShortDunga.wav; sourceTree = "<group>"; };
+		F4A00259226FA1DA009848C8 /* Dunga1.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga1.wav.meta; sourceTree = "<group>"; };
+		F4A0025A226FA1DA009848C8 /* Dunga1Time2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga1Time2.wav; sourceTree = "<group>"; };
+		F4A0025B226FA1DA009848C8 /* Dunga2TimesAffirmation.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga2TimesAffirmation.wav.meta; sourceTree = "<group>"; };
+		F4A0025C226FA1DA009848C8 /* DungaSurprised.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaSurprised.wav; sourceTree = "<group>"; };
+		F4A0025D226FA1DA009848C8 /* Dunga2Times.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga2Times.wav.meta; sourceTree = "<group>"; };
+		F4A0025E226FA1DA009848C8 /* DungaShortQuestion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DungaShortQuestion.wav; sourceTree = "<group>"; };
+		F4A0025F226FA1DA009848C8 /* Dunga2Times2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga2Times2.wav; sourceTree = "<group>"; };
+		F4A00260226FA1DA009848C8 /* DungaYes.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaYes.wav.meta; sourceTree = "<group>"; };
+		F4A00261226FA1DA009848C8 /* DungaExhausted-Full.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "DungaExhausted-Full.wav"; sourceTree = "<group>"; };
+		F4A00262226FA1DA009848C8 /* DungaShort3.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaShort3.wav.meta; sourceTree = "<group>"; };
+		F4A00263226FA1DA009848C8 /* DungaShort2.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DungaShort2.wav.meta; sourceTree = "<group>"; };
+		F4A00264226FA1DA009848C8 /* Dunga3TimesMatterOfFact.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dunga3TimesMatterOfFact.wav; sourceTree = "<group>"; };
+		F4A00265226FA1DA009848C8 /* Dunga1Time2.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga1Time2.wav.meta; sourceTree = "<group>"; };
+		F4A00266226FA1DA009848C8 /* Dunga2TimesMatterOfFact.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dunga2TimesMatterOfFact.wav.meta; sourceTree = "<group>"; };
+		F4A00269226FA1DA009848C8 /* RaiderStage4Take1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RaiderStage4Take1.wav; sourceTree = "<group>"; };
+		F4A0026A226FA1DA009848C8 /* Marauder(Stage1)(Take1) ChoppingBlock.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Marauder(Stage1)(Take1) ChoppingBlock.wav.meta"; sourceTree = "<group>"; };
+		F4A0026B226FA1DA009848C8 /* Marauder(Stage1)(Take2)ChoppingBlock.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Marauder(Stage1)(Take2)ChoppingBlock.wav.meta"; sourceTree = "<group>"; };
+		F4A0026C226FA1DA009848C8 /* MarauderStage1Take1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MarauderStage1Take1.wav; sourceTree = "<group>"; };
+		F4A0026D226FA1DA009848C8 /* Marauder(Stage1)(Take2)ChoppingBlock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Marauder(Stage1)(Take2)ChoppingBlock.wav"; sourceTree = "<group>"; };
+		F4A0026E226FA1DA009848C8 /* Marauder(Stage1)(Take1)Impossible.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Marauder(Stage1)(Take1)Impossible.wav.meta"; sourceTree = "<group>"; };
+		F4A0026F226FA1DA009848C8 /* Marauder(Stage1)(Take2)What.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Marauder(Stage1)(Take2)What.wav"; sourceTree = "<group>"; };
+		F4A00270226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)FirstLesson.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Raider(Scene4)(Stage4)(Take2)FirstLesson.wav"; sourceTree = "<group>"; };
+		F4A00271226FA1DA009848C8 /* Marauder(Stage1)(Take2)Impossible.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Marauder(Stage1)(Take2)Impossible.wav.meta"; sourceTree = "<group>"; };
+		F4A00272226FA1DA009848C8 /* Marauder(Stage1)(Take1)What.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Marauder(Stage1)(Take1)What.wav.meta"; sourceTree = "<group>"; };
+		F4A00273226FA1DA009848C8 /* Marauder(Stage1)(Take2)What.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Marauder(Stage1)(Take2)What.wav.meta"; sourceTree = "<group>"; };
+		F4A00274226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav"; sourceTree = "<group>"; };
+		F4A00275226FA1DA009848C8 /* MarauderStage1Take1.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MarauderStage1Take1.wav.meta; sourceTree = "<group>"; };
+		F4A00276226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)FirstLesson.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Raider(Scene4)(Stage4)(Take2)FirstLesson.wav.meta"; sourceTree = "<group>"; };
+		F4A00277226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav.meta"; sourceTree = "<group>"; };
+		F4A00278226FA1DA009848C8 /* MarauderStage1.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MarauderStage1.wav.meta; sourceTree = "<group>"; };
+		F4A00279226FA1DA009848C8 /* Marauder(Stage1)(Take2)HowAreYou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Marauder(Stage1)(Take2)HowAreYou.wav"; sourceTree = "<group>"; };
+		F4A0027A226FA1DA009848C8 /* Marauder(Stage1)(Take2)HowAreYou.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Marauder(Stage1)(Take2)HowAreYou.wav.meta"; sourceTree = "<group>"; };
+		F4A0027B226FA1DA009848C8 /* Marauder(Stage1)(Take1)Impossible.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Marauder(Stage1)(Take1)Impossible.wav"; sourceTree = "<group>"; };
+		F4A0027C226FA1DA009848C8 /* Marauder(Stage1)(Take1)HowAreYou.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Marauder(Stage1)(Take1)HowAreYou.wav.meta"; sourceTree = "<group>"; };
+		F4A0027D226FA1DA009848C8 /* Marauder(Stage1)(Take1)HowAreYou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Marauder(Stage1)(Take1)HowAreYou.wav"; sourceTree = "<group>"; };
+		F4A0027E226FA1DA009848C8 /* RaiderStage4Take1.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RaiderStage4Take1.wav.meta; sourceTree = "<group>"; };
+		F4A0027F226FA1DA009848C8 /* MarauderStage3.wav.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MarauderStage3.wav.meta; sourceTree = "<group>"; };
+		F4A00280226FA1DA009848C8 /* Marauder(Stage1)(Take2)Impossible.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Marauder(Stage1)(Take2)Impossible.wav"; sourceTree = "<group>"; };
+		F4A00281226FA1DA009848C8 /* MarauderStage1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MarauderStage1.wav; sourceTree = "<group>"; };
+		F4A00282226FA1DA009848C8 /* MarauderStage3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MarauderStage3.wav; sourceTree = "<group>"; };
+		F4A00283226FA1DA009848C8 /* Marauder(Stage1)(Take1) ChoppingBlock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Marauder(Stage1)(Take1) ChoppingBlock.wav"; sourceTree = "<group>"; };
+		F4A00284226FA1DA009848C8 /* Marauder(Stage1)(Take1)What.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Marauder(Stage1)(Take1)What.wav"; sourceTree = "<group>"; };
+		F4A00285226FA1DA009848C8 /* GameScene.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameScene.meta; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +801,13 @@
 		EB5F2827225E927E00ABE348 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				F4A001AE226FA1DA009848C8 /* Archer */,
+				F4A00129226FA1DA009848C8 /* Bak */,
+				F4A001B5226FA1DA009848C8 /* Barkeep */,
+				F4A001ED226FA1DA009848C8 /* Chieftain */,
+				F4A00200226FA1DA009848C8 /* Dunga */,
+				F4A00267226FA1DA009848C8 /* Marauder */,
+				F4A001B8226FA1DA009848C8 /* Sprite */,
 				EB5F282A225E92CA00ABE348 /* Blooper 8.wav */,
 			);
 			path = Audio;
@@ -173,12 +851,13 @@
 		F40A4E702214B7D8006D9526 /* DungaApp */ = {
 			isa = PBXGroup;
 			children = (
-				EB077CA1226F84DF0018A525 /* Camera.swift */,
+				F4A00119226F9FA3009848C8 /* Camera.swift */,
 				F40A4E712214B7D8006D9526 /* AppDelegate.swift */,
 				F40A4E732214B7D8006D9526 /* GameScene.sks */,
 				F40A4E752214B7D8006D9526 /* Actions.sks */,
 				F40A4E772214B7D8006D9526 /* GameScene.swift */,
 				F40A4E792214B7D8006D9526 /* GameViewController.swift */,
+				F4A00117226F9E26009848C8 /* DungaAudio.swift */,
 				F40A4E7B2214B7D8006D9526 /* Main.storyboard */,
 				F40A4E7E2214B7D8006D9526 /* Assets.xcassets */,
 				F40A4E802214B7D8006D9526 /* LaunchScreen.storyboard */,
@@ -203,6 +882,453 @@
 				F40A4E992214B7D9006D9526 /* Info.plist */,
 			);
 			path = DungaAppUITests;
+			sourceTree = "<group>";
+		};
+		F4A00129226FA1DA009848C8 /* Bak */ = {
+			isa = PBXGroup;
+			children = (
+				F4A0012A226FA1DA009848C8 /* OpeningScene.meta */,
+				F4A0012B226FA1DA009848C8 /* Bak(Scene6)(Take2)SUDDENREALIZATION.wav */,
+				F4A0012C226FA1DA009848C8 /* Bak(Scene5)(Take4)WhosThisGuy.wav */,
+				F4A0012D226FA1DA009848C8 /* Bak(Scene6)(Take1)Wink.wav.meta */,
+				F4A0012E226FA1DA009848C8 /* Bak(Scene5)(Take4)WhosThisGuy.wav.meta */,
+				F4A0012F226FA1DA009848C8 /* OpeningScene */,
+				F4A00148226FA1DA009848C8 /* Bak(Scene6)(Take2)ArentReal.wav.meta */,
+				F4A00149226FA1DA009848C8 /* Bak(Scene5)(Take1)WhosThisGuy.wav.meta */,
+				F4A0014A226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav */,
+				F4A0014B226FA1DA009848C8 /* Bak(Scene6)(Take1)NOTFAIR.wav */,
+				F4A0014C226FA1DA009848C8 /* Bak(Scene5)(Take1)MissingSomething.wav */,
+				F4A0014D226FA1DA009848C8 /* Bak(Scene6)(Take2)Wink.wav.meta */,
+				F4A0014E226FA1DA009848C8 /* Bak(Scene6)(Take2)WhatsADeveloper.wav.meta */,
+				F4A0014F226FA1DA009848C8 /* Bak(Scene6)(Take1)YES.wav.meta */,
+				F4A00150226FA1DA009848C8 /* Bak(Scene6)(Take1)ArentReal.wav.meta */,
+				F4A00151226FA1DA009848C8 /* Bak(Scene5)(Take4)MissingSomething.wav */,
+				F4A00152226FA1DA009848C8 /* Bak(Scene5)(Take1)ItWasYou.wav.meta */,
+				F4A00153226FA1DA009848C8 /* Bak(Scene5)(Take3)WhosThisGuy.wav */,
+				F4A00154226FA1DA009848C8 /* Bak(Scene6)(Take2)YES.wav */,
+				F4A00155226FA1DA009848C8 /* Bak(Scene5)(Take4)ItWasYou.wav.meta */,
+				F4A00156226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav.meta */,
+				F4A00157226FA1DA009848C8 /* Bak(Scene6)(Take2)SUDDENREALIZATION.wav.meta */,
+				F4A00158226FA1DA009848C8 /* OpeningCinematic */,
+				F4A00161226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav */,
+				F4A00162226FA1DA009848C8 /* Bak(Scene5)(Take2)MissingSomething.wav.meta */,
+				F4A00163226FA1DA009848C8 /* Bak(Scene5)(Take2)ItWasYou.wav.meta */,
+				F4A00164226FA1DA009848C8 /* Bak(Scene6)(Take1)SupposedtoMean.wav */,
+				F4A00165226FA1DA009848C8 /* Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav.meta */,
+				F4A00166226FA1DA009848C8 /* Bak(Scene6)(Take1)RealLife.wav */,
+				F4A00167226FA1DA009848C8 /* Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav */,
+				F4A00168226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav.meta */,
+				F4A00169226FA1DA009848C8 /* Bak(Scene5)(Take2)WhosThisGuy.wav */,
+				F4A0016A226FA1DA009848C8 /* Bak(Scene6)(Take1)BEARD.wav */,
+				F4A0016B226FA1DA009848C8 /* Bak(Scene6)(Take2)NOTFAIR.wav */,
+				F4A0016C226FA1DA009848C8 /* Bak(Scene5)(Take1)ItWasYou.wav */,
+				F4A0016D226FA1DA009848C8 /* Bak(Scene6)(Take1)Parents.wav.meta */,
+				F4A0016E226FA1DA009848C8 /* Bak(Scene6)(Take1)YES.wav */,
+				F4A0016F226FA1DA009848C8 /* Bak(Scene6)(Take2).GroupParticipation.wav.meta */,
+				F4A00170226FA1DA009848C8 /* Bak(Scene5)(Take3)ItWasYou.wav.meta */,
+				F4A00171226FA1DA009848C8 /* Bak(Scene6)(Take1)NOTFAIR.wav.meta */,
+				F4A00172226FA1DA009848C8 /* Bak(Scene6)(Take2).GroupParticipation.wav */,
+				F4A00173226FA1DA009848C8 /* Bak(Scene6)(Take2)SupposedtoMean.wav */,
+				F4A00174226FA1DA009848C8 /* Bak(Scene6)(Take1)Wink.wav */,
+				F4A00175226FA1DA009848C8 /* Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav */,
+				F4A00176226FA1DA009848C8 /* Bak(Scene6)(Take2)Audience.wav */,
+				F4A00177226FA1DA009848C8 /* Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav */,
+				F4A00178226FA1DA009848C8 /* Bak(Scene6)(Take2)RealLife.wav */,
+				F4A00179226FA1DA009848C8 /* Bak(Scene5)(Take3)MissingSomething.wav */,
+				F4A0017A226FA1DA009848C8 /* Bak(Scene6)(Take1)WhatsADeveloper.wav */,
+				F4A0017B226FA1DA009848C8 /* Bak(Scene6)(Take2)Audience.wav.meta */,
+				F4A0017C226FA1DA009848C8 /* Bak(Scene5)(Take4)MissingSomething.wav.meta */,
+				F4A0017D226FA1DA009848C8 /* Bak(Scene5)(Take1)GuardianAngel.wav.meta */,
+				F4A0017E226FA1DA009848C8 /* Bak(Scene6)(Take2)WhatsADeveloper.wav */,
+				F4A0017F226FA1DA009848C8 /* Bak(Scene5)(Take1)IHadToBeThere.wav.meta */,
+				F4A00180226FA1DA009848C8 /* Bak(Scene6)(Take2)Parents.wav */,
+				F4A00181226FA1DA009848C8 /* Bak(Scene5)(Take2)ItWasYou.wav */,
+				F4A00182226FA1DA009848C8 /* Bak(Scene6)(Take1)SUDDENREALIZATION.wav.meta */,
+				F4A00183226FA1DA009848C8 /* Bak(Scene6)(Take1)WhatsADeveloper.wav.meta */,
+				F4A00184226FA1DA009848C8 /* Bak(Scene6)(Take2)SupposedtoMean.wav.meta */,
+				F4A00185226FA1DA009848C8 /* Bak(Scene6)(Take2)BEARD.wav */,
+				F4A00186226FA1DA009848C8 /* Bak(Scene6)(Take1)RealLife.wav.meta */,
+				F4A00187226FA1DA009848C8 /* OpeningCinematic.meta */,
+				F4A00188226FA1DA009848C8 /* Bak(Scene5)(Take4)GuardianAngel.wav */,
+				F4A00189226FA1DA009848C8 /* Bak(Scene6)(Take1)BEARD.wav.meta */,
+				F4A0018A226FA1DA009848C8 /* Bak(Scene5)(Take2)IHadToBeThere.wav.meta */,
+				F4A0018B226FA1DA009848C8 /* Bak(Scene5)(Take4)IHadToBeThere.wav */,
+				F4A0018C226FA1DA009848C8 /* Bak(Scene5)(Take3)MissingSomething.wav.meta */,
+				F4A0018D226FA1DA009848C8 /* Bak(Scene5)(Take1)GuardianAngel.wav */,
+				F4A0018E226FA1DA009848C8 /* Bak(Scene6)(Take1)Audience.wav */,
+				F4A0018F226FA1DA009848C8 /* Bak(Scene5)(Take3)WhosThisGuy.wav.meta */,
+				F4A00190226FA1DA009848C8 /* Bak(Scene6)(Take2)Parents.wav.meta */,
+				F4A00191226FA1DA009848C8 /* Bak(Scene6)(Take1)SUDDENREALIZATION.wav */,
+				F4A00192226FA1DA009848C8 /* Bak(Scene5)(Take2)GuardianAngel.wav.meta */,
+				F4A00193226FA1DA009848C8 /* Bak(Scene5)(Take3)ItWasYou.wav */,
+				F4A00194226FA1DA009848C8 /* Bak(Scene6)(Take2)NOTFAIR.wav.meta */,
+				F4A00195226FA1DA009848C8 /* Bak(Scene5)(Take1)IHadToBeThere.wav */,
+				F4A00196226FA1DA009848C8 /* Bak(Scene5)(Take4)ItWasYou.wav */,
+				F4A00197226FA1DA009848C8 /* Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav.meta */,
+				F4A00198226FA1DA009848C8 /* Bak(Scene6)(Take2)Wink.wav */,
+				F4A00199226FA1DA009848C8 /* Bak(Scene5)(Take3)GuardianAngel.wav.meta */,
+				F4A0019A226FA1DA009848C8 /* Bak(Scene5)(Take4)IHadToBeThere.wav.meta */,
+				F4A0019B226FA1DA009848C8 /* Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav.meta */,
+				F4A0019C226FA1DA009848C8 /* Bak(Scene5)(Take2)GuardianAngel.wav */,
+				F4A0019D226FA1DA009848C8 /* Bak(Scene5)(Take4)GuardianAngel.wav.meta */,
+				F4A0019E226FA1DA009848C8 /* Bak(Scene5)(Take2)IHadToBeThere.wav */,
+				F4A0019F226FA1DA009848C8 /* Bak(Scene5)(Take2)MissingSomething.wav */,
+				F4A001A0226FA1DA009848C8 /* Bak(Scene5)(Take3)IHadToBeThere.wav.meta */,
+				F4A001A1226FA1DA009848C8 /* Bak(Scene6)(Take2)ArentReal.wav */,
+				F4A001A2226FA1DA009848C8 /* Bak(Scene5)(Take2)WhosThisGuy.wav.meta */,
+				F4A001A3226FA1DA009848C8 /* Bak(Scene6)(Take2)YES.wav.meta */,
+				F4A001A4226FA1DA009848C8 /* Bak(Scene6)(Take1)SupposedtoMean.wav.meta */,
+				F4A001A5226FA1DA009848C8 /* Bak(Scene6)(Take2)BEARD.wav.meta */,
+				F4A001A6226FA1DA009848C8 /* Bak(Scene6)(Take1)Parents.wav */,
+				F4A001A7226FA1DA009848C8 /* Bak(Scene6)(Take1)Audience.wav.meta */,
+				F4A001A8226FA1DA009848C8 /* Bak(Scene6)(Take1)ArentReal.wav */,
+				F4A001A9226FA1DA009848C8 /* Bak(Scene5)(Take3)GuardianAngel.wav */,
+				F4A001AA226FA1DA009848C8 /* Bak(Scene5)(Take1)MissingSomething.wav.meta */,
+				F4A001AB226FA1DA009848C8 /* Bak(Scene5)(Take3)IHadToBeThere.wav */,
+				F4A001AC226FA1DA009848C8 /* Bak(Scene5)(Take1)WhosThisGuy.wav */,
+				F4A001AD226FA1DA009848C8 /* Bak(Scene6)(Take2)RealLife.wav.meta */,
+			);
+			path = Bak;
+			sourceTree = "<group>";
+		};
+		F4A0012F226FA1DA009848C8 /* OpeningScene */ = {
+			isa = PBXGroup;
+			children = (
+				F4A00130226FA1DA009848C8 /* OddlyConvenient.wav */,
+				F4A00131226FA1DA009848C8 /* EveryFarm.wav.meta */,
+				F4A00132226FA1DA009848C8 /* IWouldCome.wav */,
+				F4A00133226FA1DA009848C8 /* EverythingTheyTook.wav */,
+				F4A00134226FA1DA009848C8 /* AidTheWounded.wav */,
+				F4A00135226FA1DA009848C8 /* ItsTheirShip.wav */,
+				F4A00136226FA1DA009848C8 /* Barkeep.wav */,
+				F4A00137226FA1DA009848C8 /* HelHeim.wav.meta */,
+				F4A00138226FA1DA009848C8 /* RaiderChasing.wav.meta */,
+				F4A00139226FA1DA009848C8 /* EverythingTheyTook.wav.meta */,
+				F4A0013A226FA1DA009848C8 /* AllGone.wav */,
+				F4A0013B226FA1DA009848C8 /* ItsTheirShip.wav.meta */,
+				F4A0013C226FA1DA009848C8 /* Reclaim.wav.meta */,
+				F4A0013D226FA1DA009848C8 /* OddlyConvenient.wav.meta */,
+				F4A0013E226FA1DA009848C8 /* AidTheWounded.wav.meta */,
+				F4A0013F226FA1DA009848C8 /* HelHeim.wav */,
+				F4A00140226FA1DA009848C8 /* AllGone.wav.meta */,
+				F4A00141226FA1DA009848C8 /* RaiderChasing.wav */,
+				F4A00142226FA1DA009848C8 /* ForestGround.wav */,
+				F4A00143226FA1DA009848C8 /* Barkeep.wav.meta */,
+				F4A00144226FA1DA009848C8 /* EveryFarm.wav */,
+				F4A00145226FA1DA009848C8 /* Reclaim.wav */,
+				F4A00146226FA1DA009848C8 /* IWouldCome.wav.meta */,
+				F4A00147226FA1DA009848C8 /* ForestGround.wav.meta */,
+			);
+			path = OpeningScene;
+			sourceTree = "<group>";
+		};
+		F4A00158226FA1DA009848C8 /* OpeningCinematic */ = {
+			isa = PBXGroup;
+			children = (
+				F4A00159226FA1DA009848C8 /* Bak(Scene1)(Take2)Look.wav */,
+				F4A0015A226FA1DA009848C8 /* Bak(Scene1)(Take1)Village.wav.meta */,
+				F4A0015B226FA1DA009848C8 /* Bak(Scene1)(Take1)Village.wav */,
+				F4A0015C226FA1DA009848C8 /* Bak(Scene1)(Take2)Look.wav.meta */,
+				F4A0015D226FA1DA009848C8 /* Bak(Scene1)(Take1)Look.wav.meta */,
+				F4A0015E226FA1DA009848C8 /* Bak(Scene1)(Take2)Village.wav.meta */,
+				F4A0015F226FA1DA009848C8 /* Bak(Scene1)(Take2)Village.wav */,
+				F4A00160226FA1DA009848C8 /* Bak(Scene1)(Take1)Look.wav */,
+			);
+			path = OpeningCinematic;
+			sourceTree = "<group>";
+		};
+		F4A001AE226FA1DA009848C8 /* Archer */ = {
+			isa = PBXGroup;
+			children = (
+				F4A001AF226FA1DA009848C8 /* GameScene */,
+				F4A001B4226FA1DA009848C8 /* GameScene.meta */,
+			);
+			path = Archer;
+			sourceTree = "<group>";
+		};
+		F4A001AF226FA1DA009848C8 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				F4A001B0226FA1DA009848C8 /* Archer(Take2).wav.meta */,
+				F4A001B1226FA1DA009848C8 /* Archer(Take2).wav */,
+				F4A001B2226FA1DA009848C8 /* Archer(Take1).wav */,
+				F4A001B3226FA1DA009848C8 /* Archer(Take1).wav.meta */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		F4A001B5226FA1DA009848C8 /* Barkeep */ = {
+			isa = PBXGroup;
+			children = (
+				F4A001B6226FA1DA009848C8 /* Yoohoo.wav */,
+				F4A001B7226FA1DA009848C8 /* Yoohoo.wav.meta */,
+			);
+			path = Barkeep;
+			sourceTree = "<group>";
+		};
+		F4A001B8226FA1DA009848C8 /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				F4A001B9226FA1DA009848C8 /* Tutorial.meta */,
+				F4A001BA226FA1DA009848C8 /* Village.meta */,
+				F4A001BB226FA1DA009848C8 /* Tutorial */,
+				F4A001DE226FA1DA009848C8 /* Village */,
+			);
+			path = Sprite;
+			sourceTree = "<group>";
+		};
+		F4A001BB226FA1DA009848C8 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				F4A001BC226FA1DA009848C8 /* YouAreALesserGod.wav */,
+				F4A001BD226FA1DA009848C8 /* VeryGood.wav */,
+				F4A001BE226FA1DA009848C8 /* InAgesPast.wav.meta */,
+				F4A001BF226FA1DA009848C8 /* EvenWithYourLimitedAbility.wav */,
+				F4A001C0226FA1DA009848C8 /* YouAreNowReady.wav.meta */,
+				F4A001C1226FA1DA009848C8 /* ClickAndDrag.wav.meta */,
+				F4A001C2226FA1DA009848C8 /* YouCanAlsoInteract.wav.meta */,
+				F4A001C3226FA1DA009848C8 /* ThatBuff.wav.meta */,
+				F4A001C4226FA1DA009848C8 /* ItsHim.wav.meta */,
+				F4A001C5226FA1DA009848C8 /* HesAnOddOne.wav */,
+				F4A001C6226FA1DA009848C8 /* HesAnOddOne.wav.meta */,
+				F4A001C7226FA1DA009848C8 /* InAgesPast.wav */,
+				F4A001C8226FA1DA009848C8 /* IllExplain.wav.meta */,
+				F4A001C9226FA1DA009848C8 /* ClickAndDrag.wav */,
+				F4A001CA226FA1DA009848C8 /* ItsHim.wav */,
+				F4A001CB226FA1DA009848C8 /* ImLys.wav */,
+				F4A001CC226FA1DA009848C8 /* VeryGood.wav.meta */,
+				F4A001CD226FA1DA009848C8 /* ImLys.wav.meta */,
+				F4A001CE226FA1DA009848C8 /* IllExplain.wav */,
+				F4A001CF226FA1DA009848C8 /* YouAreALesserGod.wav.meta */,
+				F4A001D0226FA1DA009848C8 /* Excellent.wav */,
+				F4A001D1226FA1DA009848C8 /* SeeThoseStones.wav.meta */,
+				F4A001D2226FA1DA009848C8 /* ThatArrow.wav */,
+				F4A001D3226FA1DA009848C8 /* EvenWithYourLimitedAbility.wav.meta */,
+				F4A001D4226FA1DA009848C8 /* ThatArrow.wav.meta */,
+				F4A001D5226FA1DA009848C8 /* FullPower.wav */,
+				F4A001D6226FA1DA009848C8 /* SeeThoseStones.wav */,
+				F4A001D7226FA1DA009848C8 /* YouAreNowReady.wav */,
+				F4A001D8226FA1DA009848C8 /* ThatBuff.wav */,
+				F4A001D9226FA1DA009848C8 /* Excellent.wav.meta */,
+				F4A001DA226FA1DA009848C8 /* YouCanAlsoInteract.wav */,
+				F4A001DB226FA1DA009848C8 /* SameWithBuffs.wav.meta */,
+				F4A001DC226FA1DA009848C8 /* SameWithBuffs.wav */,
+				F4A001DD226FA1DA009848C8 /* FullPower.wav.meta */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		F4A001DE226FA1DA009848C8 /* Village */ = {
+			isa = PBXGroup;
+			children = (
+				F4A001DF226FA1DA009848C8 /* Sprite_Village_Line7.wav.meta */,
+				F4A001E0226FA1DA009848C8 /* Sprite_Village_Line6.wav.meta */,
+				F4A001E1226FA1DA009848C8 /* Sprite_Village_Line1.wav.meta */,
+				F4A001E2226FA1DA009848C8 /* Sprite_Village_Line4.wav */,
+				F4A001E3226FA1DA009848C8 /* Sprite_Village_Line5.wav */,
+				F4A001E4226FA1DA009848C8 /* Sprite_Village_Line7.wav */,
+				F4A001E5226FA1DA009848C8 /* Sprite_Village_Line4.wav.meta */,
+				F4A001E6226FA1DA009848C8 /* Sprite_Village_Line5.wav.meta */,
+				F4A001E7226FA1DA009848C8 /* Sprite_Village_Line6.wav */,
+				F4A001E8226FA1DA009848C8 /* Sprite_Village_Line2.wav */,
+				F4A001E9226FA1DA009848C8 /* Sprite_Village_Line3.wav */,
+				F4A001EA226FA1DA009848C8 /* Sprite_Village_Line1.wav */,
+				F4A001EB226FA1DA009848C8 /* Sprite_Village_Line3.wav.meta */,
+				F4A001EC226FA1DA009848C8 /* Sprite_Village_Line2.wav.meta */,
+			);
+			path = Village;
+			sourceTree = "<group>";
+		};
+		F4A001ED226FA1DA009848C8 /* Chieftain */ = {
+			isa = PBXGroup;
+			children = (
+				F4A001EE226FA1DA009848C8 /* GameScene */,
+				F4A001FF226FA1DA009848C8 /* GameScene.meta */,
+			);
+			path = Chieftain;
+			sourceTree = "<group>";
+		};
+		F4A001EE226FA1DA009848C8 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				F4A001EF226FA1DA009848C8 /* Chieftain_Line7.wav.meta */,
+				F4A001F0226FA1DA009848C8 /* Chieftain_Line6.wav.meta */,
+				F4A001F1226FA1DA009848C8 /* Chieftain_Line8.wav */,
+				F4A001F2226FA1DA009848C8 /* Chieftain_Line1.wav.meta */,
+				F4A001F3226FA1DA009848C8 /* Chieftain_Line3.wav */,
+				F4A001F4226FA1DA009848C8 /* Chieftain_Line2.wav */,
+				F4A001F5226FA1DA009848C8 /* Chieftain_Line1.wav */,
+				F4A001F6226FA1DA009848C8 /* Chieftain_Line5.wav */,
+				F4A001F7226FA1DA009848C8 /* Chieftain_Line4.wav.meta */,
+				F4A001F8226FA1DA009848C8 /* Chieftain_Line5.wav.meta */,
+				F4A001F9226FA1DA009848C8 /* Chieftain_Line4.wav */,
+				F4A001FA226FA1DA009848C8 /* Chieftain_Line6.wav */,
+				F4A001FB226FA1DA009848C8 /* Chieftain_Line7.wav */,
+				F4A001FC226FA1DA009848C8 /* Chieftain_Line3.wav.meta */,
+				F4A001FD226FA1DA009848C8 /* Chieftain_Line2.wav.meta */,
+				F4A001FE226FA1DA009848C8 /* Chieftain_Line8.wav.meta */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		F4A00200226FA1DA009848C8 /* Dunga */ = {
+			isa = PBXGroup;
+			children = (
+				F4A00201226FA1DA009848C8 /* Dunga3Times.wav.meta */,
+				F4A00202226FA1DA009848C8 /* DungaExhausted-3.wav.meta */,
+				F4A00203226FA1DA009848C8 /* Dunga3TimesDefensive.wav.meta */,
+				F4A00204226FA1DA009848C8 /* DungaExhausted-2.wav.meta */,
+				F4A00205226FA1DA009848C8 /* Dunga - Dun.wav.meta */,
+				F4A00206226FA1DA009848C8 /* Dunga3TimesMatterOfFact.wav.meta */,
+				F4A00207226FA1DA009848C8 /* DungaYes.wav */,
+				F4A00208226FA1DA009848C8 /* DungaPant.wav */,
+				F4A00209226FA1DA009848C8 /* DungaSingingShort.wav */,
+				F4A0020A226FA1DA009848C8 /* DungaExhausted-2.wav */,
+				F4A0020B226FA1DA009848C8 /* DungaExhausted-3.wav */,
+				F4A0020C226FA1DA009848C8 /* ShortDunga2.wav */,
+				F4A0020D226FA1DA009848C8 /* DungaShortConfident.wav.meta */,
+				F4A0020E226FA1DA009848C8 /* DungaHeyy.wav */,
+				F4A0020F226FA1DA009848C8 /* Dunga1.wav */,
+				F4A00210226FA1DA009848C8 /* DungaSinole.wav.meta */,
+				F4A00211226FA1DA009848C8 /* DungaShortUpbeat.wav.meta */,
+				F4A00212226FA1DA009848C8 /* GeneralSounds.meta */,
+				F4A00213226FA1DA009848C8 /* DungaHeyy2.wav */,
+				F4A00214226FA1DA009848C8 /* DungaWhiney.wav */,
+				F4A00215226FA1DA009848C8 /* DungaQuestion.wav.meta */,
+				F4A00216226FA1DA009848C8 /* DungaShortConfident.wav */,
+				F4A00217226FA1DA009848C8 /* DungaSingingLong.wav.meta */,
+				F4A00218226FA1DA009848C8 /* DungaExhausted-Full.wav.meta */,
+				F4A00219226FA1DA009848C8 /* DungaSinole.wav */,
+				F4A0021A226FA1DA009848C8 /* Dunga2TimesAffirmation.wav */,
+				F4A0021B226FA1DA009848C8 /* DungaSatisfied.wav */,
+				F4A0021C226FA1DA009848C8 /* Dunga3TimesDefensive.wav */,
+				F4A0021D226FA1DA009848C8 /* Dunga2TimesQuestion.wav.meta */,
+				F4A0021E226FA1DA009848C8 /* Dunga2Times2.wav.meta */,
+				F4A0021F226FA1DA009848C8 /* DungaMakingAPoint.wav.meta */,
+				F4A00220226FA1DA009848C8 /* DungaShortQuestion.wav.meta */,
+				F4A00221226FA1DA009848C8 /* Dunga2Times.wav */,
+				F4A00222226FA1DA009848C8 /* Dunga3Times.wav */,
+				F4A00223226FA1DA009848C8 /* Dunga - Dun.wav */,
+				F4A00224226FA1DA009848C8 /* ShortDunga2.wav.meta */,
+				F4A00225226FA1DA009848C8 /* DungaLongYell.wav.meta */,
+				F4A00226226FA1DA009848C8 /* DungaHighSpirits.wav */,
+				F4A00227226FA1DA009848C8 /* DungaPant.wav.meta */,
+				F4A00228226FA1DA009848C8 /* DungaQuestioning2.wav */,
+				F4A00229226FA1DA009848C8 /* DungaPassive.wav */,
+				F4A0022A226FA1DA009848C8 /* DungaLonger.wav.meta */,
+				F4A0022B226FA1DA009848C8 /* DungaExplanation.wav.meta */,
+				F4A0022C226FA1DA009848C8 /* DungaWhiney.wav.meta */,
+				F4A0022D226FA1DA009848C8 /* DungaQuestion.wav */,
+				F4A0022E226FA1DA009848C8 /* DungaBurp.wav */,
+				F4A0022F226FA1DA009848C8 /* DungaSingalong.wav.meta */,
+				F4A00230226FA1DA009848C8 /* DungaHighSpirits.wav.meta */,
+				F4A00231226FA1DA009848C8 /* Dunga1Time.wav */,
+				F4A00232226FA1DA009848C8 /* DungaQuestioning2.wav.meta */,
+				F4A00233226FA1DA009848C8 /* Dunga3Times2.wav.meta */,
+				F4A00234226FA1DA009848C8 /* Dunga2TimesQuestion.wav */,
+				F4A00235226FA1DA009848C8 /* DungaLongIGetIt.wav.meta */,
+				F4A00236226FA1DA009848C8 /* DungaPassive.wav.meta */,
+				F4A00237226FA1DA009848C8 /* Dunga2TimesGoodbye.wav */,
+				F4A00238226FA1DA009848C8 /* DungaHeyy2.wav.meta */,
+				F4A00239226FA1DA009848C8 /* DungaSingingShort.wav.meta */,
+				F4A0023A226FA1DA009848C8 /* DungaLaughing.wav */,
+				F4A0023B226FA1DA009848C8 /* DungaShort2.wav */,
+				F4A0023C226FA1DA009848C8 /* DungaShort3.wav */,
+				F4A0023D226FA1DA009848C8 /* DungaShort.wav.meta */,
+				F4A0023E226FA1DA009848C8 /* ShortDunga.wav.meta */,
+				F4A0023F226FA1DA009848C8 /* DungaMakingAPoint.wav */,
+				F4A00240226FA1DA009848C8 /* Dunga2TimesMatterOfFact.wav */,
+				F4A00241226FA1DA009848C8 /* DungaExplanation.wav */,
+				F4A00242226FA1DA009848C8 /* DungaSatisfied.wav.meta */,
+				F4A00243226FA1DA009848C8 /* Dunga1Time.wav.meta */,
+				F4A00244226FA1DA009848C8 /* DungaQuestioning.wav.meta */,
+				F4A00245226FA1DA009848C8 /* DungaSingalongLong.wav.meta */,
+				F4A00246226FA1DA009848C8 /* DungaShortUnsure.wav */,
+				F4A00247226FA1DA009848C8 /* DungaLongYell.wav */,
+				F4A00248226FA1DA009848C8 /* Dunga3Times2.wav */,
+				F4A00249226FA1DA009848C8 /* DungaSingalongLong.wav */,
+				F4A0024A226FA1DA009848C8 /* DungaSurprised.wav.meta */,
+				F4A0024B226FA1DA009848C8 /* Dunga2TimesGoodbye.wav.meta */,
+				F4A0024C226FA1DA009848C8 /* DungaQuestioning.wav */,
+				F4A0024D226FA1DA009848C8 /* DungaSingalong.wav */,
+				F4A0024E226FA1DA009848C8 /* DungaShort.wav */,
+				F4A0024F226FA1DA009848C8 /* DungaHeyy.wav.meta */,
+				F4A00250226FA1DA009848C8 /* DungaShortUpbeat.wav */,
+				F4A00251226FA1DA009848C8 /* DungaBurp.wav.meta */,
+				F4A00252226FA1DA009848C8 /* DungaLongIGetIt.wav */,
+				F4A00253226FA1DA009848C8 /* DungaShortUnsure.wav.meta */,
+				F4A00254226FA1DA009848C8 /* DungaLonger.wav */,
+				F4A00255226FA1DA009848C8 /* DungaLaughing.wav.meta */,
+				F4A00256226FA1DA009848C8 /* DungaSingingLong.wav */,
+				F4A00257226FA1DA009848C8 /* GeneralSounds */,
+				F4A00258226FA1DA009848C8 /* ShortDunga.wav */,
+				F4A00259226FA1DA009848C8 /* Dunga1.wav.meta */,
+				F4A0025A226FA1DA009848C8 /* Dunga1Time2.wav */,
+				F4A0025B226FA1DA009848C8 /* Dunga2TimesAffirmation.wav.meta */,
+				F4A0025C226FA1DA009848C8 /* DungaSurprised.wav */,
+				F4A0025D226FA1DA009848C8 /* Dunga2Times.wav.meta */,
+				F4A0025E226FA1DA009848C8 /* DungaShortQuestion.wav */,
+				F4A0025F226FA1DA009848C8 /* Dunga2Times2.wav */,
+				F4A00260226FA1DA009848C8 /* DungaYes.wav.meta */,
+				F4A00261226FA1DA009848C8 /* DungaExhausted-Full.wav */,
+				F4A00262226FA1DA009848C8 /* DungaShort3.wav.meta */,
+				F4A00263226FA1DA009848C8 /* DungaShort2.wav.meta */,
+				F4A00264226FA1DA009848C8 /* Dunga3TimesMatterOfFact.wav */,
+				F4A00265226FA1DA009848C8 /* Dunga1Time2.wav.meta */,
+				F4A00266226FA1DA009848C8 /* Dunga2TimesMatterOfFact.wav.meta */,
+			);
+			path = Dunga;
+			sourceTree = "<group>";
+		};
+		F4A00257226FA1DA009848C8 /* GeneralSounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GeneralSounds;
+			sourceTree = "<group>";
+		};
+		F4A00267226FA1DA009848C8 /* Marauder */ = {
+			isa = PBXGroup;
+			children = (
+				F4A00268226FA1DA009848C8 /* GameScene */,
+				F4A00285226FA1DA009848C8 /* GameScene.meta */,
+			);
+			path = Marauder;
+			sourceTree = "<group>";
+		};
+		F4A00268226FA1DA009848C8 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				F4A00269226FA1DA009848C8 /* RaiderStage4Take1.wav */,
+				F4A0026A226FA1DA009848C8 /* Marauder(Stage1)(Take1) ChoppingBlock.wav.meta */,
+				F4A0026B226FA1DA009848C8 /* Marauder(Stage1)(Take2)ChoppingBlock.wav.meta */,
+				F4A0026C226FA1DA009848C8 /* MarauderStage1Take1.wav */,
+				F4A0026D226FA1DA009848C8 /* Marauder(Stage1)(Take2)ChoppingBlock.wav */,
+				F4A0026E226FA1DA009848C8 /* Marauder(Stage1)(Take1)Impossible.wav.meta */,
+				F4A0026F226FA1DA009848C8 /* Marauder(Stage1)(Take2)What.wav */,
+				F4A00270226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)FirstLesson.wav */,
+				F4A00271226FA1DA009848C8 /* Marauder(Stage1)(Take2)Impossible.wav.meta */,
+				F4A00272226FA1DA009848C8 /* Marauder(Stage1)(Take1)What.wav.meta */,
+				F4A00273226FA1DA009848C8 /* Marauder(Stage1)(Take2)What.wav.meta */,
+				F4A00274226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav */,
+				F4A00275226FA1DA009848C8 /* MarauderStage1Take1.wav.meta */,
+				F4A00276226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)FirstLesson.wav.meta */,
+				F4A00277226FA1DA009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav.meta */,
+				F4A00278226FA1DA009848C8 /* MarauderStage1.wav.meta */,
+				F4A00279226FA1DA009848C8 /* Marauder(Stage1)(Take2)HowAreYou.wav */,
+				F4A0027A226FA1DA009848C8 /* Marauder(Stage1)(Take2)HowAreYou.wav.meta */,
+				F4A0027B226FA1DA009848C8 /* Marauder(Stage1)(Take1)Impossible.wav */,
+				F4A0027C226FA1DA009848C8 /* Marauder(Stage1)(Take1)HowAreYou.wav.meta */,
+				F4A0027D226FA1DA009848C8 /* Marauder(Stage1)(Take1)HowAreYou.wav */,
+				F4A0027E226FA1DA009848C8 /* RaiderStage4Take1.wav.meta */,
+				F4A0027F226FA1DA009848C8 /* MarauderStage3.wav.meta */,
+				F4A00280226FA1DA009848C8 /* Marauder(Stage1)(Take2)Impossible.wav */,
+				F4A00281226FA1DA009848C8 /* MarauderStage1.wav */,
+				F4A00282226FA1DA009848C8 /* MarauderStage3.wav */,
+				F4A00283226FA1DA009848C8 /* Marauder(Stage1)(Take1) ChoppingBlock.wav */,
+				F4A00284226FA1DA009848C8 /* Marauder(Stage1)(Take1)What.wav */,
+			);
+			path = GameScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +1399,6 @@
 				TargetAttributes = {
 					F40A4E6D2214B7D8006D9526 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
 					};
 					F40A4E872214B7D9006D9526 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -310,13 +1435,348 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A003BB226FA1DB009848C8 /* Marauder(Stage1)(Take2)ChoppingBlock.wav in Resources */,
+				F4A002F1226FA1DB009848C8 /* Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav.meta in Resources */,
+				F4A003BE226FA1DB009848C8 /* Raider(Scene4)(Stage4)(Take2)FirstLesson.wav in Resources */,
+				F4A002EE226FA1DB009848C8 /* Bak(Scene6)(Take2)NOTFAIR.wav.meta in Resources */,
+				F4A002BC226FA1DA009848C8 /* Bak(Scene5)(Take2)MissingSomething.wav.meta in Resources */,
+				F4A00360226FA1DB009848C8 /* Dunga1.wav in Resources */,
+				F4A0037A226FA1DB009848C8 /* DungaPassive.wav in Resources */,
+				F4A0033C226FA1DB009848C8 /* Sprite_Village_Line2.wav in Resources */,
+				F4A00345226FA1DB009848C8 /* Chieftain_Line3.wav in Resources */,
+				F4A0033B226FA1DB009848C8 /* Sprite_Village_Line6.wav in Resources */,
+				F4A002DB226FA1DB009848C8 /* Bak(Scene5)(Take2)ItWasYou.wav in Resources */,
+				F4A0031F226FA1DB009848C8 /* ItsHim.wav in Resources */,
+				F4A00321226FA1DB009848C8 /* VeryGood.wav.meta in Resources */,
+				F4A0035F226FA1DB009848C8 /* DungaHeyy.wav in Resources */,
+				F4A002F0226FA1DB009848C8 /* Bak(Scene5)(Take4)ItWasYou.wav in Resources */,
+				F4A0037B226FA1DB009848C8 /* DungaLonger.wav.meta in Resources */,
+				F4A002B8226FA1DA009848C8 /* Bak(Scene1)(Take2)Village.wav.meta in Resources */,
+				F4A0039F226FA1DB009848C8 /* DungaShort.wav in Resources */,
+				F4A00303226FA1DB009848C8 /* Bak(Scene5)(Take3)GuardianAngel.wav in Resources */,
+				F4A002E1226FA1DB009848C8 /* OpeningCinematic.meta in Resources */,
+				F4A0036C226FA1DB009848C8 /* DungaSatisfied.wav in Resources */,
+				F4A00320226FA1DB009848C8 /* ImLys.wav in Resources */,
+				F4A0010C226F905A009848C8 /* Blooper 8.wav in Resources */,
+				F4A00348226FA1DB009848C8 /* Chieftain_Line5.wav in Resources */,
+				F4A002F6226FA1DB009848C8 /* Bak(Scene5)(Take2)GuardianAngel.wav in Resources */,
+				F4A002BF226FA1DA009848C8 /* Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav.meta in Resources */,
+				F4A002F2226FA1DB009848C8 /* Bak(Scene6)(Take2)Wink.wav in Resources */,
+				F4A0030E226FA1DB009848C8 /* Yoohoo.wav.meta in Resources */,
+				F4A003AA226FA1DB009848C8 /* Dunga1Time2.wav in Resources */,
+				F4A002D0226FA1DB009848C8 /* Bak(Scene6)(Take2)Audience.wav in Resources */,
+				F4A0035B226FA1DB009848C8 /* DungaExhausted-2.wav in Resources */,
+				F4A002E2226FA1DB009848C8 /* Bak(Scene5)(Take4)GuardianAngel.wav in Resources */,
+				F4A0035C226FA1DB009848C8 /* DungaExhausted-3.wav in Resources */,
+				F4A0034A226FA1DB009848C8 /* Chieftain_Line5.wav.meta in Resources */,
+				F4A002D1226FA1DB009848C8 /* Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav in Resources */,
+				F4A003AB226FA1DB009848C8 /* Dunga2TimesAffirmation.wav.meta in Resources */,
+				F4A00287226FA1DA009848C8 /* Bak(Scene6)(Take2)SUDDENREALIZATION.wav in Resources */,
+				F4A002DF226FA1DB009848C8 /* Bak(Scene6)(Take2)BEARD.wav in Resources */,
+				F4A00353226FA1DB009848C8 /* DungaExhausted-3.wav.meta in Resources */,
+				F4A00325226FA1DB009848C8 /* Excellent.wav in Resources */,
+				F4A00357226FA1DB009848C8 /* Dunga3TimesMatterOfFact.wav.meta in Resources */,
+				F4A003C0226FA1DB009848C8 /* Marauder(Stage1)(Take1)What.wav.meta in Resources */,
+				F4A00389226FA1DB009848C8 /* DungaHeyy2.wav.meta in Resources */,
+				F4A0028D226FA1DA009848C8 /* IWouldCome.wav in Resources */,
+				F4A00290226FA1DA009848C8 /* ItsTheirShip.wav in Resources */,
+				F4A002C4226FA1DA009848C8 /* Bak(Scene6)(Take1)BEARD.wav in Resources */,
+				F4A0032A226FA1DB009848C8 /* FullPower.wav in Resources */,
+				F4A002BE226FA1DA009848C8 /* Bak(Scene6)(Take1)SupposedtoMean.wav in Resources */,
+				F4A00311226FA1DB009848C8 /* YouAreALesserGod.wav in Resources */,
+				F4A002B0226FA1DA009848C8 /* Bak(Scene5)(Take4)ItWasYou.wav.meta in Resources */,
+				F4A003BF226FA1DB009848C8 /* Marauder(Stage1)(Take2)Impossible.wav.meta in Resources */,
+				F4A003D0226FA1DB009848C8 /* MarauderStage3.wav in Resources */,
+				F4A0037F226FA1DB009848C8 /* DungaBurp.wav in Resources */,
+				F4A003C1226FA1DB009848C8 /* Marauder(Stage1)(Take2)What.wav.meta in Resources */,
+				F4A00317226FA1DB009848C8 /* YouCanAlsoInteract.wav.meta in Resources */,
+				F4A00337226FA1DB009848C8 /* Sprite_Village_Line5.wav in Resources */,
+				F4A003CB226FA1DB009848C8 /* Marauder(Stage1)(Take1)HowAreYou.wav in Resources */,
+				F4A0029F226FA1DA009848C8 /* EveryFarm.wav in Resources */,
+				F4A0038E226FA1DB009848C8 /* DungaShort.wav.meta in Resources */,
+				F4A00393226FA1DB009848C8 /* DungaSatisfied.wav.meta in Resources */,
+				F4A00299226FA1DA009848C8 /* AidTheWounded.wav.meta in Resources */,
+				F4A002A6226FA1DA009848C8 /* Bak(Scene6)(Take1)NOTFAIR.wav in Resources */,
+				F4A0038A226FA1DB009848C8 /* DungaSingingShort.wav.meta in Resources */,
+				F4A00351226FA1DB009848C8 /* GameScene.meta in Resources */,
+				F4A002B4226FA1DA009848C8 /* Bak(Scene1)(Take1)Village.wav.meta in Resources */,
+				F4A00296226FA1DA009848C8 /* ItsTheirShip.wav.meta in Resources */,
+				F4A002E0226FA1DB009848C8 /* Bak(Scene6)(Take1)RealLife.wav.meta in Resources */,
+				F4A002C5226FA1DA009848C8 /* Bak(Scene6)(Take2)NOTFAIR.wav in Resources */,
+				F4A002DD226FA1DB009848C8 /* Bak(Scene6)(Take1)WhatsADeveloper.wav.meta in Resources */,
+				F4A00363226FA1DB009848C8 /* GeneralSounds.meta in Resources */,
+				F4A00387226FA1DB009848C8 /* DungaPassive.wav.meta in Resources */,
+				F4A003A2226FA1DB009848C8 /* DungaBurp.wav.meta in Resources */,
+				F4A003B0226FA1DB009848C8 /* DungaYes.wav.meta in Resources */,
+				F4A003B8226FA1DB009848C8 /* Marauder(Stage1)(Take1) ChoppingBlock.wav.meta in Resources */,
+				F4A002F7226FA1DB009848C8 /* Bak(Scene5)(Take4)GuardianAngel.wav.meta in Resources */,
+				F4A00342226FA1DB009848C8 /* Chieftain_Line6.wav.meta in Resources */,
+				F4A002A9226FA1DA009848C8 /* Bak(Scene6)(Take2)WhatsADeveloper.wav.meta in Resources */,
+				F4A00378226FA1DB009848C8 /* DungaPant.wav.meta in Resources */,
+				F4A002CC226FA1DA009848C8 /* Bak(Scene6)(Take2).GroupParticipation.wav in Resources */,
+				F4A00390226FA1DB009848C8 /* DungaMakingAPoint.wav in Resources */,
+				F4A002DA226FA1DB009848C8 /* Bak(Scene6)(Take2)Parents.wav in Resources */,
+				F4A00300226FA1DB009848C8 /* Bak(Scene6)(Take1)Parents.wav in Resources */,
+				F4A002A2226FA1DA009848C8 /* ForestGround.wav.meta in Resources */,
+				F4A00333226FA1DB009848C8 /* Sprite_Village_Line7.wav.meta in Resources */,
+				F4A0037E226FA1DB009848C8 /* DungaQuestion.wav in Resources */,
+				F4A0033F226FA1DB009848C8 /* Sprite_Village_Line3.wav.meta in Resources */,
+				F4A00327226FA1DB009848C8 /* ThatArrow.wav in Resources */,
+				F4A00365226FA1DB009848C8 /* DungaWhiney.wav in Resources */,
+				F4A00356226FA1DB009848C8 /* Dunga - Dun.wav.meta in Resources */,
+				F4A0036D226FA1DB009848C8 /* Dunga3TimesDefensive.wav in Resources */,
+				F4A003C7226FA1DB009848C8 /* Marauder(Stage1)(Take2)HowAreYou.wav in Resources */,
+				F4A002D5226FA1DB009848C8 /* Bak(Scene6)(Take2)Audience.wav.meta in Resources */,
+				F4A00294226FA1DA009848C8 /* EverythingTheyTook.wav.meta in Resources */,
+				F4A00396226FA1DB009848C8 /* DungaSingalongLong.wav.meta in Resources */,
+				F4A00367226FA1DB009848C8 /* DungaShortConfident.wav in Resources */,
+				F4A002B1226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav.meta in Resources */,
+				F4A003A6226FA1DB009848C8 /* DungaLaughing.wav.meta in Resources */,
+				F4A002A5226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav in Resources */,
+				F4A002A1226FA1DA009848C8 /* IWouldCome.wav.meta in Resources */,
 				F456A7542214C9C5003FED56 /* GoogleService-Info.plist in Resources */,
+				F4A00343226FA1DB009848C8 /* Chieftain_Line8.wav in Resources */,
+				F4A002CF226FA1DB009848C8 /* Bak(Scene6)(Take1)DungaIsAnAlcoholic.wav in Resources */,
+				F4A002C6226FA1DA009848C8 /* Bak(Scene5)(Take1)ItWasYou.wav in Resources */,
+				F4A003B5226FA1DB009848C8 /* Dunga1Time2.wav.meta in Resources */,
+				F4A00289226FA1DA009848C8 /* Bak(Scene6)(Take1)Wink.wav.meta in Resources */,
+				F4A003BC226FA1DB009848C8 /* Marauder(Stage1)(Take1)Impossible.wav.meta in Resources */,
+				F4A00306226FA1DB009848C8 /* Bak(Scene5)(Take1)WhosThisGuy.wav in Resources */,
+				F4A003D2226FA1DB009848C8 /* Marauder(Stage1)(Take1)What.wav in Resources */,
+				F4A002B9226FA1DA009848C8 /* Bak(Scene1)(Take2)Village.wav in Resources */,
+				F4A0036E226FA1DB009848C8 /* Dunga2TimesQuestion.wav.meta in Resources */,
+				F4A0039C226FA1DB009848C8 /* Dunga2TimesGoodbye.wav.meta in Resources */,
+				F4A00319226FA1DB009848C8 /* ItsHim.wav.meta in Resources */,
+				F4A00398226FA1DB009848C8 /* DungaLongYell.wav in Resources */,
+				F4A0028C226FA1DA009848C8 /* EveryFarm.wav.meta in Resources */,
+				F4A003CD226FA1DB009848C8 /* MarauderStage3.wav.meta in Resources */,
+				F4A0032F226FA1DB009848C8 /* YouCanAlsoInteract.wav in Resources */,
+				F4A0036F226FA1DB009848C8 /* Dunga2Times2.wav.meta in Resources */,
+				F4A00298226FA1DA009848C8 /* OddlyConvenient.wav.meta in Resources */,
+				F4A003CA226FA1DB009848C8 /* Marauder(Stage1)(Take1)HowAreYou.wav.meta in Resources */,
+				F4A00308226FA1DB009848C8 /* Archer(Take2).wav.meta in Resources */,
+				F4A0039A226FA1DB009848C8 /* DungaSingalongLong.wav in Resources */,
+				F4A0033E226FA1DB009848C8 /* Sprite_Village_Line1.wav in Resources */,
+				F4A002A3226FA1DA009848C8 /* Bak(Scene6)(Take2)ArentReal.wav.meta in Resources */,
+				F4A002D7226FA1DB009848C8 /* Bak(Scene5)(Take1)GuardianAngel.wav.meta in Resources */,
+				F4A00385226FA1DB009848C8 /* Dunga2TimesQuestion.wav in Resources */,
+				F4A003A9226FA1DB009848C8 /* Dunga1.wav.meta in Resources */,
+				F4A002C0226FA1DA009848C8 /* Bak(Scene6)(Take1)RealLife.wav in Resources */,
+				F4A002E6226FA1DB009848C8 /* Bak(Scene5)(Take3)MissingSomething.wav.meta in Resources */,
+				F4A0032B226FA1DB009848C8 /* SeeThoseStones.wav in Resources */,
 				F40A4E7D2214B7D8006D9526 /* Main.storyboard in Resources */,
+				F4A002BA226FA1DA009848C8 /* Bak(Scene1)(Take1)Look.wav in Resources */,
+				F4A0033D226FA1DB009848C8 /* Sprite_Village_Line3.wav in Resources */,
+				F4A0035A226FA1DB009848C8 /* DungaSingingShort.wav in Resources */,
+				F4A002D9226FA1DB009848C8 /* Bak(Scene5)(Take1)IHadToBeThere.wav.meta in Resources */,
+				F4A002CE226FA1DA009848C8 /* Bak(Scene6)(Take1)Wink.wav in Resources */,
+				F4A003AE226FA1DB009848C8 /* DungaShortQuestion.wav in Resources */,
+				F4A002E7226FA1DB009848C8 /* Bak(Scene5)(Take1)GuardianAngel.wav in Resources */,
 				F40A4E742214B7D8006D9526 /* GameScene.sks in Resources */,
+				F4A00382226FA1DB009848C8 /* Dunga1Time.wav in Resources */,
+				F4A0039D226FA1DB009848C8 /* DungaQuestioning.wav in Resources */,
+				F4A002CD226FA1DA009848C8 /* Bak(Scene6)(Take2)SupposedtoMean.wav in Resources */,
+				F4A002EC226FA1DB009848C8 /* Bak(Scene5)(Take2)GuardianAngel.wav.meta in Resources */,
+				F4A003A3226FA1DB009848C8 /* DungaLongIGetIt.wav in Resources */,
+				F4A003B1226FA1DB009848C8 /* DungaExhausted-Full.wav in Resources */,
+				F4A00347226FA1DB009848C8 /* Chieftain_Line1.wav in Resources */,
+				F4A003C5226FA1DB009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav.meta in Resources */,
+				F4A0034C226FA1DB009848C8 /* Chieftain_Line6.wav in Resources */,
 				F40A4E7F2214B7D8006D9526 /* Assets.xcassets in Resources */,
+				F4A0029D226FA1DA009848C8 /* ForestGround.wav in Resources */,
+				F4A00384226FA1DB009848C8 /* Dunga3Times2.wav.meta in Resources */,
+				F4A002EA226FA1DB009848C8 /* Bak(Scene6)(Take2)Parents.wav.meta in Resources */,
+				F4A002D2226FA1DB009848C8 /* Bak(Scene6)(Take2)RealLife.wav in Resources */,
+				F4A002FF226FA1DB009848C8 /* Bak(Scene6)(Take2)BEARD.wav.meta in Resources */,
+				F4A003C6226FA1DB009848C8 /* MarauderStage1.wav.meta in Resources */,
+				F4A00391226FA1DB009848C8 /* Dunga2TimesMatterOfFact.wav in Resources */,
+				F4A00326226FA1DB009848C8 /* SeeThoseStones.wav.meta in Resources */,
+				F4A003A4226FA1DB009848C8 /* DungaShortUnsure.wav.meta in Resources */,
+				F4A002FC226FA1DB009848C8 /* Bak(Scene5)(Take2)WhosThisGuy.wav.meta in Resources */,
+				F4A00288226FA1DA009848C8 /* Bak(Scene5)(Take4)WhosThisGuy.wav in Resources */,
+				F4A003D1226FA1DB009848C8 /* Marauder(Stage1)(Take1) ChoppingBlock.wav in Resources */,
+				F4A00366226FA1DB009848C8 /* DungaQuestion.wav.meta in Resources */,
+				F4A003B3226FA1DB009848C8 /* DungaShort2.wav.meta in Resources */,
+				F4A0032C226FA1DB009848C8 /* YouAreNowReady.wav in Resources */,
+				F4A002E4226FA1DB009848C8 /* Bak(Scene5)(Take2)IHadToBeThere.wav.meta in Resources */,
+				F4A002AB226FA1DA009848C8 /* Bak(Scene6)(Take1)ArentReal.wav.meta in Resources */,
+				F4A002B2226FA1DA009848C8 /* Bak(Scene6)(Take2)SUDDENREALIZATION.wav.meta in Resources */,
+				F4A002C7226FA1DA009848C8 /* Bak(Scene6)(Take1)Parents.wav.meta in Resources */,
+				F4A00364226FA1DB009848C8 /* DungaHeyy2.wav in Resources */,
+				F4A0030C226FA1DB009848C8 /* GameScene.meta in Resources */,
+				F4A002F4226FA1DB009848C8 /* Bak(Scene5)(Take4)IHadToBeThere.wav.meta in Resources */,
+				F4A00399226FA1DB009848C8 /* Dunga3Times2.wav in Resources */,
+				F4A003BD226FA1DB009848C8 /* Marauder(Stage1)(Take2)What.wav in Resources */,
+				F4A00286226FA1DA009848C8 /* OpeningScene.meta in Resources */,
+				F4A00376226FA1DB009848C8 /* DungaLongYell.wav.meta in Resources */,
+				F4A00372226FA1DB009848C8 /* Dunga2Times.wav in Resources */,
+				F4A002FE226FA1DB009848C8 /* Bak(Scene6)(Take1)SupposedtoMean.wav.meta in Resources */,
+				F4A00349226FA1DB009848C8 /* Chieftain_Line4.wav.meta in Resources */,
+				F4A0028A226FA1DA009848C8 /* Bak(Scene5)(Take4)WhosThisGuy.wav.meta in Resources */,
+				F4A00336226FA1DB009848C8 /* Sprite_Village_Line4.wav in Resources */,
+				F4A00395226FA1DB009848C8 /* DungaQuestioning.wav.meta in Resources */,
+				F4A003C9226FA1DB009848C8 /* Marauder(Stage1)(Take1)Impossible.wav in Resources */,
+				F4A002C2226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav.meta in Resources */,
+				F4A0032E226FA1DB009848C8 /* Excellent.wav.meta in Resources */,
+				F4A002B7226FA1DA009848C8 /* Bak(Scene1)(Take1)Look.wav.meta in Resources */,
+				F4A00352226FA1DB009848C8 /* Dunga3Times.wav.meta in Resources */,
+				F4A002EB226FA1DB009848C8 /* Bak(Scene6)(Take1)SUDDENREALIZATION.wav in Resources */,
+				F4A00323226FA1DB009848C8 /* IllExplain.wav in Resources */,
+				F4A002C3226FA1DA009848C8 /* Bak(Scene5)(Take2)WhosThisGuy.wav in Resources */,
+				F4A002C9226FA1DA009848C8 /* Bak(Scene6)(Take2).GroupParticipation.wav.meta in Resources */,
+				F4A00340226FA1DB009848C8 /* Sprite_Village_Line2.wav.meta in Resources */,
+				F4A0035D226FA1DB009848C8 /* ShortDunga2.wav in Resources */,
+				F4A00350226FA1DB009848C8 /* Chieftain_Line8.wav.meta in Resources */,
+				F4A00312226FA1DB009848C8 /* VeryGood.wav in Resources */,
+				F4A0030A226FA1DB009848C8 /* Archer(Take1).wav in Resources */,
+				F4A00386226FA1DB009848C8 /* DungaLongIGetIt.wav.meta in Resources */,
+				F4A00330226FA1DB009848C8 /* SameWithBuffs.wav.meta in Resources */,
+				F4A0037C226FA1DB009848C8 /* DungaExplanation.wav.meta in Resources */,
+				F4A003B4226FA1DB009848C8 /* Dunga3TimesMatterOfFact.wav in Resources */,
 				F40A4E822214B7D8006D9526 /* LaunchScreen.storyboard in Resources */,
+				F4A003A1226FA1DB009848C8 /* DungaShortUpbeat.wav in Resources */,
+				F4A0028E226FA1DA009848C8 /* EverythingTheyTook.wav in Resources */,
+				F4A0038D226FA1DB009848C8 /* DungaShort3.wav in Resources */,
+				F4A002B6226FA1DA009848C8 /* Bak(Scene1)(Take2)Look.wav.meta in Resources */,
+				F4A003A8226FA1DB009848C8 /* ShortDunga.wav in Resources */,
+				F4A0031C226FA1DB009848C8 /* InAgesPast.wav in Resources */,
+				F4A002F8226FA1DB009848C8 /* Bak(Scene5)(Take2)IHadToBeThere.wav in Resources */,
+				F4A00309226FA1DB009848C8 /* Archer(Take2).wav in Resources */,
+				F4A002D6226FA1DB009848C8 /* Bak(Scene5)(Take4)MissingSomething.wav.meta in Resources */,
+				F4A00331226FA1DB009848C8 /* SameWithBuffs.wav in Resources */,
+				F4A002DC226FA1DB009848C8 /* Bak(Scene6)(Take1)SUDDENREALIZATION.wav.meta in Resources */,
+				F4A002CB226FA1DA009848C8 /* Bak(Scene6)(Take1)NOTFAIR.wav.meta in Resources */,
+				F4A0038F226FA1DB009848C8 /* ShortDunga.wav.meta in Resources */,
+				F4A00322226FA1DB009848C8 /* ImLys.wav.meta in Resources */,
+				F4A00369226FA1DB009848C8 /* DungaExhausted-Full.wav.meta in Resources */,
+				F4A00341226FA1DB009848C8 /* Chieftain_Line7.wav.meta in Resources */,
+				F4A00379226FA1DB009848C8 /* DungaQuestioning2.wav in Resources */,
+				F4A0031B226FA1DB009848C8 /* HesAnOddOne.wav.meta in Resources */,
+				F4A002ED226FA1DB009848C8 /* Bak(Scene5)(Take3)ItWasYou.wav in Resources */,
+				F4A0031E226FA1DB009848C8 /* ClickAndDrag.wav in Resources */,
+				F4A0029A226FA1DA009848C8 /* HelHeim.wav in Resources */,
+				F4A002E8226FA1DB009848C8 /* Bak(Scene6)(Take1)Audience.wav in Resources */,
+				F4A003B6226FA1DB009848C8 /* Dunga2TimesMatterOfFact.wav.meta in Resources */,
+				F4A002A0226FA1DA009848C8 /* Reclaim.wav in Resources */,
+				F4A00334226FA1DB009848C8 /* Sprite_Village_Line6.wav.meta in Resources */,
+				F4A00304226FA1DB009848C8 /* Bak(Scene5)(Take1)MissingSomething.wav.meta in Resources */,
+				F4A002C1226FA1DA009848C8 /* Bak(Scene6)(Take2)DungaIsAnAlcoholic.wav in Resources */,
 				EB42C9852242E03D00E74BE5 /* Button1.jpg in Resources */,
+				F4A0035E226FA1DB009848C8 /* DungaShortConfident.wav.meta in Resources */,
+				F4A0033A226FA1DB009848C8 /* Sprite_Village_Line5.wav.meta in Resources */,
+				F4A0030D226FA1DB009848C8 /* Yoohoo.wav in Resources */,
+				F4A003A0226FA1DB009848C8 /* DungaHeyy.wav.meta in Resources */,
+				F4A00383226FA1DB009848C8 /* DungaQuestioning2.wav.meta in Resources */,
+				F4A00355226FA1DB009848C8 /* DungaExhausted-2.wav.meta in Resources */,
+				F4A002F3226FA1DB009848C8 /* Bak(Scene5)(Take3)GuardianAngel.wav.meta in Resources */,
+				F4A00397226FA1DB009848C8 /* DungaShortUnsure.wav in Resources */,
+				F4A00295226FA1DA009848C8 /* AllGone.wav in Resources */,
+				F4A0029E226FA1DA009848C8 /* Barkeep.wav.meta in Resources */,
+				F4A0028B226FA1DA009848C8 /* OddlyConvenient.wav in Resources */,
+				F4A003C2226FA1DB009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav in Resources */,
+				F4A00377226FA1DB009848C8 /* DungaHighSpirits.wav in Resources */,
+				F4A00371226FA1DB009848C8 /* DungaShortQuestion.wav.meta in Resources */,
+				F4A002AD226FA1DA009848C8 /* Bak(Scene5)(Take1)ItWasYou.wav.meta in Resources */,
+				F4A0030B226FA1DB009848C8 /* Archer(Take1).wav.meta in Resources */,
+				F4A00388226FA1DB009848C8 /* Dunga2TimesGoodbye.wav in Resources */,
+				F4A002BB226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav in Resources */,
+				F4A00374226FA1DB009848C8 /* Dunga - Dun.wav in Resources */,
+				F4A002AF226FA1DA009848C8 /* Bak(Scene6)(Take2)YES.wav in Resources */,
+				F4A003C3226FA1DB009848C8 /* MarauderStage1Take1.wav.meta in Resources */,
+				F4A002CA226FA1DA009848C8 /* Bak(Scene5)(Take3)ItWasYou.wav.meta in Resources */,
+				F4A003A5226FA1DB009848C8 /* DungaLonger.wav in Resources */,
+				F4A002C8226FA1DA009848C8 /* Bak(Scene6)(Take1)YES.wav in Resources */,
+				F4A003BA226FA1DB009848C8 /* MarauderStage1Take1.wav in Resources */,
+				F4A00291226FA1DA009848C8 /* Barkeep.wav in Resources */,
+				F4A0031D226FA1DB009848C8 /* IllExplain.wav.meta in Resources */,
+				F4A00332226FA1DB009848C8 /* FullPower.wav.meta in Resources */,
+				F4A0038C226FA1DB009848C8 /* DungaShort2.wav in Resources */,
+				F4A002EF226FA1DB009848C8 /* Bak(Scene5)(Take1)IHadToBeThere.wav in Resources */,
+				F4A002D3226FA1DB009848C8 /* Bak(Scene5)(Take3)MissingSomething.wav in Resources */,
+				F4A0039B226FA1DB009848C8 /* DungaSurprised.wav.meta in Resources */,
+				F4A00301226FA1DB009848C8 /* Bak(Scene6)(Take1)Audience.wav.meta in Resources */,
+				F4A002E5226FA1DB009848C8 /* Bak(Scene5)(Take4)IHadToBeThere.wav in Resources */,
+				F4A00314226FA1DB009848C8 /* EvenWithYourLimitedAbility.wav in Resources */,
+				F4A00316226FA1DB009848C8 /* ClickAndDrag.wav.meta in Resources */,
+				F4A0034E226FA1DB009848C8 /* Chieftain_Line3.wav.meta in Resources */,
+				F4A00373226FA1DB009848C8 /* Dunga3Times.wav in Resources */,
+				F4A00338226FA1DB009848C8 /* Sprite_Village_Line7.wav in Resources */,
+				F4A003C8226FA1DB009848C8 /* Marauder(Stage1)(Take2)HowAreYou.wav.meta in Resources */,
+				F4A00344226FA1DB009848C8 /* Chieftain_Line1.wav.meta in Resources */,
+				F4A0037D226FA1DB009848C8 /* DungaWhiney.wav.meta in Resources */,
+				F4A002AE226FA1DA009848C8 /* Bak(Scene5)(Take3)WhosThisGuy.wav in Resources */,
+				F4A002F5226FA1DB009848C8 /* Bak(Scene6)(Take1)ThePeopleWhoMadeUs.wav.meta in Resources */,
+				F4A002B5226FA1DA009848C8 /* Bak(Scene1)(Take1)Village.wav in Resources */,
+				F4A0038B226FA1DB009848C8 /* DungaLaughing.wav in Resources */,
+				F4A00313226FA1DB009848C8 /* InAgesPast.wav.meta in Resources */,
+				F4A00324226FA1DB009848C8 /* YouAreALesserGod.wav.meta in Resources */,
+				F4A003D3226FA1DB009848C8 /* GameScene.meta in Resources */,
+				F4A002DE226FA1DB009848C8 /* Bak(Scene6)(Take2)SupposedtoMean.wav.meta in Resources */,
+				F4A00328226FA1DB009848C8 /* EvenWithYourLimitedAbility.wav.meta in Resources */,
+				F4A003AF226FA1DB009848C8 /* Dunga2Times2.wav in Resources */,
+				F4A002A4226FA1DA009848C8 /* Bak(Scene5)(Take1)WhosThisGuy.wav.meta in Resources */,
+				F4A003CE226FA1DB009848C8 /* Marauder(Stage1)(Take2)Impossible.wav in Resources */,
+				F4A00358226FA1DB009848C8 /* DungaYes.wav in Resources */,
+				F4A00302226FA1DB009848C8 /* Bak(Scene6)(Take1)ArentReal.wav in Resources */,
+				F4A00346226FA1DB009848C8 /* Chieftain_Line2.wav in Resources */,
+				F4A00305226FA1DB009848C8 /* Bak(Scene5)(Take3)IHadToBeThere.wav in Resources */,
+				F4A002FD226FA1DB009848C8 /* Bak(Scene6)(Take2)YES.wav.meta in Resources */,
+				F4A0028F226FA1DA009848C8 /* AidTheWounded.wav in Resources */,
+				F4A002A8226FA1DA009848C8 /* Bak(Scene6)(Take2)Wink.wav.meta in Resources */,
+				F4A00310226FA1DB009848C8 /* Village.meta in Resources */,
+				F4A00380226FA1DB009848C8 /* DungaSingalong.wav.meta in Resources */,
+				F4A00368226FA1DB009848C8 /* DungaSingingLong.wav.meta in Resources */,
+				F4A00354226FA1DB009848C8 /* Dunga3TimesDefensive.wav.meta in Resources */,
+				F4A002D8226FA1DB009848C8 /* Bak(Scene6)(Take2)WhatsADeveloper.wav in Resources */,
+				F4A0034F226FA1DB009848C8 /* Chieftain_Line2.wav.meta in Resources */,
+				F4A00359226FA1DB009848C8 /* DungaPant.wav in Resources */,
+				F4A003B9226FA1DB009848C8 /* Marauder(Stage1)(Take2)ChoppingBlock.wav.meta in Resources */,
+				F4A0034B226FA1DB009848C8 /* Chieftain_Line4.wav in Resources */,
+				F4A002A7226FA1DA009848C8 /* Bak(Scene5)(Take1)MissingSomething.wav in Resources */,
+				F4A0036A226FA1DB009848C8 /* DungaSinole.wav in Resources */,
+				F4A00307226FA1DB009848C8 /* Bak(Scene6)(Take2)RealLife.wav.meta in Resources */,
+				F4A00361226FA1DB009848C8 /* DungaSinole.wav.meta in Resources */,
+				F4A002FB226FA1DB009848C8 /* Bak(Scene6)(Take2)ArentReal.wav in Resources */,
+				F4A00293226FA1DA009848C8 /* RaiderChasing.wav.meta in Resources */,
+				F4A0032D226FA1DB009848C8 /* ThatBuff.wav in Resources */,
+				F4A00375226FA1DB009848C8 /* ShortDunga2.wav.meta in Resources */,
+				F4A00339226FA1DB009848C8 /* Sprite_Village_Line4.wav.meta in Resources */,
+				F4A002E9226FA1DB009848C8 /* Bak(Scene5)(Take3)WhosThisGuy.wav.meta in Resources */,
 				F40A4E762214B7D8006D9526 /* Actions.sks in Resources */,
+				F4A002FA226FA1DB009848C8 /* Bak(Scene5)(Take3)IHadToBeThere.wav.meta in Resources */,
+				F4A003A7226FA1DB009848C8 /* DungaSingingLong.wav in Resources */,
+				F4A0030F226FA1DB009848C8 /* Tutorial.meta in Resources */,
+				F4A00381226FA1DB009848C8 /* DungaHighSpirits.wav.meta in Resources */,
+				F4A00394226FA1DB009848C8 /* Dunga1Time.wav.meta in Resources */,
+				F4A0036B226FA1DB009848C8 /* Dunga2TimesAffirmation.wav in Resources */,
+				F4A003CF226FA1DB009848C8 /* MarauderStage1.wav in Resources */,
+				F4A00335226FA1DB009848C8 /* Sprite_Village_Line1.wav.meta in Resources */,
+				F4A002AA226FA1DA009848C8 /* Bak(Scene6)(Take1)YES.wav.meta in Resources */,
+				F4A00297226FA1DA009848C8 /* Reclaim.wav.meta in Resources */,
+				F4A0039E226FA1DB009848C8 /* DungaSingalong.wav in Resources */,
+				F4A00392226FA1DB009848C8 /* DungaExplanation.wav in Resources */,
+				F4A00315226FA1DB009848C8 /* YouAreNowReady.wav.meta in Resources */,
+				F4A002E3226FA1DB009848C8 /* Bak(Scene6)(Take1)BEARD.wav.meta in Resources */,
+				F4A0029C226FA1DA009848C8 /* RaiderChasing.wav in Resources */,
+				F4A002BD226FA1DA009848C8 /* Bak(Scene5)(Take2)ItWasYou.wav.meta in Resources */,
+				F4A00329226FA1DB009848C8 /* ThatArrow.wav.meta in Resources */,
+				F4A0031A226FA1DB009848C8 /* HesAnOddOne.wav in Resources */,
+				F4A0034D226FA1DB009848C8 /* Chieftain_Line7.wav in Resources */,
+				F4A00292226FA1DA009848C8 /* HelHeim.wav.meta in Resources */,
+				F4A003B7226FA1DB009848C8 /* RaiderStage4Take1.wav in Resources */,
+				F4A0029B226FA1DA009848C8 /* AllGone.wav.meta in Resources */,
+				F4A003C4226FA1DB009848C8 /* Raider(Scene4)(Stage4)(Take2)FirstLesson.wav.meta in Resources */,
+				F4A00362226FA1DB009848C8 /* DungaShortUpbeat.wav.meta in Resources */,
+				F4A003AD226FA1DB009848C8 /* Dunga2Times.wav.meta in Resources */,
+				F4A002F9226FA1DB009848C8 /* Bak(Scene5)(Take2)MissingSomething.wav in Resources */,
+				F4A00318226FA1DB009848C8 /* ThatBuff.wav.meta in Resources */,
+				F4A002AC226FA1DA009848C8 /* Bak(Scene5)(Take4)MissingSomething.wav in Resources */,
+				F4A002B3226FA1DA009848C8 /* Bak(Scene1)(Take2)Look.wav in Resources */,
+				F4A003AC226FA1DB009848C8 /* DungaSurprised.wav in Resources */,
+				F4A002D4226FA1DB009848C8 /* Bak(Scene6)(Take1)WhatsADeveloper.wav in Resources */,
+				F4A003CC226FA1DB009848C8 /* RaiderStage4Take1.wav.meta in Resources */,
+				F4A003B2226FA1DB009848C8 /* DungaShort3.wav.meta in Resources */,
+				F4A00370226FA1DB009848C8 /* DungaMakingAPoint.wav.meta in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +1801,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB077CA2226F84DF0018A525 /* Camera.swift in Sources */,
 				F40A4E782214B7D8006D9526 /* GameScene.swift in Sources */,
+				F4A0011A226F9FA3009848C8 /* Camera.swift in Sources */,
+				F4A00118226F9E26009848C8 /* DungaAudio.swift in Sources */,
 				F40A4E7A2214B7D8006D9526 /* GameViewController.swift in Sources */,
 				F40A4E722214B7D8006D9526 /* AppDelegate.swift in Sources */,
 			);
@@ -517,7 +1978,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BT76VTR4ZX;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -535,7 +1995,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HotFireGames.DungaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
@@ -546,7 +2005,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BT76VTR4ZX;
 				FRAMEWORK_SEARCH_PATHS = (
