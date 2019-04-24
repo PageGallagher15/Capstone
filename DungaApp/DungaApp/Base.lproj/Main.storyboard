@@ -52,7 +52,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
-                                    <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="xSr-qq-Loe"/>
                                     <segue destination="rx7-W7-pOo" kind="show" id="IsL-L1-aty"/>
                                 </connections>
                             </button>
@@ -509,12 +508,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbW-Hv-Vrh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbW-Hv-Vrh">
                                 <rect key="frame" x="8" y="44" width="360" height="727"/>
                             </imageView>
-                            <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ZV-29-2ME">
+                            <view alpha="0.5" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ZV-29-2ME">
                                 <rect key="frame" x="8" y="44" width="360" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pe7-UJ-1Sb">
                                         <rect key="frame" x="7" y="21" width="48" height="30"/>
@@ -538,7 +536,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="sbW-Hv-Vrh" firstAttribute="leading" secondItem="8ZV-29-2ME" secondAttribute="leading" id="0vj-FQ-ed4"/>
+                            <constraint firstItem="sbW-Hv-Vrh" firstAttribute="trailing" secondItem="8ZV-29-2ME" secondAttribute="trailing" id="3nT-np-ty5"/>
                             <constraint firstItem="sbW-Hv-Vrh" firstAttribute="leading" secondItem="wu1-aD-eMI" secondAttribute="leading" constant="8" id="a5J-Ia-4Ub"/>
+                            <constraint firstItem="tFQ-Nz-vsr" firstAttribute="bottom" secondItem="sbW-Hv-Vrh" secondAttribute="bottom" constant="7" id="eFx-r4-QSr"/>
+                            <constraint firstItem="sbW-Hv-Vrh" firstAttribute="top" secondItem="8ZV-29-2ME" secondAttribute="top" id="fRz-r9-EFR"/>
                             <constraint firstAttribute="trailing" secondItem="sbW-Hv-Vrh" secondAttribute="trailing" constant="8" id="gbc-sk-mHK"/>
                             <constraint firstItem="sbW-Hv-Vrh" firstAttribute="top" secondItem="wu1-aD-eMI" secondAttribute="top" constant="44" id="hG8-e1-FXj"/>
                         </constraints>
@@ -560,19 +562,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9VQ-6p-Nwt">
-                                <rect key="frame" x="0.0" y="109" width="375" height="589"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N4R-Jj-BPN">
-                                        <rect key="frame" x="8" y="27" width="359" height="562"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Combat: This game focuses on UI manipulation and interacting with the world around you. Pay close attention to all aspects of the user interface, you may be able to use them to your advantage.   Abilities: Health Swap - When active, you are able to steal the life force of an enemy and give it to Dunga by dragging an enemy's health bar over Dunga's.  Arrow Grab - When active, you have the power to stop enemy archers' projectile in mid air. As you invest in this skill, you will be able to shoot them right back at the enemies for extra damage!  Hand of God - When active, you are able to grab, throw and manipulate various parts of the world including barrels, stones, and hidden elements.  Buff Steal - When active, you are able to take en enemy's magical buff, such as shields and potions, and give them to Dunga. Functions similarly to Health Swap.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                            </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SE-Fs-FwS">
                                 <rect key="frame" x="89" y="21" width="198" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -627,14 +616,32 @@
                                     <segue destination="Xp7-G4-Dnd" kind="show" id="nHJ-T8-wxR"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N4R-Jj-BPN">
+                                <rect key="frame" x="9" y="70" width="359" height="601"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Abilities:      Health Swap - When active, you are able to steal the life force of an enemy and give it to Dunga by dragging an enemy's health bar over Dunga's.      Arrow Grab - When active, you have the power to stop enemy archers' projectile in mid air. As you invest in this skill, you will be able to shoot them right back at the enemies for extra damage!      Hand of God - When active, you are able to grab, throw and manipulate various parts of the world including barrels, stones, and hidden elements.      Buff Steal - When active, you are able to take en enemy's magical buff, such as shields and potions, and give them to Dunga. Functions similarly to Health Swap.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red_35.png" translatesAutoresizingMaskIntoConstraints="NO" id="t7U-qR-PQw">
+                                <rect key="frame" x="16" y="97" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="r8G-Mx-muP">
+                                <rect key="frame" x="16" y="231" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow_10.png" translatesAutoresizingMaskIntoConstraints="NO" id="9dE-vY-f92">
+                                <rect key="frame" x="16" y="384" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue_20.png" translatesAutoresizingMaskIntoConstraints="NO" id="0me-Pe-lGd">
+                                <rect key="frame" x="16" y="516" width="73" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="9VQ-6p-Nwt" firstAttribute="leading" secondItem="cfR-vQ-qgp" secondAttribute="leading" constant="16" id="7tC-xr-5YG"/>
-                            <constraint firstItem="cfR-vQ-qgp" firstAttribute="trailing" secondItem="9VQ-6p-Nwt" secondAttribute="trailing" constant="16" id="CkX-qs-hzw"/>
-                            <constraint firstItem="9VQ-6p-Nwt" firstAttribute="top" secondItem="cfR-vQ-qgp" secondAttribute="top" id="eDd-l9-1EJ"/>
-                            <constraint firstItem="9VQ-6p-Nwt" firstAttribute="bottom" secondItem="cfR-vQ-qgp" secondAttribute="bottom" id="ucz-tZ-eWv"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="cfR-vQ-qgp"/>
                     </view>
                     <size key="freeformSize" width="375" height="1000"/>
@@ -973,13 +980,17 @@
     </scenes>
     <resources>
         <image name="Button1.jpg" width="290" height="290"/>
+        <image name="blue_20.png" width="256" height="256"/>
+        <image name="green_01.png" width="256" height="256"/>
+        <image name="red_35.png" width="256" height="256"/>
+        <image name="yellow_10.png" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FMZ-8Z-sRI"/>
+        <segue reference="Tto-WJ-oBw"/>
         <segue reference="nHJ-T8-wxR"/>
-        <segue reference="g1o-xJ-V91"/>
-        <segue reference="nip-bO-lQB"/>
-        <segue reference="DsU-wK-Od3"/>
+        <segue reference="Yw0-b8-xii"/>
+        <segue reference="WEk-DZ-LFJ"/>
+        <segue reference="4o7-TL-Ez6"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
