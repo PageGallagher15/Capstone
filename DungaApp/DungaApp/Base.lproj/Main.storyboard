@@ -17,6 +17,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="saM-et-PDb">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3gL-aS-UPO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -76,7 +77,6 @@
                                 <rect key="frame" x="119" y="73" width="137" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
-                                <color key="textColor" red="1" green="0.63530460615605089" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="9"/>
                             </label>
@@ -87,6 +87,7 @@
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
                     </view>
                     <connections>
@@ -118,30 +119,45 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Dunga"/>
+                                <connections>
+                                    <action selector="DungaAudio3:" destination="epH-hd-DUK" eventType="touchUpInside" id="uaV-YF-pWP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvq-9j-95i">
                                 <rect key="frame" x="55" y="407" width="58" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Dunga"/>
+                                <connections>
+                                    <action selector="DungaAudio5:" destination="epH-hd-DUK" eventType="touchUpInside" id="qAA-ES-z6Q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxr-6G-m03">
                                 <rect key="frame" x="219" y="271" width="144" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Dunga Singing 2"/>
+                                <connections>
+                                    <action selector="DungaAudio2:" destination="epH-hd-DUK" eventType="touchUpInside" id="qVC-Ys-hXU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTV-Hy-msi">
                                 <rect key="frame" x="262" y="339" width="58" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Dunga"/>
+                                <connections>
+                                    <action selector="DungaAudio4:" destination="epH-hd-DUK" eventType="touchUpInside" id="da0-Vd-z9e"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeL-bD-KYB">
                                 <rect key="frame" x="262" y="407" width="58" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Dunga"/>
+                                <connections>
+                                    <action selector="DungaAudio6:" destination="epH-hd-DUK" eventType="touchUpInside" id="Lrq-lK-gMG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBg-WU-q53">
                                 <rect key="frame" x="20" y="271" width="128" height="36"/>
@@ -206,10 +222,10 @@
             </objects>
             <point key="canvasLocation" x="1178" y="-934"/>
         </scene>
-        <!--Dunga Audio-->
+        <!--Game View Controller-->
         <scene sceneID="hVH-Ly-t18">
             <objects>
-                <viewController id="hBp-Y9-Uwp" customClass="DungaAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hBp-Y9-Uwp" customClass="GameViewController" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xyt-CP-m5b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -220,7 +236,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Lys"/>
                                 <connections>
-                                    <segue destination="EE6-VZ-j5I" kind="show" id="UzX-fo-KQn"/>
+                                    <segue destination="EE6-VZ-j5I" kind="show" id="Thx-0g-Pm9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7j-uf-C2g">
@@ -229,7 +245,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Bak"/>
                                 <connections>
-                                    <segue destination="8ZV-Ph-6hv" kind="show" id="aho-ko-HKP"/>
+                                    <segue destination="8ZV-Ph-6hv" kind="show" id="xv5-y0-WBS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQ9-0J-BoV">
@@ -238,7 +254,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Bloopers"/>
                                 <connections>
-                                    <segue destination="oqh-i5-x3X" kind="show" id="EWu-xi-b6T"/>
+                                    <segue destination="oqh-i5-x3X" kind="show" id="Zwn-hn-xEs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ON-hV-pQI">
@@ -247,8 +263,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Dunga"/>
                                 <connections>
-                                    <action selector="DungaAudio1:" destination="hBp-Y9-Uwp" eventType="touchUpInside" id="aDl-g8-qMG"/>
-                                    <segue destination="epH-hd-DUK" kind="show" id="KD4-zS-pXP"/>
+                                    <segue destination="epH-hd-DUK" kind="show" id="B6T-iF-gVG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVg-mt-E8g" userLabel="Home">
@@ -650,7 +665,7 @@
         <!--Bak Audio-->
         <scene sceneID="rKM-eN-iPL">
             <objects>
-                <viewController id="8ZV-Ph-6hv" userLabel="Bak Audio" customClass="DungaAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8ZV-Ph-6hv" userLabel="Bak Audio" customClass="BakAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fGU-mU-aXx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -668,30 +683,45 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Every Farm"/>
+                                <connections>
+                                    <action selector="AudioClip3:" destination="8ZV-Ph-6hv" eventType="touchUpInside" id="Wl9-Zw-aNa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HtP-7r-ZYc">
                                 <rect key="frame" x="49" y="407" width="70" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Reclaim"/>
+                                <connections>
+                                    <action selector="AudioClip5:" destination="8ZV-Ph-6hv" eventType="touchUpInside" id="J5c-XO-7XI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHN-H8-ksf">
                                 <rect key="frame" x="226" y="271" width="130" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Gone, All Gone"/>
+                                <connections>
+                                    <action selector="AudioClip2:" destination="8ZV-Ph-6hv" eventType="touchUpInside" id="H3I-o1-v2z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Omz-JY-UFo">
                                 <rect key="frame" x="255" y="339" width="72" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Barkeep"/>
+                                <connections>
+                                    <action selector="AudioClip4:" destination="8ZV-Ph-6hv" eventType="touchUpInside" id="smX-Nw-Zw5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShC-W9-cxm">
                                 <rect key="frame" x="273" y="407" width="37" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Yes!"/>
+                                <connections>
+                                    <action selector="AudioClip6:" destination="8ZV-Ph-6hv" eventType="touchUpInside" id="4nS-zz-C6I"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3HZ-kH-Mvw" userLabel="Home">
                                 <rect key="frame" x="22" y="728" width="50" height="50"/>
@@ -744,7 +774,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Devo-loper?"/>
                                 <connections>
-                                    <action selector="DungaAudio1:" destination="8ZV-Ph-6hv" eventType="touchUpInside" id="4p5-mY-ysb"/>
+                                    <action selector="AudioClip1:" destination="8ZV-Ph-6hv" eventType="touchUpInside" id="54t-U0-HYA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -759,7 +789,7 @@
         <!--Lys Audio-->
         <scene sceneID="3CU-wv-49n">
             <objects>
-                <viewController id="EE6-VZ-j5I" userLabel="Lys Audio" customClass="DungaAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EE6-VZ-j5I" userLabel="Lys Audio" customClass="LysAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r5P-YQ-aNY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -769,30 +799,45 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="It's Him?"/>
+                                <connections>
+                                    <action selector="LysAudio3:" destination="EE6-VZ-j5I" eventType="touchUpInside" id="AKn-eM-MeS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ZS-Hx-trO">
                                 <rect key="frame" x="45" y="407" width="79" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Excellent"/>
+                                <connections>
+                                    <action selector="LysAudio5:" destination="EE6-VZ-j5I" eventType="touchUpInside" id="W45-Wq-q0q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ijj-er-xMg">
                                 <rect key="frame" x="231" y="271" width="121" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="You are a God"/>
+                                <connections>
+                                    <action selector="LysAudio2:" destination="EE6-VZ-j5I" eventType="touchUpInside" id="mKs-ab-tFA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAx-rP-FKF">
                                 <rect key="frame" x="217" y="339" width="149" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="He's an Odd One"/>
+                                <connections>
+                                    <action selector="LysAudio4:" destination="EE6-VZ-j5I" eventType="touchUpInside" id="bI1-xr-0bK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxs-fn-94d">
                                 <rect key="frame" x="207" y="407" width="168" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="You are Now Ready"/>
+                                <connections>
+                                    <action selector="LysAudio6:" destination="EE6-VZ-j5I" eventType="touchUpInside" id="dH7-bF-FVp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tW0-1H-V7Q">
                                 <rect key="frame" x="54" y="271" width="60" height="36"/>
@@ -800,7 +845,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="I'm Lys"/>
                                 <connections>
-                                    <action selector="DungaAudio1:" destination="EE6-VZ-j5I" eventType="touchUpInside" id="2eO-3S-yTw"/>
+                                    <action selector="LysAudio1:" destination="EE6-VZ-j5I" eventType="touchUpInside" id="D2g-10-tTw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWT-9b-YTn" userLabel="Home">
@@ -868,7 +913,7 @@
         <!--Lys Audio-->
         <scene sceneID="sS9-dr-yla">
             <objects>
-                <viewController id="oqh-i5-x3X" userLabel="Lys Audio" customClass="DungaAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oqh-i5-x3X" userLabel="Lys Audio" customClass="BlooperAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tz7-QN-AyB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -908,9 +953,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Blooper 1"/>
-                                <connections>
-                                    <action selector="DungaAudio1:" destination="oqh-i5-x3X" eventType="touchUpInside" id="gAu-oV-Ffx"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGm-sC-gja" userLabel="Home">
                                 <rect key="frame" x="22" y="728" width="50" height="50"/>
@@ -982,11 +1024,11 @@
         <image name="life.png" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FMZ-8Z-sRI"/>
-        <segue reference="nHJ-T8-wxR"/>
-        <segue reference="Yw0-b8-xii"/>
-        <segue reference="WEk-DZ-LFJ"/>
-        <segue reference="4o7-TL-Ez6"/>
+        <segue reference="ucN-EU-h61"/>
+        <segue reference="Oer-or-blM"/>
+        <segue reference="WBX-I6-tAL"/>
+        <segue reference="2rQ-qJ-UId"/>
+        <segue reference="wva-oa-kll"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>

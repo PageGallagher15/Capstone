@@ -1,8 +1,8 @@
 //
-//  DungaAudio.swift
+//  LysAudio.swift
 //  DungaApp
 //
-//  Created by Wallis Bradley W. on 4/23/19.
+//  Created by Santos Kevin A. on 4/24/19.
 //  Copyright © 2019 HotFireGames. All rights reserved.
 //
 
@@ -10,13 +10,13 @@ import Foundation
 import UIKit
 import AVFoundation
 
-class DungaAudio: UIViewController {
+class LysAudio: UIViewController {
     
     var audioPlayer = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
         
     }
     
@@ -25,23 +25,9 @@ class DungaAudio: UIViewController {
         // Release any cached data, images, etc that aren't in use.
     }
     
-    
-    @IBAction func DungaAudio1(_ sender: Any) {
+    @IBAction func LysAudio1(_ sender: Any) {
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "DungaSingingLong", ofType: "wav")!))
-            audioPlayer.prepareToPlay()
-            audioPlayer.play()
-        }
-            
-        catch {
-            print(error)
-        }
-
-    }
-    
-    @IBAction func DungaAudio2(_ sender: Any) {
-        do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "DungaSingalongLong", ofType: "wav")!))
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "ImLys", ofType: "wav")!))
             audioPlayer.prepareToPlay()
             audioPlayer.play()
         }
@@ -52,9 +38,9 @@ class DungaAudio: UIViewController {
         
     }
     
-    @IBAction func DungaAudio3(_ sender: Any) {
+    @IBAction func LysAudio2(_ sender: Any) {
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "DungaSurprised", ofType: "wav")!))
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "YouAreALesserGod", ofType: "wav")!))
             audioPlayer.prepareToPlay()
             audioPlayer.play()
         }
@@ -65,9 +51,9 @@ class DungaAudio: UIViewController {
         
     }
     
-    @IBAction func DungaAudio4(_ sender: Any) {
+    @IBAction func LysAudio3(_ sender: Any) {
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "DungaYes", ofType: "wav")!))
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "ItsHim", ofType: "wav")!))
             audioPlayer.prepareToPlay()
             audioPlayer.play()
         }
@@ -78,9 +64,9 @@ class DungaAudio: UIViewController {
         
     }
     
-    @IBAction func DungaAudio5(_ sender: Any) {
+    @IBAction func LysAudio4(_ sender: Any) {
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "DungaLaughing", ofType: "wav")!))
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "HesAnOddOne", ofType: "wav")!))
             audioPlayer.prepareToPlay()
             audioPlayer.play()
         }
@@ -91,9 +77,9 @@ class DungaAudio: UIViewController {
         
     }
     
-    @IBAction func DungaAudio6(_ sender: Any) {
+    @IBAction func LysAudio5(_ sender: Any) {
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "DungaHeyy", ofType: "wav")!))
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "Excellent", ofType: "wav")!))
             audioPlayer.prepareToPlay()
             audioPlayer.play()
         }
@@ -104,5 +90,16 @@ class DungaAudio: UIViewController {
         
     }
     
+    @IBAction func LysAudio6(_ sender: Any) {
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "YouAreNowReady", ofType: "wav")!))
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        }
+            
+        catch {
+            print(error)
+        }
+        
+    }
 }
-

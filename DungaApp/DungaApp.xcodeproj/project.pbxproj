@@ -10,6 +10,11 @@
 		185CFB202270E007007493D0 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 185CFB1F2270E006007493D0 /* arrow.png */; };
 		185CFB222270E01D007493D0 /* life.png in Resources */ = {isa = PBXBuildFile; fileRef = 185CFB212270E01D007493D0 /* life.png */; };
 		185CFB242270E025007493D0 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 185CFB232270E024007493D0 /* hand.png */; };
+		185CFB282270E676007493D0 /* Dunga_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 185CFB272270E676007493D0 /* Dunga_1.jpg */; };
+		185CFB2A2270E6CB007493D0 /* BakAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CFB292270E6CB007493D0 /* BakAudio.swift */; };
+		185CFB2C2270E6EF007493D0 /* LysAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CFB2B2270E6EF007493D0 /* LysAudio.swift */; };
+		185CFB2E2270E710007493D0 /* BlooperAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CFB2D2270E710007493D0 /* BlooperAudio.swift */; };
+		185CFB302270E7ED007493D0 /* GameAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CFB2F2270E7ED007493D0 /* GameAudio.swift */; };
 		EB42C9852242E03D00E74BE5 /* Button1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB42C9842242E03C00E74BE5 /* Button1.jpg */; };
 		EB67C95F226FCFD60024DF61 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB67C95E226FCFD60024DF61 /* VideoController.swift */; };
 		F40A4E722214B7D8006D9526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A4E712214B7D8006D9526 /* AppDelegate.swift */; };
@@ -394,6 +399,11 @@
 		185CFB1F2270E006007493D0 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		185CFB212270E01D007493D0 /* life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = life.png; sourceTree = "<group>"; };
 		185CFB232270E024007493D0 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		185CFB272270E676007493D0 /* Dunga_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dunga_1.jpg; sourceTree = SOURCE_ROOT; };
+		185CFB292270E6CB007493D0 /* BakAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakAudio.swift; sourceTree = "<group>"; };
+		185CFB2B2270E6EF007493D0 /* LysAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LysAudio.swift; sourceTree = "<group>"; };
+		185CFB2D2270E710007493D0 /* BlooperAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlooperAudio.swift; sourceTree = "<group>"; };
+		185CFB2F2270E7ED007493D0 /* GameAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAudio.swift; sourceTree = "<group>"; };
 		EB42C9842242E03C00E74BE5 /* Button1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Button1.jpg; sourceTree = SOURCE_ROOT; };
 		EB5F282A225E92CA00ABE348 /* Blooper 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 8.wav"; sourceTree = "<group>"; };
 		EB67C95E226FCFD60024DF61 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
@@ -884,6 +894,11 @@
 				F40A4E7E2214B7D8006D9526 /* Assets.xcassets */,
 				F40A4E802214B7D8006D9526 /* LaunchScreen.storyboard */,
 				F40A4E832214B7D8006D9526 /* Info.plist */,
+				185CFB272270E676007493D0 /* Dunga_1.jpg */,
+				185CFB292270E6CB007493D0 /* BakAudio.swift */,
+				185CFB2B2270E6EF007493D0 /* LysAudio.swift */,
+				185CFB2D2270E710007493D0 /* BlooperAudio.swift */,
+				185CFB2F2270E7ED007493D0 /* GameAudio.swift */,
 			);
 			path = DungaApp;
 			sourceTree = "<group>";
@@ -1554,6 +1569,7 @@
 				F4A00367226FA1DB009848C8 /* DungaShortConfident.wav in Resources */,
 				F4A002B1226FA1DA009848C8 /* Bak(Scene6)(Take2)ThePeopleWhoMadeUs.wav.meta in Resources */,
 				F4A003A6226FA1DB009848C8 /* DungaLaughing.wav.meta in Resources */,
+				185CFB282270E676007493D0 /* Dunga_1.jpg in Resources */,
 				F4A002A5226FA1DA009848C8 /* Bak(Scene6)(Take1).GroupParticipation.wav in Resources */,
 				F4A002A1226FA1DA009848C8 /* IWouldCome.wav.meta in Resources */,
 				F456A7542214C9C5003FED56 /* GoogleService-Info.plist in Resources */,
@@ -1829,8 +1845,12 @@
 				F40A4E782214B7D8006D9526 /* GameScene.swift in Sources */,
 				EB67C95F226FCFD60024DF61 /* VideoController.swift in Sources */,
 				F4A0011A226F9FA3009848C8 /* Camera.swift in Sources */,
+				185CFB2C2270E6EF007493D0 /* LysAudio.swift in Sources */,
 				F4A00118226F9E26009848C8 /* DungaAudio.swift in Sources */,
+				185CFB2A2270E6CB007493D0 /* BakAudio.swift in Sources */,
 				F40A4E7A2214B7D8006D9526 /* GameViewController.swift in Sources */,
+				185CFB2E2270E710007493D0 /* BlooperAudio.swift in Sources */,
+				185CFB302270E7ED007493D0 /* GameAudio.swift in Sources */,
 				F40A4E722214B7D8006D9526 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
