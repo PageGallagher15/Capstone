@@ -15,6 +15,12 @@
 		185CFB2C2270E6EF007493D0 /* LysAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CFB2B2270E6EF007493D0 /* LysAudio.swift */; };
 		185CFB2E2270E710007493D0 /* BlooperAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CFB2D2270E710007493D0 /* BlooperAudio.swift */; };
 		185CFB302270E7ED007493D0 /* GameAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CFB2F2270E7ED007493D0 /* GameAudio.swift */; };
+		185CFB382270F320007493D0 /* Blooper 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 185CFB322270F320007493D0 /* Blooper 6.wav */; };
+		185CFB392270F320007493D0 /* Blooper 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 185CFB332270F320007493D0 /* Blooper 1.wav */; };
+		185CFB3A2270F320007493D0 /* Blooper 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 185CFB342270F320007493D0 /* Blooper 2.wav */; };
+		185CFB3B2270F320007493D0 /* Blooper 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 185CFB352270F320007493D0 /* Blooper 8.wav */; };
+		185CFB3C2270F320007493D0 /* Blooper 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 185CFB362270F320007493D0 /* Blooper 9.wav */; };
+		185CFB3D2270F320007493D0 /* Blooper 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 185CFB372270F320007493D0 /* Blooper 10.wav */; };
 		EB42C9852242E03D00E74BE5 /* Button1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB42C9842242E03C00E74BE5 /* Button1.jpg */; };
 		EB67C95F226FCFD60024DF61 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB67C95E226FCFD60024DF61 /* VideoController.swift */; };
 		F40A4E722214B7D8006D9526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A4E712214B7D8006D9526 /* AppDelegate.swift */; };
@@ -38,7 +44,6 @@
 		F456A74C2214BD31003FED56 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A74A2214BD30003FED56 /* leveldb-library.framework */; };
 		F456A74D2214BD31003FED56 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F456A74B2214BD31003FED56 /* FirebaseDatabase.framework */; };
 		F456A7542214C9C5003FED56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F456A7532214C9C5003FED56 /* GoogleService-Info.plist */; };
-		F4A0010C226F905A009848C8 /* Blooper 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB5F282A225E92CA00ABE348 /* Blooper 8.wav */; };
 		F4A00118226F9E26009848C8 /* DungaAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A00117226F9E26009848C8 /* DungaAudio.swift */; };
 		F4A0011A226F9FA3009848C8 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A00119226F9FA3009848C8 /* Camera.swift */; };
 		F4A00286226FA1DA009848C8 /* OpeningScene.meta in Resources */ = {isa = PBXBuildFile; fileRef = F4A0012A226FA1DA009848C8 /* OpeningScene.meta */; };
@@ -229,8 +234,13 @@
 		185CFB2B2270E6EF007493D0 /* LysAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LysAudio.swift; sourceTree = "<group>"; };
 		185CFB2D2270E710007493D0 /* BlooperAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlooperAudio.swift; sourceTree = "<group>"; };
 		185CFB2F2270E7ED007493D0 /* GameAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAudio.swift; sourceTree = "<group>"; };
+		185CFB322270F320007493D0 /* Blooper 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 6.wav"; sourceTree = "<group>"; };
+		185CFB332270F320007493D0 /* Blooper 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 1.wav"; sourceTree = "<group>"; };
+		185CFB342270F320007493D0 /* Blooper 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 2.wav"; sourceTree = "<group>"; };
+		185CFB352270F320007493D0 /* Blooper 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 8.wav"; sourceTree = "<group>"; };
+		185CFB362270F320007493D0 /* Blooper 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 9.wav"; sourceTree = "<group>"; };
+		185CFB372270F320007493D0 /* Blooper 10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 10.wav"; sourceTree = "<group>"; };
 		EB42C9842242E03C00E74BE5 /* Button1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Button1.jpg; sourceTree = SOURCE_ROOT; };
-		EB5F282A225E92CA00ABE348 /* Blooper 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 8.wav"; sourceTree = "<group>"; };
 		EB67C95E226FCFD60024DF61 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		F40A4E6E2214B7D8006D9526 /* DungaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40A4E712214B7D8006D9526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -645,6 +655,19 @@
 			path = "Skill Images";
 			sourceTree = "<group>";
 		};
+		185CFB312270F320007493D0 /* Bloopers */ = {
+			isa = PBXGroup;
+			children = (
+				185CFB322270F320007493D0 /* Blooper 6.wav */,
+				185CFB332270F320007493D0 /* Blooper 1.wav */,
+				185CFB342270F320007493D0 /* Blooper 2.wav */,
+				185CFB352270F320007493D0 /* Blooper 8.wav */,
+				185CFB362270F320007493D0 /* Blooper 9.wav */,
+				185CFB372270F320007493D0 /* Blooper 10.wav */,
+			);
+			path = Bloopers;
+			sourceTree = "<group>";
+		};
 		EB42C9812242DE3100E74BE5 /* Button Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -656,6 +679,7 @@
 		EB5F2827225E927E00ABE348 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				185CFB312270F320007493D0 /* Bloopers */,
 				F4A001AE226FA1DA009848C8 /* Archer */,
 				F4A00129226FA1DA009848C8 /* Bak */,
 				F4A001B5226FA1DA009848C8 /* Barkeep */,
@@ -663,7 +687,6 @@
 				F4A00200226FA1DA009848C8 /* Dunga */,
 				F4A00267226FA1DA009848C8 /* Marauder */,
 				F4A001B8226FA1DA009848C8 /* Sprite */,
-				EB5F282A225E92CA00ABE348 /* Blooper 8.wav */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -1300,23 +1323,25 @@
 				F4A00360226FA1DB009848C8 /* Dunga1.wav in Resources */,
 				F4A0031F226FA1DB009848C8 /* ItsHim.wav in Resources */,
 				F4A00321226FA1DB009848C8 /* VeryGood.wav.meta in Resources */,
+				185CFB3A2270F320007493D0 /* Blooper 2.wav in Resources */,
 				F4A0035F226FA1DB009848C8 /* DungaHeyy.wav in Resources */,
 				F4A0037B226FA1DB009848C8 /* DungaLonger.wav.meta in Resources */,
 				F4A0039F226FA1DB009848C8 /* DungaShort.wav in Resources */,
 				F4A002E1226FA1DB009848C8 /* OpeningCinematic.meta in Resources */,
 				F4A0036C226FA1DB009848C8 /* DungaSatisfied.wav in Resources */,
 				F4A00320226FA1DB009848C8 /* ImLys.wav in Resources */,
-				F4A0010C226F905A009848C8 /* Blooper 8.wav in Resources */,
 				F4A00348226FA1DB009848C8 /* Chieftain_Line5.wav in Resources */,
 				F4A0030E226FA1DB009848C8 /* Yoohoo.wav.meta in Resources */,
 				F4A003AA226FA1DB009848C8 /* Dunga1Time2.wav in Resources */,
 				F4A0035B226FA1DB009848C8 /* DungaExhausted-2.wav in Resources */,
+				185CFB3D2270F320007493D0 /* Blooper 10.wav in Resources */,
 				F4A0035C226FA1DB009848C8 /* DungaExhausted-3.wav in Resources */,
 				F4A0034A226FA1DB009848C8 /* Chieftain_Line5.wav.meta in Resources */,
 				F4A00353226FA1DB009848C8 /* DungaExhausted-3.wav.meta in Resources */,
 				F4A00325226FA1DB009848C8 /* Excellent.wav in Resources */,
 				F4A00389226FA1DB009848C8 /* DungaHeyy2.wav.meta in Resources */,
 				F4A0028D226FA1DA009848C8 /* IWouldCome.wav in Resources */,
+				185CFB3B2270F320007493D0 /* Blooper 8.wav in Resources */,
 				F4A00290226FA1DA009848C8 /* ItsTheirShip.wav in Resources */,
 				F4A0032A226FA1DB009848C8 /* FullPower.wav in Resources */,
 				F4A00311226FA1DB009848C8 /* YouAreALesserGod.wav in Resources */,
@@ -1359,6 +1384,7 @@
 				F4A00298226FA1DA009848C8 /* OddlyConvenient.wav.meta in Resources */,
 				F4A0039A226FA1DB009848C8 /* DungaSingalongLong.wav in Resources */,
 				F4A003A9226FA1DB009848C8 /* Dunga1.wav.meta in Resources */,
+				185CFB392270F320007493D0 /* Blooper 1.wav in Resources */,
 				F4A0032B226FA1DB009848C8 /* SeeThoseStones.wav in Resources */,
 				F40A4E7D2214B7D8006D9526 /* Main.storyboard in Resources */,
 				F4A0035A226FA1DB009848C8 /* DungaSingingShort.wav in Resources */,
@@ -1393,6 +1419,7 @@
 				F4A00330226FA1DB009848C8 /* SameWithBuffs.wav.meta in Resources */,
 				F4A0037C226FA1DB009848C8 /* DungaExplanation.wav.meta in Resources */,
 				F40A4E822214B7D8006D9526 /* LaunchScreen.storyboard in Resources */,
+				185CFB382270F320007493D0 /* Blooper 6.wav in Resources */,
 				F4A003A1226FA1DB009848C8 /* DungaShortUpbeat.wav in Resources */,
 				F4A0028E226FA1DA009848C8 /* EverythingTheyTook.wav in Resources */,
 				F4A0038D226FA1DB009848C8 /* DungaShort3.wav in Resources */,
@@ -1413,6 +1440,7 @@
 				F4A0030D226FA1DB009848C8 /* Yoohoo.wav in Resources */,
 				F4A003A0226FA1DB009848C8 /* DungaHeyy.wav.meta in Resources */,
 				F4A00295226FA1DA009848C8 /* AllGone.wav in Resources */,
+				185CFB3C2270F320007493D0 /* Blooper 9.wav in Resources */,
 				F4A0029E226FA1DA009848C8 /* Barkeep.wav.meta in Resources */,
 				F4A0028B226FA1DA009848C8 /* OddlyConvenient.wav in Resources */,
 				F4A003C2226FA1DB009848C8 /* Raider(Scene4)(Stage4)(Take2)RollOverNDie.wav in Resources */,

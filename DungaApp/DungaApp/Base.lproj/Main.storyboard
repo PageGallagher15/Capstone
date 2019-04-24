@@ -61,7 +61,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
-                                    <segue destination="hBp-Y9-Uwp" kind="show" id="R0x-JK-x1o"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="o6L-qI-ZVj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuo-bx-sFQ" userLabel="Leaderboards">
@@ -201,7 +201,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="XNo-4n-Rim"/>
-                                    <segue destination="hBp-Y9-Uwp" kind="show" id="JMC-5Y-Zae"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="A8j-Mm-WaR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJf-bm-2dT" userLabel="Leaderboards">
@@ -254,7 +254,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Bloopers"/>
                                 <connections>
-                                    <segue destination="oqh-i5-x3X" kind="show" id="Zwn-hn-xEs"/>
+                                    <segue destination="oqh-i5-x3X" kind="show" id="hPY-Q0-lVC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ON-hV-pQI">
@@ -390,7 +390,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
-                                    <segue destination="hBp-Y9-Uwp" kind="show" id="3Zd-Hh-OlC"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="smF-Gb-HJn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUn-o3-5Ma" userLabel="Leaderboards">
@@ -435,7 +435,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Button1.jpg"/>
                                         <connections>
-                                            <segue destination="hBp-Y9-Uwp" kind="show" id="nip-bO-lQB"/>
+                                            <segue destination="hBp-Y9-Uwp" kind="show" id="A58-eS-hwv"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOu-1J-ppc" userLabel="GameInfo">
@@ -620,7 +620,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
-                                    <segue destination="hBp-Y9-Uwp" kind="show" id="WEk-DZ-LFJ"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="jcc-ee-hBp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbo-nW-zil" userLabel="Leaderboards">
@@ -756,7 +756,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="0b1-uT-j1K"/>
-                                    <segue destination="hBp-Y9-Uwp" kind="show" id="EVq-Kn-ibH"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="sCX-MO-Nv1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eF-eA-P6x" userLabel="Leaderboards">
@@ -827,7 +827,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="uZ5-RL-4dF"/>
-                                    <segue destination="hBp-Y9-Uwp" kind="show" id="2rQ-qJ-UId"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="UnW-Ja-tcH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omd-nj-YVb" userLabel="Leaderboards">
@@ -910,10 +910,10 @@
             </objects>
             <point key="canvasLocation" x="-111.2" y="-935.46798029556658"/>
         </scene>
-        <!--Lys Audio-->
+        <!--Blooper Audio-->
         <scene sceneID="sS9-dr-yla">
             <objects>
-                <viewController id="oqh-i5-x3X" userLabel="Lys Audio" customClass="BlooperAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oqh-i5-x3X" customClass="BlooperAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tz7-QN-AyB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -923,36 +923,54 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Blooper 3"/>
+                                <connections>
+                                    <action selector="BlooperAudio3:" destination="oqh-i5-x3X" eventType="touchUpInside" id="bVW-S7-ZqC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUO-5p-tbw">
                                 <rect key="frame" x="42" y="407" width="84" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Blooper 5"/>
+                                <connections>
+                                    <action selector="BlooperAudio5:" destination="oqh-i5-x3X" eventType="touchUpInside" id="2Ne-AY-zlk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tX-W4-4VC">
                                 <rect key="frame" x="249" y="271" width="84" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Blooper 2"/>
+                                <connections>
+                                    <action selector="BlooperAudio2:" destination="oqh-i5-x3X" eventType="touchUpInside" id="Z6R-bo-OoU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YrE-xs-1nx">
                                 <rect key="frame" x="249" y="339" width="85" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Blooper 4"/>
+                                <connections>
+                                    <action selector="BlooperAudio4:" destination="oqh-i5-x3X" eventType="touchUpInside" id="cJt-Ir-k9u"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZZ-FB-wAE">
                                 <rect key="frame" x="249" y="407" width="85" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Blooper 6"/>
+                                <connections>
+                                    <action selector="BlooperAudio6:" destination="oqh-i5-x3X" eventType="touchUpInside" id="8uZ-JV-RdK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjk-Ae-bd9">
                                 <rect key="frame" x="43" y="271" width="82" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Blooper 1"/>
+                                <connections>
+                                    <action selector="BlooperAudio1:" destination="oqh-i5-x3X" eventType="touchUpInside" id="BGG-6K-6rA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGm-sC-gja" userLabel="Home">
                                 <rect key="frame" x="22" y="728" width="50" height="50"/>
@@ -987,7 +1005,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="zir-hn-2oh"/>
-                                    <segue destination="hBp-Y9-Uwp" kind="show" id="7Cz-5Y-OBd"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="aWl-0x-lEu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myO-iO-yUd" userLabel="Leaderboards">
@@ -1024,11 +1042,11 @@
         <image name="life.png" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IsL-L1-aty"/>
-        <segue reference="6dc-du-IZA"/>
-        <segue reference="ZPw-l8-dAE"/>
-        <segue reference="R0x-JK-x1o"/>
-        <segue reference="4VO-CR-55e"/>
+        <segue reference="pav-jB-5Z0"/>
+        <segue reference="035-se-Efm"/>
+        <segue reference="xPX-j4-2nx"/>
+        <segue reference="sCX-MO-Nv1"/>
+        <segue reference="cF3-TC-cch"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>

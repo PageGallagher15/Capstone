@@ -25,10 +25,9 @@ class BlooperAudio: UIViewController {
         // Release any cached data, images, etc that aren't in use.
     }
     
-    
-    @IBAction func DungaAudio1(_ sender: Any) {
+    @IBAction func BlooperAudio1(_ sender: Any) {
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "DungaSingingLong", ofType: "wav")!))
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "Blooper 1", ofType: "wav")!))
             audioPlayer.prepareToPlay()
             audioPlayer.play()
         }
@@ -39,4 +38,68 @@ class BlooperAudio: UIViewController {
         
     }
     
+    @IBAction func BlooperAudio2(_ sender: Any) {
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "Blooper 2", ofType: "wav")!))
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        }
+            
+        catch {
+            print(error)
+        }
+        
+    }
+    
+    @IBAction func BlooperAudio3(_ sender: Any) {
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "Blooper 6", ofType: "wav")!))
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        }
+            
+        catch {
+            print(error)
+        }
+        
+    }
+    
+    @IBAction func BlooperAudio4(_ sender: Any) {
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "Blooper 8", ofType: "wav")!))
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        }
+            
+        catch {
+            print(error)
+        }
+        
+    }
+    
+    @IBAction func BlooperAudio5(_ sender: Any) {
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "Blooper 9", ofType: "wav")!))
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        }
+            
+        catch {
+            print(error)
+        }
+        
+    }
+    
+    @IBAction func BlooperAudio6(_ sender: Any) {
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path (forResource: "Blooper 10", ofType: "wav")!))
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        }
+            
+        catch {
+            print(error)
+        }
+        
+    }
 }
