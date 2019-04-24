@@ -61,8 +61,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
-                                    <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="U3V-e7-eIo"/>
-                                    <segue destination="epH-hd-DUK" kind="show" id="6eL-hC-YLs"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="R0x-JK-x1o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuo-bx-sFQ" userLabel="Leaderboards">
@@ -88,7 +87,7 @@
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
                     </view>
                     <connections>
@@ -97,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-633" y="98"/>
+            <point key="canvasLocation" x="-622" y="97"/>
         </scene>
         <!--Dunga Audio-->
         <scene sceneID="lOb-Ag-r6V">
@@ -127,17 +126,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Dunga"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmF-SJ-mYf">
-                                <rect key="frame" x="55" y="471" width="58" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Dunga"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxr-6G-m03">
-                                <rect key="frame" x="262" y="271" width="58" height="36"/>
+                                <rect key="frame" x="219" y="271" width="144" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Dunga"/>
+                                <state key="normal" title="Dunga Singing 2"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTV-Hy-msi">
                                 <rect key="frame" x="262" y="339" width="58" height="36"/>
@@ -151,17 +144,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Dunga"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWB-v6-gce">
-                                <rect key="frame" x="262" y="471" width="58" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Dunga"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBg-WU-q53">
-                                <rect key="frame" x="22" y="271" width="124" height="36"/>
+                                <rect key="frame" x="20" y="271" width="128" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="DungaSinging"/>
+                                <state key="normal" title="Dunga Singing"/>
                                 <connections>
                                     <action selector="DungaAudio1:" destination="epH-hd-DUK" eventType="touchUpInside" id="3nn-tA-mYj"/>
                                 </connections>
@@ -172,7 +159,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="NsA-BM-QLj"/>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="hWq-ki-Hjz"/>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="zNw-7s-scQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Rf-cv-wee" userLabel="GameInfo">
@@ -181,7 +168,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="VyL-u7-7VR"/>
-                                    <segue destination="X1C-b7-lf8" kind="show" id="Pa9-VU-dwZ"/>
+                                    <segue destination="X1C-b7-lf8" kind="show" id="Ssp-96-CVN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maz-gm-olu" userLabel="GameGuide">
@@ -190,7 +177,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="m3H-nq-0Nq"/>
-                                    <segue destination="rx7-W7-pOo" kind="show" id="wk3-mo-Cgd"/>
+                                    <segue destination="rx7-W7-pOo" kind="show" id="l7Z-ca-rmA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxp-rv-SWT" userLabel="Augmented Reality">
@@ -199,6 +186,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="XNo-4n-Rim"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="JMC-5Y-Zae"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJf-bm-2dT" userLabel="Leaderboards">
@@ -207,7 +195,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="58n-7g-gfE"/>
-                                    <segue destination="Xp7-G4-Dnd" kind="show" id="EVT-lq-wh0"/>
+                                    <segue destination="Xp7-G4-Dnd" kind="show" id="icX-Wa-vqL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -217,7 +205,113 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O4E-J2-fIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2151" y="78"/>
+            <point key="canvasLocation" x="1178" y="-934"/>
+        </scene>
+        <!--Dunga Audio-->
+        <scene sceneID="hVH-Ly-t18">
+            <objects>
+                <viewController id="hBp-Y9-Uwp" customClass="DungaAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xyt-CP-m5b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WL8-jT-5MM">
+                                <rect key="frame" x="69" y="339" width="30" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Lys"/>
+                                <connections>
+                                    <segue destination="EE6-VZ-j5I" kind="show" id="UzX-fo-KQn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7j-uf-C2g">
+                                <rect key="frame" x="275" y="271" width="33" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Bak"/>
+                                <connections>
+                                    <segue destination="8ZV-Ph-6hv" kind="show" id="aho-ko-HKP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQ9-0J-BoV">
+                                <rect key="frame" x="253" y="339" width="77" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Bloopers"/>
+                                <connections>
+                                    <segue destination="oqh-i5-x3X" kind="show" id="EWu-xi-b6T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ON-hV-pQI">
+                                <rect key="frame" x="55" y="271" width="58" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Dunga"/>
+                                <connections>
+                                    <action selector="DungaAudio1:" destination="hBp-Y9-Uwp" eventType="touchUpInside" id="aDl-g8-qMG"/>
+                                    <segue destination="epH-hd-DUK" kind="show" id="KD4-zS-pXP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVg-mt-E8g" userLabel="Home">
+                                <rect key="frame" x="22" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="1QB-Gl-zxZ"/>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="9of-fH-IC8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KyS-wS-zpU" userLabel="GameInfo">
+                                <rect key="frame" x="96" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="7ic-op-mQj"/>
+                                    <segue destination="X1C-b7-lf8" kind="show" id="pNQ-Li-OI6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVU-Ud-CJc" userLabel="GameGuide">
+                                <rect key="frame" x="169" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="ebX-z9-E7q"/>
+                                    <segue destination="rx7-W7-pOo" kind="show" id="M3f-HN-vlT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXl-yO-g43" userLabel="Augmented Reality">
+                                <rect key="frame" x="315" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="0od-JB-wAO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Em-6B-Bhn" userLabel="Leaderboards">
+                                <rect key="frame" x="243" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="iBb-wL-uRu"/>
+                                    <segue destination="Xp7-G4-Dnd" kind="show" id="jjG-Lx-smG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game Audio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jiD-Im-rD9">
+                                <rect key="frame" x="61" y="127" width="252" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" red="1" green="0.63530460619999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="9"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="g7h-ba-lOq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdY-O9-ZTR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1831" y="-935"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="Lew-4B-o4t">
@@ -234,7 +328,7 @@
                                         <rect key="frame" x="8" y="27" width="359" height="562"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Dunga:  He is a large, brave, but feeble-minded viking. He is protective of his friends and takes pride in providing for his village. To the player, he only repeats his name, like a Pokemon. Other characters are somehow able to understand him perfectly, however.  Bak: A gentle soul, Bak is Dunga's best friend and loyal companion. He means well and is always willing to help, but often shys away from dangerous situations and prefers to avoid conflict.  Clucky:  A magical chicken. Dunga's arch-nemesis. He causes chaos throughout the game but can also aid the player in discovering the world's mysteries.  Cheiftain: A brave, honourable warrior. A true viking. He seeks battle &amp; glory, seeking to establish his legacy and take a seat with the gods in Valhalla. The player may choose to execute him for his attack on the village or recruit him to join his forces.  Lys: An ancient sprite and your loyal servant. His purpose is to help you, the god, regain your forgotten powers and guide Dunga on his quests for glory.</mutableString>
+                                        <string key="text">Dunga:  He is a large, brave, but feeble-minded viking. He is protective of his friends and takes pride in providing for his village. To the player, he only repeats his name, like a Pokemon. Other characters are somehow able to understand him perfectly, however.  Bak: A gentle soul, Bak is Dunga's best friend and loyal companion. He means well and is always willing to help, but often shys away from dangerous situations and prefers to avoid conflict.  Clucky:  A magical chicken. Dunga's arch-nemesis. He causes chaos throughout the game but can also aid the player in discovering the world's mysteries.  Cheiftain: A brave, honourable warrior. A true viking. He seeks battle &amp; glory, seeking to establish his legacy and take a seat with the gods in Valhalla. The player may choose to execute him for his attack on the village or recruit him to join his forces.  Lys: An ancient sprite and your loyal servant. His purpose is to help you, the god, regain your forgotten powers and guide Dunga on his quests for glory.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="name"/>
                                     </textView>
@@ -282,8 +376,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
-                                    <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="nwf-sS-kCm"/>
-                                    <segue destination="epH-hd-DUK" kind="show" id="Fjc-rT-RKk"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="3Zd-Hh-OlC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUn-o3-5Ma" userLabel="Leaderboards">
@@ -328,8 +421,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Button1.jpg"/>
                                         <connections>
-                                            <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="czO-KT-iBh"/>
-                                            <segue destination="epH-hd-DUK" kind="show" id="7L6-cA-8uJ"/>
+                                            <segue destination="hBp-Y9-Uwp" kind="show" id="nip-bO-lQB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOu-1J-ppc" userLabel="GameInfo">
@@ -407,7 +499,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Un-Tb-aJw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1436" y="78"/>
+            <point key="canvasLocation" x="1428" y="98"/>
         </scene>
         <!--Camera-->
         <scene sceneID="VdV-45-9ax">
@@ -458,7 +550,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12x-pW-LIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2818" y="78"/>
+            <point key="canvasLocation" x="3521" y="78"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="Wfo-Gk-alK">
@@ -475,7 +567,7 @@
                                         <rect key="frame" x="8" y="27" width="359" height="562"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Combat: This game focuses on UI manipulation and interacting with the world around you. Pay close attention to all aspects of the user interface, you may be able to use them to your advantage.   Abilities: Health Swap - When active, you are able to steal the life force of an enemy and give it to Dunga by dragging an enemy's health bar over Dunga's.  Arrow Grab - When active, you have the power to stop enemy archers' projectile in mid air. As you invest in this skill, you will be able to shoot them right back at the enemies for extra damage!  Hand of God - When active, you are able to grab, throw and manipulate various parts of the world including barrels, stones, and hidden elements.  Buff Steal - When active, you are able to take en enemy's magical buff, such as shields and potions, and give them to Dunga. Functions similarly to Health Swap.</mutableString>
+                                        <string key="text">Combat: This game focuses on UI manipulation and interacting with the world around you. Pay close attention to all aspects of the user interface, you may be able to use them to your advantage.   Abilities: Health Swap - When active, you are able to steal the life force of an enemy and give it to Dunga by dragging an enemy's health bar over Dunga's.  Arrow Grab - When active, you have the power to stop enemy archers' projectile in mid air. As you invest in this skill, you will be able to shoot them right back at the enemies for extra damage!  Hand of God - When active, you are able to grab, throw and manipulate various parts of the world including barrels, stones, and hidden elements.  Buff Steal - When active, you are able to take en enemy's magical buff, such as shields and potions, and give them to Dunga. Functions similarly to Health Swap.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -523,8 +615,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
-                                    <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Io5-M7-xFu"/>
-                                    <segue destination="epH-hd-DUK" kind="show" id="u31-UM-bVt"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="WEk-DZ-LFJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbo-nW-zil" userLabel="Leaderboards">
@@ -552,16 +643,343 @@
             </objects>
             <point key="canvasLocation" x="704.79999999999995" y="165.51724137931035"/>
         </scene>
+        <!--Bak Audio-->
+        <scene sceneID="rKM-eN-iPL">
+            <objects>
+                <viewController id="8ZV-Ph-6hv" userLabel="Bak Audio" customClass="DungaAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fGU-mU-aXx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bak Audio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbK-F7-G2T">
+                                <rect key="frame" x="84" y="127" width="207" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" red="1" green="0.63530460619999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="9"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="892-V4-UR8">
+                                <rect key="frame" x="36" y="339" width="97" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Every Farm"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HtP-7r-ZYc">
+                                <rect key="frame" x="49" y="407" width="70" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Reclaim"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHN-H8-ksf">
+                                <rect key="frame" x="226" y="271" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Gone, All Gone"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Omz-JY-UFo">
+                                <rect key="frame" x="255" y="339" width="72" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Barkeep"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShC-W9-cxm">
+                                <rect key="frame" x="273" y="407" width="37" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Yes!"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3HZ-kH-Mvw" userLabel="Home">
+                                <rect key="frame" x="22" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="VMm-sl-ggh"/>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="cF3-TC-cch"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEW-0t-hX7" userLabel="GameInfo">
+                                <rect key="frame" x="96" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="yTT-tR-YLx"/>
+                                    <segue destination="X1C-b7-lf8" kind="show" id="xPX-j4-2nx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oj3-e5-IZV" userLabel="GameGuide">
+                                <rect key="frame" x="169" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="pqy-7v-TRL"/>
+                                    <segue destination="rx7-W7-pOo" kind="show" id="pav-jB-5Z0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uL-qc-P5E" userLabel="Augmented Reality">
+                                <rect key="frame" x="315" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="0b1-uT-j1K"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="EVq-Kn-ibH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eF-eA-P6x" userLabel="Leaderboards">
+                                <rect key="frame" x="243" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="kjZ-Gf-rzk"/>
+                                    <segue destination="Xp7-G4-Dnd" kind="show" id="035-se-Efm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gc-db-O0f">
+                                <rect key="frame" x="30" y="271" width="109" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Devo-loper?"/>
+                                <connections>
+                                    <action selector="DungaAudio1:" destination="8ZV-Ph-6hv" eventType="touchUpInside" id="4p5-mY-ysb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="q00-s5-mlg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j0c-Tt-XU5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="533.60000000000002" y="-935.46798029556658"/>
+        </scene>
+        <!--Lys Audio-->
+        <scene sceneID="3CU-wv-49n">
+            <objects>
+                <viewController id="EE6-VZ-j5I" userLabel="Lys Audio" customClass="DungaAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r5P-YQ-aNY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVX-5K-UqV">
+                                <rect key="frame" x="47" y="339" width="76" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="It's Him?"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ZS-Hx-trO">
+                                <rect key="frame" x="45" y="407" width="79" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Excellent"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ijj-er-xMg">
+                                <rect key="frame" x="231" y="271" width="121" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="You are a God"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAx-rP-FKF">
+                                <rect key="frame" x="217" y="339" width="149" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="He's an Odd One"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxs-fn-94d">
+                                <rect key="frame" x="207" y="407" width="168" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="You are Now Ready"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tW0-1H-V7Q">
+                                <rect key="frame" x="54" y="271" width="60" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="I'm Lys"/>
+                                <connections>
+                                    <action selector="DungaAudio1:" destination="EE6-VZ-j5I" eventType="touchUpInside" id="2eO-3S-yTw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWT-9b-YTn" userLabel="Home">
+                                <rect key="frame" x="22" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="ndW-Jw-Yxt"/>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="wva-oa-kll"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cL-F1-TCx" userLabel="GameInfo">
+                                <rect key="frame" x="96" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="lld-jQ-O0r"/>
+                                    <segue destination="X1C-b7-lf8" kind="show" id="WBX-I6-tAL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28P-jB-LQX" userLabel="GameGuide">
+                                <rect key="frame" x="169" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="hdo-7e-HLP"/>
+                                    <segue destination="rx7-W7-pOo" kind="show" id="ucN-EU-h61"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Gs-iy-fOt" userLabel="Augmented Reality">
+                                <rect key="frame" x="315" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="uZ5-RL-4dF"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="2rQ-qJ-UId"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omd-nj-YVb" userLabel="Leaderboards">
+                                <rect key="frame" x="243" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="zIW-Qi-69s"/>
+                                    <segue destination="Xp7-G4-Dnd" kind="show" id="Oer-or-blM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lys Audio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4MG-yo-bTP">
+                                <rect key="frame" x="88" y="127" width="199" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" red="1" green="0.63530460619999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="9"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QyT-HE-vg5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PQ9-Tx-mfL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-111.2" y="-935.46798029556658"/>
+        </scene>
+        <!--Lys Audio-->
+        <scene sceneID="sS9-dr-yla">
+            <objects>
+                <viewController id="oqh-i5-x3X" userLabel="Lys Audio" customClass="DungaAudio" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tz7-QN-AyB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hx9-qP-Lw5">
+                                <rect key="frame" x="42" y="339" width="84" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Blooper 3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUO-5p-tbw">
+                                <rect key="frame" x="42" y="407" width="84" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Blooper 5"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tX-W4-4VC">
+                                <rect key="frame" x="249" y="271" width="84" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Blooper 2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YrE-xs-1nx">
+                                <rect key="frame" x="249" y="339" width="85" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Blooper 4"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZZ-FB-wAE">
+                                <rect key="frame" x="249" y="407" width="85" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Blooper 6"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjk-Ae-bd9">
+                                <rect key="frame" x="43" y="271" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Blooper 1"/>
+                                <connections>
+                                    <action selector="DungaAudio1:" destination="oqh-i5-x3X" eventType="touchUpInside" id="gAu-oV-Ffx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGm-sC-gja" userLabel="Home">
+                                <rect key="frame" x="22" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="5bQ-3x-72Z"/>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="4VO-CR-55e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E49-ax-H3h" userLabel="GameInfo">
+                                <rect key="frame" x="96" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="1Qf-iq-QFj"/>
+                                    <segue destination="X1C-b7-lf8" kind="show" id="Zae-R5-Dor"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3x-Er-p4I" userLabel="GameGuide">
+                                <rect key="frame" x="169" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="fHQ-Ut-ODC"/>
+                                    <segue destination="rx7-W7-pOo" kind="show" id="rq0-Kd-EOJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpj-i9-XjS" userLabel="Augmented Reality">
+                                <rect key="frame" x="315" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="zir-hn-2oh"/>
+                                    <segue destination="hBp-Y9-Uwp" kind="show" id="7Cz-5Y-OBd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myO-iO-yUd" userLabel="Leaderboards">
+                                <rect key="frame" x="243" y="728" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Button1.jpg"/>
+                                <connections>
+                                    <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="LD3-Pa-8nt"/>
+                                    <segue destination="Xp7-G4-Dnd" kind="show" id="KXt-JD-mut"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blooper Audio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9Q-Cf-LCm">
+                                <rect key="frame" x="44" y="125" width="287" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" red="1" green="0.63530460619999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="9"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="YYD-s1-JmO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oDf-o3-Kqx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-770" y="-935"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Button1.jpg" width="290" height="290"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Tto-WJ-oBw"/>
+        <segue reference="FMZ-8Z-sRI"/>
         <segue reference="nHJ-T8-wxR"/>
-        <segue reference="Yw0-b8-xii"/>
-        <segue reference="u31-UM-bVt"/>
-        <segue reference="4o7-TL-Ez6"/>
+        <segue reference="g1o-xJ-V91"/>
+        <segue reference="nip-bO-lQB"/>
+        <segue reference="DsU-wK-Od3"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
