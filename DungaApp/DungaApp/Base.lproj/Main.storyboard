@@ -1024,11 +1024,11 @@
         <image name="life.png" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ucN-EU-h61"/>
-        <segue reference="Oer-or-blM"/>
-        <segue reference="WBX-I6-tAL"/>
-        <segue reference="2rQ-qJ-UId"/>
-        <segue reference="wva-oa-kll"/>
+        <segue reference="IsL-L1-aty"/>
+        <segue reference="6dc-du-IZA"/>
+        <segue reference="ZPw-l8-dAE"/>
+        <segue reference="R0x-JK-x1o"/>
+        <segue reference="4VO-CR-55e"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
