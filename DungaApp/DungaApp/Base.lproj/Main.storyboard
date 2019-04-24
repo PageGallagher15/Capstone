@@ -231,20 +231,20 @@
                                 <rect key="frame" x="0.0" y="109" width="375" height="589"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bag-Hf-maJ">
-                                        <rect key="frame" x="8" y="27" width="359" height="684.33333333333337"/>
+                                        <rect key="frame" x="8" y="27" width="359" height="562"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;iLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;iLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;i</mutableString>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <mutableString key="text">Dunga:  He is a large, brave, but feeble-minded viking. He is protective of his friends and takes pride in providing for his village. To the player, he only repeats his name, like a Pokemon. Other characters are somehow able to understand him perfectly, however.  Bak: A gentle soul, Bak is Dunga's best friend and loyal companion. He means well and is always willing to help, but often shys away from dangerous situations and prefers to avoid conflict.  Clucky:  A magical chicken. Dunga's arch-nemesis. He causes chaos throughout the game but can also aid the player in discovering the world's mysteries.  Cheiftain: A brave, honourable warrior. A true viking. He seeks battle &amp; glory, seeking to establish his legacy and take a seat with the gods in Valhalla. The player may choose to execute him for his attack on the village or recruit him to join his forces.  Lys: An ancient sprite and your loyal servant. His purpose is to help you, the god, regain your forgotten powers and guide Dunga on his quests for glory.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="name"/>
                                     </textView>
                                 </subviews>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6e-mE-Ypw">
-                                <rect key="frame" x="110" y="21" width="155" height="57"/>
+                                <rect key="frame" x="76" y="21" width="224" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <state key="normal" title="GameInfo">
+                                <state key="normal" title="Character Info">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -309,7 +309,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eMc-X0-VNV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="39" y="167"/>
+            <point key="canvasLocation" x="37.600000000000001" y="166.99507389162562"/>
         </scene>
         <!--Leaderboards-->
         <scene sceneID="g9v-G1-Trl">
@@ -472,20 +472,20 @@
                                 <rect key="frame" x="0.0" y="109" width="375" height="589"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N4R-Jj-BPN">
-                                        <rect key="frame" x="28" y="27" width="319" height="534"/>
+                                        <rect key="frame" x="8" y="27" width="359" height="562"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;iLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;i</mutableString>
+                                        <mutableString key="text">Combat: This game focuses on UI manipulation and interacting with the world around you. Pay close attention to all aspects of the user interface, you may be able to use them to your advantage.   Abilities: Health Swap - When active, you are able to steal the life force of an enemy and give it to Dunga by dragging an enemy's health bar over Dunga's.  Arrow Grab - When active, you have the power to stop enemy archers' projectile in mid air. As you invest in this skill, you will be able to shoot them right back at the enemies for extra damage!  Hand of God - When active, you are able to grab, throw and manipulate various parts of the world including barrels, stones, and hidden elements.  Buff Steal - When active, you are able to take en enemy's magical buff, such as shields and potions, and give them to Dunga. Functions similarly to Health Swap.</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SE-Fs-FwS">
-                                <rect key="frame" x="93" y="21" width="190" height="57"/>
+                                <rect key="frame" x="89" y="21" width="198" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <state key="normal" title="GameGuide">
+                                <state key="normal" title="Game Guide">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -550,7 +550,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9G3-n3-7VU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="706" y="166"/>
+            <point key="canvasLocation" x="704.79999999999995" y="165.51724137931035"/>
         </scene>
     </scenes>
     <resources>
