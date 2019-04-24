@@ -511,7 +511,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbW-Hv-Vrh">
                                 <rect key="frame" x="8" y="44" width="360" height="727"/>
                             </imageView>
-                            <view alpha="0.5" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ZV-29-2ME">
+                            <view alpha="0.5" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ZV-29-2ME">
                                 <rect key="frame" x="8" y="44" width="360" height="72"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pe7-UJ-1Sb">
@@ -538,6 +538,7 @@
                         <constraints>
                             <constraint firstItem="sbW-Hv-Vrh" firstAttribute="leading" secondItem="8ZV-29-2ME" secondAttribute="leading" id="0vj-FQ-ed4"/>
                             <constraint firstItem="sbW-Hv-Vrh" firstAttribute="trailing" secondItem="8ZV-29-2ME" secondAttribute="trailing" id="3nT-np-ty5"/>
+                            <constraint firstItem="tFQ-Nz-vsr" firstAttribute="bottom" secondItem="8ZV-29-2ME" secondAttribute="bottom" constant="662" id="Yn9-ZT-OI2"/>
                             <constraint firstItem="sbW-Hv-Vrh" firstAttribute="leading" secondItem="wu1-aD-eMI" secondAttribute="leading" constant="8" id="a5J-Ia-4Ub"/>
                             <constraint firstItem="tFQ-Nz-vsr" firstAttribute="bottom" secondItem="sbW-Hv-Vrh" secondAttribute="bottom" constant="7" id="eFx-r4-QSr"/>
                             <constraint firstItem="sbW-Hv-Vrh" firstAttribute="top" secondItem="8ZV-29-2ME" secondAttribute="top" id="fRz-r9-EFR"/>
@@ -620,24 +621,20 @@
                                 <rect key="frame" x="9" y="70" width="359" height="601"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Abilities:      Health Swap - When active, you are able to steal the life force of an enemy and give it to Dunga by dragging an enemy's health bar over Dunga's.      Arrow Grab - When active, you have the power to stop enemy archers' projectile in mid air. As you invest in this skill, you will be able to shoot them right back at the enemies for extra damage!      Hand of God - When active, you are able to grab, throw and manipulate various parts of the world including barrels, stones, and hidden elements.      Buff Steal - When active, you are able to take en enemy's magical buff, such as shields and potions, and give them to Dunga. Functions similarly to Health Swap.</mutableString>
+                                <mutableString key="text">Abilities:      Health Swap - When active, you are able to steal the life force of an enemy and give it to Dunga by dragging an enemy's health bar over Dunga's.      Arrow Grab - When active, you have the power to stop enemy archers' projectile in mid air. As you invest in this skill, you will be able to shoot them right back at the enemies for extra damage!      Hand of God - When active, you are able to grab, throw and manipulate various parts of the world including barrels, stones, and hidden elements.     </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red_35.png" translatesAutoresizingMaskIntoConstraints="NO" id="t7U-qR-PQw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="life.png" translatesAutoresizingMaskIntoConstraints="NO" id="t7U-qR-PQw">
                                 <rect key="frame" x="16" y="97" width="74" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="r8G-Mx-muP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="r8G-Mx-muP">
                                 <rect key="frame" x="16" y="231" width="74" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow_10.png" translatesAutoresizingMaskIntoConstraints="NO" id="9dE-vY-f92">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hand.png" translatesAutoresizingMaskIntoConstraints="NO" id="9dE-vY-f92">
                                 <rect key="frame" x="16" y="384" width="74" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue_20.png" translatesAutoresizingMaskIntoConstraints="NO" id="0me-Pe-lGd">
-                                <rect key="frame" x="16" y="516" width="73" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -980,13 +977,12 @@
     </scenes>
     <resources>
         <image name="Button1.jpg" width="290" height="290"/>
-        <image name="blue_20.png" width="256" height="256"/>
-        <image name="green_01.png" width="256" height="256"/>
-        <image name="red_35.png" width="256" height="256"/>
-        <image name="yellow_10.png" width="256" height="256"/>
+        <image name="arrow.png" width="256" height="256"/>
+        <image name="hand.png" width="256" height="256"/>
+        <image name="life.png" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Tto-WJ-oBw"/>
+        <segue reference="FMZ-8Z-sRI"/>
         <segue reference="nHJ-T8-wxR"/>
         <segue reference="Yw0-b8-xii"/>
         <segue reference="WEk-DZ-LFJ"/>
