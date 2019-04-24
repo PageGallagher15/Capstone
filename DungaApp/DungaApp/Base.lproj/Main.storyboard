@@ -21,12 +21,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3gL-aS-UPO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1054" y="91"/>
+            <point key="canvasLocation" x="-1233" y="97"/>
         </scene>
         <!--Home-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="BV1-FR-VrT" userLabel="Home" customClass="GameViewController" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="BV1-FR-VrT" userLabel="Home" customClass="VideoController" customModule="DungaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,8 +44,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
-                                    <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="XdZ-qi-ixh"/>
-                                    <segue destination="X1C-b7-lf8" kind="show" id="F3x-74-a43"/>
+                                    <segue destination="X1C-b7-lf8" kind="show" id="ZPw-l8-dAE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znf-A9-Y8L" userLabel="GameGuide">
@@ -54,7 +53,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="xSr-qq-Loe"/>
-                                    <segue destination="rx7-W7-pOo" kind="show" id="ZA3-kx-UYd"/>
+                                    <segue destination="rx7-W7-pOo" kind="show" id="IsL-L1-aty"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Scj-Pd-wbB" userLabel="Augmented Reality">
@@ -63,7 +62,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="U3V-e7-eIo"/>
-                                    <segue destination="epH-hd-DUK" kind="show" id="LhJ-Qa-hsP"/>
+                                    <segue destination="epH-hd-DUK" kind="show" id="6eL-hC-YLs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuo-bx-sFQ" userLabel="Leaderboards">
@@ -72,7 +71,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="SlC-8T-yse"/>
-                                    <segue destination="Xp7-G4-Dnd" kind="show" id="LEO-9I-lek"/>
+                                    <segue destination="Xp7-G4-Dnd" kind="show" id="6dc-du-IZA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ypz-at-Y1R">
@@ -83,25 +82,22 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="9"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dil-6X-h3k">
-                                <rect key="frame" x="151" y="139" width="72" height="42"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ak-9T-sFP">
+                                <rect key="frame" x="22" y="139" width="331" height="232"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
                     </view>
+                    <connections>
+                        <outlet property="video" destination="8ak-9T-sFP" id="24B-Ua-rVv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-340" y="106"/>
+            <point key="canvasLocation" x="-633" y="98"/>
         </scene>
         <!--Dunga Audio-->
         <scene sceneID="lOb-Ag-r6V">
@@ -176,7 +172,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="NsA-BM-QLj"/>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="4MV-aZ-Yr0"/>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="hWq-ki-Hjz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Rf-cv-wee" userLabel="GameInfo">
@@ -185,7 +181,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="VyL-u7-7VR"/>
-                                    <segue destination="X1C-b7-lf8" kind="show" id="4ck-EJ-491"/>
+                                    <segue destination="X1C-b7-lf8" kind="show" id="Pa9-VU-dwZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maz-gm-olu" userLabel="GameGuide">
@@ -194,7 +190,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="m3H-nq-0Nq"/>
-                                    <segue destination="rx7-W7-pOo" kind="show" id="Wl0-h0-f8X"/>
+                                    <segue destination="rx7-W7-pOo" kind="show" id="wk3-mo-Cgd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxp-rv-SWT" userLabel="Augmented Reality">
@@ -211,7 +207,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="58n-7g-gfE"/>
-                                    <segue destination="Xp7-G4-Dnd" kind="show" id="qQ3-o0-jRD"/>
+                                    <segue destination="Xp7-G4-Dnd" kind="show" id="EVT-lq-wh0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -221,7 +217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O4E-J2-fIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2409" y="78"/>
+            <point key="canvasLocation" x="2151" y="78"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="Lew-4B-o4t">
@@ -235,10 +231,10 @@
                                 <rect key="frame" x="0.0" y="109" width="375" height="589"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bag-Hf-maJ">
-                                        <rect key="frame" x="33" y="35" width="285" height="248"/>
+                                        <rect key="frame" x="8" y="27" width="359" height="684.33333333333337"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;i</mutableString>
+                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;iLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;iLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;i</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -261,7 +257,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="2py-fz-VIb"/>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="Upp-bG-T3t"/>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="PDm-PP-6vN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5X2-Di-dGp" userLabel="GameInfo">
@@ -278,7 +274,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="w6e-Fy-YIy"/>
-                                    <segue destination="rx7-W7-pOo" kind="show" id="kXn-8M-XkE"/>
+                                    <segue destination="rx7-W7-pOo" kind="show" id="Tto-WJ-oBw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YY7-9E-yuR" userLabel="Augmented Reality">
@@ -287,7 +283,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="nwf-sS-kCm"/>
-                                    <segue destination="epH-hd-DUK" kind="show" id="Fn1-wf-bNF"/>
+                                    <segue destination="epH-hd-DUK" kind="show" id="Fjc-rT-RKk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUn-o3-5Ma" userLabel="Leaderboards">
@@ -296,7 +292,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="JEg-dc-hUa"/>
-                                    <segue destination="Xp7-G4-Dnd" kind="show" id="uZ5-ab-OqI"/>
+                                    <segue destination="Xp7-G4-Dnd" kind="show" id="i5v-du-DUY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -313,7 +309,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eMc-X0-VNV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="270" y="21"/>
+            <point key="canvasLocation" x="39" y="167"/>
         </scene>
         <!--Leaderboards-->
         <scene sceneID="g9v-G1-Trl">
@@ -333,7 +329,7 @@
                                         <state key="normal" image="Button1.jpg"/>
                                         <connections>
                                             <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="czO-KT-iBh"/>
-                                            <segue destination="epH-hd-DUK" kind="show" id="VdI-qQ-caE"/>
+                                            <segue destination="epH-hd-DUK" kind="show" id="7L6-cA-8uJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOu-1J-ppc" userLabel="GameInfo">
@@ -342,6 +338,7 @@
                                         <state key="normal" image="Button1.jpg"/>
                                         <connections>
                                             <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="d2s-uD-Jua"/>
+                                            <segue destination="X1C-b7-lf8" kind="show" id="g1o-xJ-V91"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tm-sb-HbX" userLabel="Leaderboards">
@@ -358,6 +355,7 @@
                                         <state key="normal" image="Button1.jpg"/>
                                         <connections>
                                             <action selector="GameGuide:" destination="BV1-FR-VrT" eventType="touchUpInside" id="q6b-8C-iw6"/>
+                                            <segue destination="rx7-W7-pOo" kind="show" id="FMZ-8Z-sRI"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycL-Xu-ZPy" userLabel="Home">
@@ -366,7 +364,7 @@
                                         <state key="normal" image="Button1.jpg"/>
                                         <connections>
                                             <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="eFb-0n-cmT"/>
-                                            <segue destination="BV1-FR-VrT" kind="show" id="DN9-cG-QFS"/>
+                                            <segue destination="BV1-FR-VrT" kind="show" id="DsU-wK-Od3"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n98-as-RcX">
@@ -406,13 +404,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vUh-62-VuH"/>
                     </view>
-                    <connections>
-                        <segue destination="Vb6-Lo-S9N" kind="presentation" identifier="showPhoto_segue" id="Bbn-ov-xoJ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Un-Tb-aJw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1570" y="100"/>
+            <point key="canvasLocation" x="1436" y="78"/>
         </scene>
         <!--Camera-->
         <scene sceneID="VdV-45-9ax">
@@ -463,7 +458,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12x-pW-LIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2193" y="-38"/>
+            <point key="canvasLocation" x="2818" y="78"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="Wfo-Gk-alK">
@@ -477,10 +472,10 @@
                                 <rect key="frame" x="0.0" y="109" width="375" height="589"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N4R-Jj-BPN">
-                                        <rect key="frame" x="33" y="35" width="285" height="248"/>
+                                        <rect key="frame" x="28" y="27" width="319" height="534"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;i</mutableString>
+                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;iLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. sdkfj;oisdfo'gihsdf'ohkvodfjbvpusadb;asdjgbv;kasdjbv;asdjbv[aubv'eowbv ;dibcvi;aucb;kJSopUSDbv;JBD:IvjgPXCZIhvb.ZMNXbc;i</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -503,7 +498,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="Home:" destination="BV1-FR-VrT" eventType="touchUpInside" id="ph5-UF-BX5"/>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="dWI-7N-ygw"/>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="4o7-TL-Ez6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I81-W9-thQ" userLabel="GameInfo">
@@ -512,7 +507,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="GameInfo:" destination="BV1-FR-VrT" eventType="touchUpInside" id="yeG-a3-Jmw"/>
-                                    <segue destination="X1C-b7-lf8" kind="show" id="8lN-OF-3gt"/>
+                                    <segue destination="X1C-b7-lf8" kind="show" id="Yw0-b8-xii"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGt-ML-qAM" userLabel="GameGuide">
@@ -529,7 +524,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="AR:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Io5-M7-xFu"/>
-                                    <segue destination="epH-hd-DUK" kind="show" id="M3U-rC-1bh"/>
+                                    <segue destination="epH-hd-DUK" kind="show" id="u31-UM-bVt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbo-nW-zil" userLabel="Leaderboards">
@@ -538,7 +533,7 @@
                                 <state key="normal" image="Button1.jpg"/>
                                 <connections>
                                     <action selector="Leaderboards:" destination="BV1-FR-VrT" eventType="touchUpInside" id="p7A-YV-zlp"/>
-                                    <segue destination="Xp7-G4-Dnd" kind="show" id="Mbb-xm-mKA"/>
+                                    <segue destination="Xp7-G4-Dnd" kind="show" id="nHJ-T8-wxR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -555,18 +550,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9G3-n3-7VU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="930" y="31"/>
+            <point key="canvasLocation" x="706" y="166"/>
         </scene>
     </scenes>
     <resources>
         <image name="Button1.jpg" width="290" height="290"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Wl0-h0-f8X"/>
-        <segue reference="Mbb-xm-mKA"/>
-        <segue reference="8lN-OF-3gt"/>
-        <segue reference="M3U-rC-1bh"/>
-        <segue reference="dWI-7N-ygw"/>
+        <segue reference="Tto-WJ-oBw"/>
+        <segue reference="nHJ-T8-wxR"/>
+        <segue reference="Yw0-b8-xii"/>
+        <segue reference="u31-UM-bVt"/>
+        <segue reference="4o7-TL-Ez6"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>

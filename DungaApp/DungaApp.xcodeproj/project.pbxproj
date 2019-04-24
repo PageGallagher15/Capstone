@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB42C9852242E03D00E74BE5 /* Button1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB42C9842242E03C00E74BE5 /* Button1.jpg */; };
+		EB67C95F226FCFD60024DF61 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB67C95E226FCFD60024DF61 /* VideoController.swift */; };
 		F40A4E722214B7D8006D9526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A4E712214B7D8006D9526 /* AppDelegate.swift */; };
 		F40A4E742214B7D8006D9526 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F40A4E732214B7D8006D9526 /* GameScene.sks */; };
 		F40A4E762214B7D8006D9526 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F40A4E752214B7D8006D9526 /* Actions.sks */; };
@@ -388,6 +389,7 @@
 /* Begin PBXFileReference section */
 		EB42C9842242E03C00E74BE5 /* Button1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Button1.jpg; sourceTree = SOURCE_ROOT; };
 		EB5F282A225E92CA00ABE348 /* Blooper 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blooper 8.wav"; sourceTree = "<group>"; };
+		EB67C95E226FCFD60024DF61 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		F40A4E6E2214B7D8006D9526 /* DungaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40A4E712214B7D8006D9526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F40A4E732214B7D8006D9526 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -857,6 +859,7 @@
 				F40A4E752214B7D8006D9526 /* Actions.sks */,
 				F40A4E772214B7D8006D9526 /* GameScene.swift */,
 				F40A4E792214B7D8006D9526 /* GameViewController.swift */,
+				EB67C95E226FCFD60024DF61 /* VideoController.swift */,
 				F4A00117226F9E26009848C8 /* DungaAudio.swift */,
 				F40A4E7B2214B7D8006D9526 /* Main.storyboard */,
 				F40A4E7E2214B7D8006D9526 /* Assets.xcassets */,
@@ -1802,6 +1805,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40A4E782214B7D8006D9526 /* GameScene.swift in Sources */,
+				EB67C95F226FCFD60024DF61 /* VideoController.swift in Sources */,
 				F4A0011A226F9FA3009848C8 /* Camera.swift in Sources */,
 				F4A00118226F9E26009848C8 /* DungaAudio.swift in Sources */,
 				F40A4E7A2214B7D8006D9526 /* GameViewController.swift in Sources */,

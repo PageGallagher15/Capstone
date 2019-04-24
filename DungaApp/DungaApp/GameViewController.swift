@@ -13,6 +13,8 @@ import AVFoundation
 
 class GameViewController: UIViewController {
     
+    @IBOutlet weak var video: UIWebView!
+    
     @IBAction func hello(_ sender: Any) {
         print("GameInfo")
     }
@@ -21,6 +23,7 @@ class GameViewController: UIViewController {
         
         print("Game")
     }
+    
     
     var captureSession = AVCaptureSession()
     var audioPlay: AVAudioPlayer?
@@ -34,6 +37,9 @@ class GameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
         
         setupCaptureSession()
         setupDevice()
@@ -154,6 +160,9 @@ class GameViewController: UIViewController {
         }
     }
 }
+
+
+
 
 extension GameViewController: AVCapturePhotoCaptureDelegate{
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
