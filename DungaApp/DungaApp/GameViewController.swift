@@ -144,7 +144,7 @@ class GameViewController: UIViewController {
     }
     
     @IBAction func AR(_ sender: UIButton) {
-        print("AR IS GEY")
+        print("AR")
     }
     
     @IBAction func cameraButton(_ sender: Any) {
